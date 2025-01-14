@@ -2,7 +2,7 @@
 
 <img src="https://github.com/rubikpi-ai/documentation/blob/1ba7e3b6a60915213496a6cc06ea8ad3ce2c0d8c/media/RUBIK-Pi-3-Logo.png?raw=true" width="50%">
 
-<h1>📖Documentation</h1>
+<h1>Documentation</h1>
 ------------------------
 <br>
   [English] | [<a href="">简体中文</a>] 
@@ -72,6 +72,8 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt=""></td>
         <td><strong>Comprehensive Documentation</strong><br><p>Accessible documentations, including official guides, tutorials, datasheets, and FAQs</p></td>
     </tr>
+
+</div>
 
 --- 
 
