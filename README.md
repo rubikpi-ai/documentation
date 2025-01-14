@@ -3,7 +3,7 @@
 <img src="https://github.com/rubikpi-ai/documentation/blob/1ba7e3b6a60915213496a6cc06ea8ad3ce2c0d8c/media/RUBIK-Pi-3-Logo.png?raw=true" width="50%">
 
 <h1>Documentation</h1>
-  <p>---------------------</p>
+------------------------
   [English] | [<a href="">简体中文</a>] 
 </div>
 
@@ -23,6 +23,7 @@ Shortcuts
 <img src="https://github.com/rubikpi-ai/documentation/blob/main/media/rubik-pi-3.gif?raw=true" width="100%">
 </div>
 
+
 [RUBIK Pi 3](https://www.thundercomm.com/product/rubik-pi/), a lightweight development board based on [Qualcomm® QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) platform, is the first Pi built on Qualcomm AI platforms for developers.
 
 RUBIK Pi 3 supports multiple operating systems such as Android, Linux, and LU, with SDKs from Thundercomm to provide developers with a better experience. With excellent AI performance at 12 TOPS, Qualcomm® QCS6490 can be paired with [Qualcomm AI Hub](https://aihub.qualcomm.com/) to allow developers to personally experience the impact of AI evolution.
@@ -30,7 +31,7 @@ RUBIK Pi 3 supports multiple operating systems such as Android, Linux, and LU, w
 RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A (1x 2.0, 2x 3.0), USB 3.1 Gen 1 Type-C with DP (4K@60), camera, HDMI OUT (4K@30), 1000M Ethernet port, 40-pin header connector, 3.5mm headphone jack, Wi-Fi 5, BT 5.2, M.2 M-key connector, Micro USB, and RTC, to meet diverse development needs. Its interfaces are compatible with Raspberry Pi peripheral accessories, which helps reduce implementation difficulty and cost for developers.
 
 <div align="center">
-<table width="100%" border="0">
+<table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-1.jpg" alt=""></td>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-2.jpg" alt=""></td>
@@ -40,12 +41,10 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 </table>
 </div>
 
----
-
 ### RUBIK Pi 3 Advantage
 
 <div align="center">
-<table width="100%" border="0">
+<table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
         <td><strong>Qualcomm® Linux®</strong><br><p>First open-source Linux based on Qualcomm® QCS 6490 platform for developers</p></td>
@@ -74,7 +73,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 ### Product Comparison
 
 <div align="center">
-<table style="width: 100%; height: 279px; min-width: 768px;">
+<table  style="border-collapse: collapse; border: none;width:100%;">
 <tbody>
 <tr class="firstRow" style="height: 23px;">
 <td style="height: 23px; text-align: center; vertical-align: middle;">Item</td>
@@ -151,7 +150,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 
 <div align="center">
 
-<table width="100%">
+<table  style="border-collapse: collapse; border: none;width:100%;">
 <tbody>
 <tr class="firstRow">
 <td valign="top">Category</td>
@@ -236,19 +235,19 @@ Qualcomm® Linux®<br>
 ### Documents and Resources
 
 <div align="center">
-<table width="100%" border="0">
+<table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
-        <td><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt=""></a>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt=""></a>
         </td>
-        <td><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt=""></a>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt=""></a>
         </td>
-        <td><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt=""></a>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt=""></a>
         </td>
     </tr>
     <tr>
-        <td><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank">User Manual</a></td>
-        <td><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank">Hardware Resources</a></td>
-        <td><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank">System Image</a></td>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank">User Manual</a></td>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank">Hardware Resources</a></td>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank">System Image</a></td>
     </tr>
 </table>
 </div>
@@ -281,7 +280,7 @@ This Polaroid camera developed based on RUBIK Pi 3 offers a convenient and intel
 
 ### FAQ
 
-1. What is the difference between the RUBIK Pi 3 Trial Edition and the Official Edition?
+1.What is the difference between the RUBIK Pi 3 Trial Edition and the Official Edition?
 
 -- The Trial Edition may have software and hardware instability, with some features potentially being incomplete and bugs possibly occurring. The Official Edition is now available for purchase, with an estimated shipping time in March 2025.
 
