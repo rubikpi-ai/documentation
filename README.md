@@ -2,11 +2,11 @@
 
 <img src="https://github.com/rubikpi-ai/documentation/blob/1ba7e3b6a60915213496a6cc06ea8ad3ce2c0d8c/media/RUBIK-Pi-3-Logo.png?raw=true" width="50%">
 
-<h1>Documentation</h1>
+<h1>📖Documentation</h1>
 ------------------------
 <br>
   [English] | [<a href="">简体中文</a>] 
-<br>
+<br><br>
 </div>
 
 This repository houses the RUBIK Pi documents located at [RUBIK Pi 3 User Manual](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/). All documentation updates and new content will be tracked and maintained in this repository.
@@ -17,7 +17,7 @@ This repository houses the RUBIK Pi documents located at [RUBIK Pi 3 User Manual
 
 ## About RUBIK Pi 3
 
-Shortcuts
+**🔖Shortcuts**
 
 [Website](https://www.rubikpi.ai/) | [Purchase](https://www.thundercomm.com/product/rubik-pi/) | [Doc and resources](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/) | [Advantage](https://github.com/rubikpi-ai/documentation/tree/main#rubik-pi-3-advantage) | [Product Comparison](https://github.com/rubikpi-ai/documentation/tree/main#product-comparison) | [Product Specifications](https://github.com/rubikpi-ai/documentation/tree/main#rubik-pi-3-specifications) | [Documents and Resources](https://github.com/rubikpi-ai/documentation/tree/main#documents-and-resources) | [Demo](https://github.com/rubikpi-ai/documentation/tree/main#demo) | [FAQ](https://github.com/rubikpi-ai/documentation/tree/main#faq) | [Contact Us](https://github.com/rubikpi-ai/documentation/tree/main#contact-us)
 
