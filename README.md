@@ -4,7 +4,9 @@
 
 <h1>Documentation</h1>
 ------------------------
+<br>
   [English] | [<a href="">简体中文</a>] 
+<br>
 </div>
 
 This repository houses the RUBIK Pi documents located at [RUBIK Pi 3 User Manual](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/). All documentation updates and new content will be tracked and maintained in this repository.
@@ -17,10 +19,11 @@ This repository houses the RUBIK Pi documents located at [RUBIK Pi 3 User Manual
 
 Shortcuts
 
-[Website](https://www.rubikpi.ai/) | [Purchase](https://www.thundercomm.com/product/rubik-pi/) | [Doc and resources](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/) | Advantage | Product Comparison | Product Specifications | Demo | FAQ | Contact Us
+[Website](https://www.rubikpi.ai/) | [Purchase](https://www.thundercomm.com/product/rubik-pi/) | [Doc and resources](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/) | [Advantage](https://github.com/rubikpi-ai/documentation/tree/main#rubik-pi-3-advantage) | [Product Comparison](https://github.com/rubikpi-ai/documentation/tree/main#product-comparison) | [Product Specifications](https://github.com/rubikpi-ai/documentation/tree/main#rubik-pi-3-specifications) | [Documents and Resources](https://github.com/rubikpi-ai/documentation/tree/main#documents-and-resources) | [Demo](https://github.com/rubikpi-ai/documentation/tree/main#demo) | [FAQ](https://github.com/rubikpi-ai/documentation/tree/main#faq) | [Contact Us](https://github.com/rubikpi-ai/documentation/tree/main#contact-us)
 
 <div align="center">
 <img src="https://github.com/rubikpi-ai/documentation/blob/main/media/rubik-pi-3.gif?raw=true" width="100%">
+<br>
 </div>
 
 
@@ -69,6 +72,8 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt=""></td>
         <td><strong>Comprehensive Documentation</strong><br><p>Accessible documentations, including official guides, tutorials, datasheets, and FAQs</p></td>
     </tr>
+
+--- 
 
 ### Product Comparison
 
@@ -276,13 +281,15 @@ The uHand Demo leverages the excellent on-device AI performance and flexible int
 
 This Polaroid camera developed based on RUBIK Pi 3 offers a convenient and intelligent imaging experience. It performs exceptionally well in educational applications, especially in language learning scenarios where students capture everyday objects and scenes, and the camera quickly recognizes images and presents analysis results.
 
----
+--- 
 
 ### FAQ
 
 1.What is the difference between the RUBIK Pi 3 Trial Edition and the Official Edition?
 
 -- The Trial Edition may have software and hardware instability, with some features potentially being incomplete and bugs possibly occurring. The Official Edition is now available for purchase, with an estimated shipping time in March 2025.
+
+--- 
 
 ### Contact Us
 
