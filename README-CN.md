@@ -247,9 +247,9 @@ Qualcomm® Linux®<br>
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
-        <td style="text-align:center;" width="33%" align="center">　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt="" width="50%"></a></td>
-        <td style="text-align:center;" width="33%" align="center">　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt="" width="50%"></a></td>
-        <td style="text-align:center;" width="33%" align="center">　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt="" width="50%"></a></td>
+        <td style="text-align:center;" width="33%" align="center">　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt="" width="50%"></a>　</td>
+        <td style="text-align:center;" width="33%" align="center">　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt="" width="50%"></a>　</td>
+        <td style="text-align:center;" width="33%" align="center">　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt="" width="50%"></a>　</td>
     </tr>
     <tr>
         <td style="text-align:center;"  align="center"><a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/rubik-pi-3-user-manual" target="_blank">用户手册</a></td>
