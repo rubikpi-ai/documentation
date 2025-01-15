@@ -2,7 +2,7 @@
 
 <img src="https://github.com/rubikpi-ai/documentation/blob/1ba7e3b6a60915213496a6cc06ea8ad3ce2c0d8c/media/RUBIK-Pi-3-Logo.png?raw=true" width="50%">
 
-<h1>Documentation</h1>
+<h1>文档</h1>
 ------------------------
 <br>
   [简体中文] | [<a href="https://github.com/rubikpi-ai/documentation/blob/main/README.md">English</a>] 
@@ -19,7 +19,7 @@
 
 **🔖Shortcuts**
 
-[官网](https://www.rubikpi.ai/) | [购买](https://www.thundercomm.com/product/rubik-pi/) | [文档及资源](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#documents-and-resources) | [产品优势](https://github.com/rubikpi-ai/documentation/tree/main#rubik-pi-3-advantage) | [产品对比](https://github.com/rubikpi-ai/documentation/tree/main#product-comparison) | [产品规格书](https://github.com/rubikpi-ai/documentation/tree/main#rubik-pi-3-specifications) | [Demo](https://github.com/rubikpi-ai/documentation/tree/main#demo) | [FAQ](https://github.com/rubikpi-ai/documentation/tree/main#faq) | [联系我们](https://github.com/rubikpi-ai/documentation/tree/main#contact-us)
+[官网](https://www.rubikpi.ai/) | [购买](https://www.thundercomm.com/product/rubik-pi/) | [文档及资源](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#%E6%96%87%E6%A1%A3%E5%8F%8A%E8%B5%84%E6%BA%90) | [产品优势](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#%E9%AD%94%E6%96%B9%E6%B4%BE3%E7%9A%84%E4%BC%98%E5%8A%BF) | [产品对比](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#%E4%BA%A7%E5%93%81%E5%AF%B9%E6%AF%94) | [产品规格书](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#%E9%AD%94%E6%96%B9%E6%B4%BE3%E4%BA%A7%E5%93%81%E8%A7%84%E6%A0%BC%E4%B9%A6) | [Demo](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#demo) | [FAQ](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#%EF%B8%8Ffaq) | [联系我们](https://github.com/rubikpi-ai/documentation/blob/main/README-CN.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC)
 
 <div align="center">
 <img src="https://github.com/rubikpi-ai/documentation/blob/main/media/rubik-pi-3.gif?raw=true" width="100%">
@@ -247,9 +247,9 @@ Qualcomm® Linux®<br>
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
-        <td style="text-align:center;" width="33%" align="center">　　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt="" width="50%"></a>　　　</td>
-        <td style="text-align:center;" width="33%" align="center">　　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt="" width="50%"></a>　　　</td>
-        <td style="text-align:center;" width="33%" align="center">　　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt="" width="50%"></a>　　　</td>
+        <td style="text-align:center;" width="33%" align="center">　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt="" width="50%"></a></td>
+        <td style="text-align:center;" width="33%" align="center">　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt="" width="50%"></a></td>
+        <td style="text-align:center;" width="33%" align="center">　　<a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt="" width="50%"></a></td>
     </tr>
     <tr>
         <td style="text-align:center;"  align="center"><a href="https://www.thundercomm.com/rubik-pi-3/cn/docs/rubik-pi-3-user-manual" target="_blank">用户手册</a></td>
