@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀About RUBIK Pi 3
+## 🚀关于魔方派3（RUBIK Pi 3）
 
 **🔖Shortcuts**
 
