@@ -43,6 +43,8 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 </table>
 </div>
 
+--- 
+
 ### 😍RUBIK Pi 3 Advantage
 
 <div align="center">
@@ -151,6 +153,8 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 </div>
 
 > The registered trademark Linux® is used pursuant to a sublicense from the Linux Foundation, the exclusive licensee of Linus Torvalds, owner of the mark on a worldwide basis.
+
+--- 
 
 ### 📒RUBIK Pi 3 Specifications
 
@@ -268,7 +272,7 @@ Qualcomm® Linux®<br>
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
         <td  style="vertical-align: top;">The uHand Demo leverages the excellent on-device AI performance and flexible integration capabilities of RUBIK Pi 3 to showcase various advanced on-device CV/ML algorithms.</td>
-        <td><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/uhand.png?raw=true" width="300px"></td>
+        <td width="25%"><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/uhand.png?raw=true" width="100%"></td>
     </tr>
     <tr >
         <td colspan="2"><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/uhand-2.png?raw=true" width="100%"></td>
@@ -284,7 +288,7 @@ Qualcomm® Linux®<br>
     <tr>
         <td  style="vertical-align: top;">This Polaroid camera developed based on RUBIK Pi 3 offers a convenient and intelligent imaging experience. It performs exceptionally well in educational applications, especially in language learning scenarios where students capture everyday objects and scenes, and the camera quickly recognizes images and presents analysis results.
 </td>
-        <td><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/ai-camera.png?raw=true" width="300px"></td>
+        <td width="25%"><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/ai-camera.png?raw=true" width="100%"></td>
     </tr>   
 </table>
 
