@@ -50,10 +50,10 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
-        <td><strong>Qualcomm® Linux®</strong><br><p>First open-source Linux based on Qualcomm® QCS 6490 platform for developers</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt=""></td>
-        <td><strong>Compatibility</strong><br><p>Compatible with Raspberry Pi 5 official accessories</p></td>
+        <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
+        <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>First open-source Linux based on Qualcomm® QCS 6490 platform for developers</p></td>
+        <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt=""></td>
+        <td width="35%"><strong>Compatibility</strong><br><p>Compatible with Raspberry Pi 5 official accessories</p></td>
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png" alt=""></td>
@@ -163,8 +163,8 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 <table  style="border-collapse: collapse; border: none;width:100%;">
 <tbody>
 <tr class="firstRow">
-<td valign="top">Category</td>
-<td valign="top">RUBIK Pi 3 Feature</td>
+<td valign="top" width="30%">Category</td>
+<td valign="top" width="70%">RUBIK Pi 3 Feature</td>
 </tr>
 <tr>
 <td valign="top">Platform</td>
@@ -247,17 +247,17 @@ Qualcomm® Linux®<br>
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt="" width="50%"></a>
+        <td style="text-align:center;" width="33%" align="center"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt="" width="50%"></a>
         </td>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt="" width="50%"></a>
+        <td style="text-align:center;" width="33%" align="center"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt="" width="50%"></a>
         </td>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt="" width="50%"></a>
+        <td style="text-align:center;" width="33%" align="center"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt="" width="50%"></a>
         </td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank">User Manual</a></td>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank">Hardware Resources</a></td>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank">System Image</a></td>
+        <td style="text-align:center;"  align="center"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank">User Manual</a></td>
+        <td style="text-align:center;"  align="center"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank">Hardware Resources</a></td>
+        <td style="text-align:center;"  align="center"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank">System Image</a></td>
     </tr>
 </table>
 </div>
