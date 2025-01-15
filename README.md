@@ -15,7 +15,7 @@ This repository houses the RUBIK Pi documents located at [RUBIK Pi 3 User Manual
 
 ---
 
-## About RUBIK Pi 3
+## 🚀About RUBIK Pi 3
 
 **🔖Shortcuts**
 
@@ -25,7 +25,6 @@ This repository houses the RUBIK Pi documents located at [RUBIK Pi 3 User Manual
 <img src="https://github.com/rubikpi-ai/documentation/blob/main/media/rubik-pi-3.gif?raw=true" width="100%">
 <br>
 </div>
-
 
 [RUBIK Pi 3](https://www.thundercomm.com/product/rubik-pi/), a lightweight development board based on [Qualcomm® QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) platform, is the first Pi built on Qualcomm AI platforms for developers.
 
@@ -44,7 +43,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 </table>
 </div>
 
-### RUBIK Pi 3 Advantage
+### 😍RUBIK Pi 3 Advantage
 
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
@@ -72,12 +71,12 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt=""></td>
         <td><strong>Comprehensive Documentation</strong><br><p>Accessible documentations, including official guides, tutorials, datasheets, and FAQs</p></td>
     </tr>
-
+</table>
 </div>
 
---- 
+---
 
-### Product Comparison
+### 🏅Product Comparison
 
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
@@ -153,7 +152,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 
 > The registered trademark Linux® is used pursuant to a sublicense from the Linux Foundation, the exclusive licensee of Linus Torvalds, owner of the mark on a worldwide basis.
 
-### RUBIK Pi 3 Specifications
+### 📒RUBIK Pi 3 Specifications
 
 <div align="center">
 
@@ -239,16 +238,16 @@ Qualcomm® Linux®<br>
 
 ---
 
-### Documents and Resources
+### 📚Documents and Resources
 
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt=""></a>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png" alt="" width="50%"></a>
         </td>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt=""></a>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png" alt="" width="50%"></a>
         </td>
-        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt=""></a>
+        <td style="text-align:center;"><a href="https://www.thundercomm.com/rubik-pi-3/en/docs/image" target="_blank" ><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png" alt="" width="50%"></a>
         </td>
     </tr>
     <tr>
@@ -261,43 +260,48 @@ Qualcomm® Linux®<br>
 
 ---
 
-### Demo
+### 🤖Demo
 
-1. uHand Demo
-
-<div align="center">
-<img src="https://github.com/rubikpi-ai/documentation/blob/main/media/uhand.png?raw=true" width="50%">
-</div>
-
-The uHand Demo leverages the excellent on-device AI performance and flexible integration capabilities of RUBIK Pi 3 to showcase various advanced on-device CV/ML algorithms.
+1.uHand Demo👋
 
 <div align="center">
-<img src="https://github.com/rubikpi-ai/documentation/blob/main/media/uhand-2.png?raw=true" width="100%">
+<table  style="border-collapse: collapse; border: none;width:100%;">
+    <tr>
+        <td  style="vertical-align: top;">The uHand Demo leverages the excellent on-device AI performance and flexible integration capabilities of RUBIK Pi 3 to showcase various advanced on-device CV/ML algorithms.</td>
+        <td><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/uhand.png?raw=true" width="300px"></td>
+    </tr>
+    <tr >
+        <td colspan="2"><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/uhand-2.png?raw=true" width="100%"></td>
+    </tr>
+</table>
 </div>
 
-2. AI Camera
+2.AI Camera📷
 
 <div align="center">
-<img src="https://github.com/rubikpi-ai/documentation/blob/main/media/ai-camera.png?raw=true" width="50%">
+
+<table  style="border-collapse: collapse; border: none;width:100%;">
+    <tr>
+        <td  style="vertical-align: top;">This Polaroid camera developed based on RUBIK Pi 3 offers a convenient and intelligent imaging experience. It performs exceptionally well in educational applications, especially in language learning scenarios where students capture everyday objects and scenes, and the camera quickly recognizes images and presents analysis results.
+</td>
+        <td><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/ai-camera.png?raw=true" width="300px"></td>
+    </tr>   
+</table>
+
 </div>
 
-This Polaroid camera developed based on RUBIK Pi 3 offers a convenient and intelligent imaging experience. It performs exceptionally well in educational applications, especially in language learning scenarios where students capture everyday objects and scenes, and the camera quickly recognizes images and presents analysis results.
+---
 
---- 
+### 🙋‍♂️FAQ
 
-### FAQ
+> **1.What is the difference between the RUBIK Pi 3 Trial Edition and the Official Edition?**
+>
+> -- The Trial Edition may have software and hardware instability, with some features potentially being incomplete and bugs possibly occurring. The Official Edition is now available for purchase, with an estimated shipping time in March 2025.
 
-1.What is the difference between the RUBIK Pi 3 Trial Edition and the Official Edition?
+---
 
--- The Trial Edition may have software and hardware instability, with some features potentially being incomplete and bugs possibly occurring. The Official Edition is now available for purchase, with an estimated shipping time in March 2025.
+### 📫Contact Us
 
---- 
+Support: [support@rubikpi.ai](mailto:support@rubikpi.ai)
 
-### Contact Us
-
-Support: <a href="mailto:support@rubikpi.ai">support@rubikpi.ai</a>
-
-Report Bugs: <a href="https://github.com/rubikpi-ai/firmware/issues/new" target="_blank">https://github.com/rubikpi-ai/firmware/issues/new</a>
-
-
-
+Report Bugs: [https://github.com/rubikpi-ai/firmware/issues/new](https://github.com/rubikpi-ai/firmware/issues/new)
