@@ -69,7 +69,7 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png" alt=""></td>
-        <td><strong>多操作系统支持</strong><br><p>Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform</p></td>
+        <td><strong>多操作系统支持</strong><br><p>Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 12</p></td>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt=""></td>
         <td><strong>完善的文档系统</strong><br><p>包括文档，使用指导，教程，数据手册等；便于开发者快速使用</p></td>
     </tr>
@@ -231,6 +231,7 @@ On-board PCB antenna</td>
 <td valign="top">OS support</td>
 <td valign="top">Android 13<br>
 Qualcomm® Linux®<br>
+Debian 12*<br>
 *Canonical Ubuntu for Qualcomm platforms</td>
 </tr>
 </tbody>
@@ -238,7 +239,7 @@ Qualcomm® Linux®<br>
 
 </div>
 
-*Planning
+*: Planning
 
 ---
 
