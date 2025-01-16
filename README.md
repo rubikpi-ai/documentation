@@ -69,7 +69,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png" alt=""></td>
-        <td><strong>Multiple OS support</strong><br><p>Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform</p></td>
+        <td><strong>Multiple OS support</strong><br><p>Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 12</p></td>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt=""></td>
         <td><strong>Comprehensive Documentation</strong><br><p>Accessible documentations, including official guides, tutorials, datasheets, and FAQs</p></td>
     </tr>
@@ -231,6 +231,7 @@ On-board PCB antenna</td>
 <td valign="top">OS support</td>
 <td valign="top">Android 13<br>
 Qualcomm® Linux®<br>
+Debian 12*<br>
 *Canonical Ubuntu for Qualcomm platforms</td>
 </tr>
 </tbody>
@@ -238,7 +239,7 @@ Qualcomm® Linux®<br>
 
 </div>
 
-*Planning
+*:Planning
 
 ---
 
