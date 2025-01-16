@@ -277,19 +277,6 @@ Qualcomm® Linux®<br>
 </table>
 </div>
 
-2.AI Camera📷
-
-<div align="center">
-
-<table  style="border-collapse: collapse; border: none;width:100%;">
-    <tr>
-        <td  style="vertical-align: top;">This Polaroid camera developed based on RUBIK Pi 3 offers a convenient and intelligent imaging experience. It performs exceptionally well in educational applications, especially in language learning scenarios where students capture everyday objects and scenes, and the camera quickly recognizes images and presents analysis results.
-</td>
-        <td width="25%"><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/ai-camera.png?raw=true" width="100%"></td>
-    </tr>   
-</table>
-
-</div>
 
 ---
 
