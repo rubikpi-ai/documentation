@@ -13,6 +13,8 @@
 
 [查看在线文档&gt;](https://www.thundercomm.com/rubik-pi-3/cn/docs/rubik-pi-3-user-manual)
 
+
+
 ---
 
 ## 🚀关于魔方派3（RUBIK Pi 3）
@@ -43,7 +45,7 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
 </table>
 </div>
 
---- 
+---
 
 ### 😍魔方派3的优势
 
@@ -63,7 +65,7 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" alt=""></td>
-        <td><strong>易于扩展</strong><br><p>• C5430P/C6490P/C8550 SOM 引脚兼容 | • 便于扩展不同性能的 EVK</p></td>
+        <td><strong>易于扩展</strong><br><p>• C5430P/C6490P/C8550 SOM 引脚兼容<br>• 便于扩展不同性能的 EVK</p></td>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt=""></td>
         <td><strong>开源社区</strong><br><p>开发者进行交流、协作、互动的平台</p></td>
     </tr>
@@ -154,7 +156,7 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
 
 > 注册商标 Linux® 的使用会依据 Linux 基金会授予的再许可，Linux 基金会是该商标在全球范围内的所有者 Linus Torvalds 的独家受许可人。
 
---- 
+---
 
 ### 📒魔方派3产品规格书
 
@@ -232,14 +234,14 @@ On-board PCB antenna</td>
 <td valign="top">Android 13<br>
 Qualcomm® Linux®<br>
 Debian 12*<br>
-*Canonical Ubuntu for Qualcomm platforms</td>
+Canonical Ubuntu for Qualcomm platforms*</td>
 </tr>
 </tbody>
 </table>
 
 </div>
 
-*: Planning
+*:Planning
 
 ---
 
@@ -293,3 +295,4 @@ Debian 12*<br>
 获取支持：[support@rubikpi.ai](mailto:support@rubikpi.ai)
 
 Bug反馈： [https://github.com/rubikpi-ai/documentation/issues/new](https://github.com/rubikpi-ai/documentation/issues/new)
+
