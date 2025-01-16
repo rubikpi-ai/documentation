@@ -277,20 +277,6 @@ Qualcomm® Linux®<br>
 </table>
 </div>
 
-2.AI Camera📷
-
-<div align="center">
-
-<table  style="border-collapse: collapse; border: none;width:100%;">
-    <tr>
-        <td  style="vertical-align: top;">这款基于RUBIK Pi 3的宝丽来相机提供了便捷、智能的成像体验。这款相机在教育应用方面表现优异，尤其在语言学习场景中，让学生能够拍摄日常物品和场景，快速识别图像并呈现分析结果。
-</td>
-        <td width="25%"><img src="https://github.com/rubikpi-ai/documentation/blob/main/media/ai-camera.png?raw=true" width="100%"></td>
-    </tr>   
-</table>
-
-</div>
-
 ---
 
 ### 🙋‍♂️FAQ
