@@ -13,6 +13,8 @@ This repository is the online documentation repository for the RUBIK Pi 3. All d
 
 [View documents&gt;](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual)
 
+
+
 ---
 
 ## 🚀About RUBIK Pi 3
@@ -43,7 +45,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 </table>
 </div>
 
---- 
+---
 
 ### 😍RUBIK Pi 3 Advantage
 
@@ -63,7 +65,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" alt=""></td>
-        <td><strong>Easy to Expand</strong><br><p>• C5430P/6490P/C8550 SOM are P2P compatible | • Easy to build customized EVK</p></td>
+        <td><strong>Easy to Expand</strong><br><p>• C5430P/6490P/C8550 SOM are P2P compatible<br>• Easy to build customized EVK</p></td>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt=""></td>
         <td><strong>Open-source Community</strong><br><p>A vibrant and collaborative group of enthusiasts, developers, and educators</p></td>
     </tr>
@@ -154,7 +156,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 
 > The registered trademark Linux® is used pursuant to a sublicense from the Linux Foundation, the exclusive licensee of Linus Torvalds, owner of the mark on a worldwide basis.
 
---- 
+---
 
 ### 📒RUBIK Pi 3 Specifications
 
@@ -232,7 +234,7 @@ On-board PCB antenna</td>
 <td valign="top">Android 13<br>
 Qualcomm® Linux®<br>
 Debian 12*<br>
-*Canonical Ubuntu for Qualcomm platforms</td>
+Canonical Ubuntu for Qualcomm platforms*</td>
 </tr>
 </tbody>
 </table>
@@ -277,7 +279,6 @@ Debian 12*<br>
     </tr>
 </table>
 </div>
-
 
 ---
 
