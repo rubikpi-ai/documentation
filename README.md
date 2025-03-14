@@ -32,7 +32,7 @@ This repository is the online documentation repository for the RUBIK Pi 3. All d
 
 RUBIK Pi 3 supports multiple operating systems such as Android, Linux, and LU, with SDKs from Thundercomm to provide developers with a better experience. With excellent AI performance at 12 TOPS, Qualcomm® QCS6490 can be paired with [Qualcomm AI Hub](https://aihub.qualcomm.com/) to allow developers to personally experience the impact of AI evolution.
 
-RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A (1x 2.0, 2x 3.0), USB 3.1 Gen 1 Type-C with DP (4K@60), camera, HDMI OUT (4K@30), 1000M Ethernet port, 40-pin header connector, 3.5mm headphone jack, Wi-Fi 5, BT 5.2, M.2 M-key connector, Micro USB, and RTC, to meet diverse development needs. Its interfaces are compatible with Raspberry Pi peripheral accessories, which helps reduce implementation difficulty and cost for developers.
+RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A (1x 2.0, 2x 3.0), USB 3.1 Gen 1 Type-C with DP (4K@60), camera, HDMI OUT (4K@30), 1000M Ethernet port, 40-pin header connector, 3.5mm headphone jack, Wi-Fi 5, BT 5.2, M.2 M-key connector, Micro USB, and RTC, to meet diverse development needs. It also has designed interfaces and is compatible with a variety of embedded development board peripherals, which helps reduce implementation difficulty and cost for developers.
 
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
@@ -55,7 +55,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
         <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
         <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>First open-source Linux based on Qualcomm® QCS 6490 platform for developers</p></td>
         <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt=""></td>
-        <td width="35%"><strong>Compatibility</strong><br><p>Compatible with Raspberry Pi 5 official accessories</p></td>
+        <td width="35%"><strong>Compatibility</strong><br><p>Compatible with peripherals of most open-source ecosystem development boards</p></td>
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png" alt=""></td>
