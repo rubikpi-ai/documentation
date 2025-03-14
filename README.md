@@ -53,7 +53,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
         <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
-        <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>First open-source Linux based on Qualcomm® QCS 6490 platform for developers</p></td>
+        <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>First open-source Linux based on Qualcomm Dragonwing™ QCS6490 platform for developers</p></td>
         <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt=""></td>
         <td width="35%"><strong>Compatibility</strong><br><p>Compatible with peripherals of most open-source ecosystem development boards</p></td>
     </tr>
@@ -65,7 +65,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" alt=""></td>
-        <td><strong>Easy to Expand</strong><br><p>• C5430P/6490P/C8550 SOM are P2P compatible<br>• Easy to build customized EVK</p></td>
+        <td><strong>Easy to Expand</strong><br><p>• C5430P/C6490P/C8550 SOM are P2P compatible<br>• Easy to build customized EVK</p></td>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt=""></td>
         <td><strong>Open-source Community</strong><br><p>A vibrant and collaborative group of enthusiasts, developers, and educators</p></td>
     </tr>
@@ -94,7 +94,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 </tr>
 <tr style="height: 23px;">
 <td style="height: 23px; text-align: center; vertical-align: middle;">SOC</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">Qualcomm - QCS 6490</td>
+<td style="height: 23px; text-align: center; vertical-align: middle;">Qualcomm Dragonwing™ QCS6490</td>
 <td style="height: 23px; text-align: center; vertical-align: middle;">BCM2712+Hailo 8L</td>
 <td style="height: 23px; text-align: center; vertical-align: middle;">BCM2712</td>
 <td style="height: 23px; text-align: center; vertical-align: middle;">RK 3588</td>
@@ -170,7 +170,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 </tr>
 <tr>
 <td valign="top">Platform</td>
-<td valign="top">Qualcomm<sup>®</sup> QCS6490</td>
+<td valign="top">Qualcomm Dragonwing™ QCS6490</td>
 </tr>
 <tr>
 <td colspan="1" rowspan="1" valign="top">Memory</td>
