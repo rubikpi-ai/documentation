@@ -28,11 +28,11 @@
 <br>
 </div>
 
-[魔方派3 （RUBIK Pi 3）](https://www.thundercomm.com/cn/product/rubik-pi/)，是采用[Qualcomm® QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) 平台的轻量型开发板， 是首款基于高通 AI 平台打造的、支持开源 Qualcomm Linux 等多操作系统的面向开发者的“派”产品。
+[魔方派3 （RUBIK Pi 3）](https://www.thundercomm.com/cn/product/rubik-pi/)，是采用[高通跃龙 QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) 平台的轻量型开发板， 是首款基于高通 AI 平台打造的、支持开源 Qualcomm Linux 等多操作系统的面向开发者的“派”产品。
 
-RUBIK Pi 3 可支持 Android / Linux / LU 多操作系统， Thundercomm 提供的多个 SDK 为开发者带来更完善的体验。 高通 QCS6490 具备 12 TOPS 的卓越 AI 性能， 配合[Qualcomm AI Hub](https://aihub.qualcomm.com/), 让开发者可亲自感受 AI 进化带来的冲击。
+RUBIK Pi 3 可支持 Android / Linux / LU 多操作系统， Thundercomm 提供的多个 SDK 为开发者带来更完善的体验。 高通跃龙 QCS6490 具备 12 TOPS 的卓越 AI 性能， 配合[Qualcomm AI Hub](https://aihub.qualcomm.com/), 让开发者可亲自感受 AI 进化带来的冲击。
 
-RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x 3.0) 、USB 3.1 Gen 1 Type-C with DP (4K@60) 、Camera、HDMI OUT (4K@30) 、1000M 网口、 40pin 排针连接器、 3.5mm 耳机孔、Wi-Fi 5、BT 5.2、M.2 M-key 连接器、Micro USB 和 RTC 等，满足多样化的开发需求；同时接口还兼容树莓派（Raspberry Pi）的外设配件， 降低开发者使用难度和使用成本。
+RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x 3.0) 、USB 3.1 Gen 1 Type-C with DP (4K@60) 、Camera、HDMI OUT (4K@30) 、1000M 网口、 40pin 排针连接器、 3.5mm 耳机孔、Wi-Fi 5、BT 5.2、M.2 M-key 连接器、Micro USB 和 RTC 等，满足多样化的开发需求；同时接口还兼容大部分开源生态开发板的外设配件，降低开发者使用难度和使用成本。
 
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
@@ -53,9 +53,9 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
 <table  style="border-collapse: collapse; border: none;width:100%;">
     <tr>
         <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
-        <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>首个基于高通 QCS6490 平台的开源 Linux</p></td>
+        <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>首个基于高通跃龙 QCS6490 平台的开源 Linux</p></td>
         <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt=""></td>
-        <td width="35%"><strong>兼容性</strong><br><p>接口兼容树莓派5官方配件</p></td>
+        <td width="35%"><strong>兼容性</strong><br><p>接口兼容大部分开源生态开发板的官方配件</p></td>
     </tr>
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png" alt=""></td>
@@ -85,70 +85,70 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
 <div align="center">
 <table  style="border-collapse: collapse; border: none;width:100%;">
 <tbody>
-<tr class="firstRow" style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">Item</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">RUBIK Pi 3</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">***</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">***</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">***</td>
+<tr class="firstRow" style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">Item</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">RUBIK Pi 3</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">***</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">***</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">***</td>
 </tr>
-<tr style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">SOC</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">Qualcomm - QCS 6490</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">BCM2712+Hailo 8L</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">BCM2712</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">RK 3588</td>
+<tr style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">SOC</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">Qualcomm Dragonwing™ QCS6490</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">BCM2712+Hailo 8L</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">BCM2712</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">RK 3588</td>
 </tr>
-<tr style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">Process</td>
-<td class="c1" style="height: 23px; text-align: center; vertical-align: middle;"><span style="color: #0071e3;"><strong>6nm</strong></span></td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">16nm</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">16nm</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">8nm</td>
+<tr style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">Process</td>
+<td class="c1" style="height: 1.4375rem; text-align: center; vertical-align: middle;"><span style="color: #0071e3;"><strong>6nm</strong></span></td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">16nm</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">16nm</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">8nm</td>
 </tr>
-<tr style="height: 95px;">
-<td style="height: 95px; text-align: center; vertical-align: middle;">CPU</td>
-<td class="c1" style="height: 95px; text-align: center; vertical-align: middle;"><strong><span style="color: #0071e3;">CPU670 built on Arm V8</span></strong><br>
+<tr style="height: 5.9375rem;">
+<td style="height: 5.9375rem; text-align: center; vertical-align: middle;">CPU</td>
+<td class="c1" style="height: 5.9375rem; text-align: center; vertical-align: middle;"><strong><span style="color: #0071e3;">CPU670 built on Arm V8</span></strong><br>
 <strong><span style="color: #0071e3;">1 x GoldP@2.7GHz</span></strong><br>
 <strong><span style="color: #0071e3;">3 x Gold@2.4GHz</span></strong><br>
 <strong><span style="color: #0071e3;">4 x Silver@1.9GHz</span></strong></td>
-<td style="height: 95px; text-align: center; vertical-align: middle;">4 x Arm A76@2.4GHz</td>
-<td style="height: 95px; text-align: center; vertical-align: middle;">4 x Arm A76@2.4GHz</td>
-<td style="height: 95px; text-align: center; vertical-align: middle;">4 x Arm A76@2.4GHz<br>
+<td style="height: 5.9375rem; text-align: center; vertical-align: middle;">4 x Arm A76@2.4GHz</td>
+<td style="height: 5.9375rem; text-align: center; vertical-align: middle;">4 x Arm A76@2.4GHz</td>
+<td style="height: 5.9375rem; text-align: center; vertical-align: middle;">4 x Arm A76@2.4GHz<br>
 4 x Arm A55@1.8GHz</td>
 </tr>
-<tr style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">GPU</td>
-<td class="c1" style="height: 23px; text-align: center; vertical-align: middle;"><span style="color: #0071e3;"><strong>Adreno 643</strong></span></td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">VideoCore VII</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">VideoCore VII</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">Mali G610MP4</td>
+<tr style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">GPU</td>
+<td class="c1" style="height: 1.4375rem; text-align: center; vertical-align: middle;"><span style="color: #0071e3;"><strong>Adreno 643</strong></span></td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">VideoCore VII</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">VideoCore VII</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">Mali G610MP4</td>
 </tr>
-<tr style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">AI</td>
-<td class="c1" style="height: 23px; text-align: center; vertical-align: middle;"><span style="color: #0071e3;"><strong>12 Tops</strong></span></td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">13 Tops</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">Null</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">6 Tops</td>
+<tr style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">AI</td>
+<td class="c1" style="height: 1.4375rem; text-align: center; vertical-align: middle;"><span style="color: #0071e3;"><strong>12 Tops</strong></span></td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">13 Tops</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">Null</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">6 Tops</td>
 </tr>
-<tr style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">RAM</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">8GB LPDDR4X</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">8GB LPDDR4X</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">8GB LPDDR4X</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">8GB LPDDR4/4X</td>
+<tr style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">RAM</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">8GB LPDDR4X</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">8GB LPDDR4X</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">8GB LPDDR4X</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">8GB LPDDR4/4X</td>
 </tr>
-<tr style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">ROM</td>
-<td class="c1" style="height: 23px; text-align: center; vertical-align: middle;"><strong><span style="color: #0071e3;">128GB UFS2.x</span></strong></td>
-<td style="height: 23px; text-align: center; vertical-align: middle;" colspan="3">NA (Need to purchase external SD card separately)</td>
+<tr style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">ROM</td>
+<td class="c1" style="height: 1.4375rem; text-align: center; vertical-align: middle;"><strong><span style="color: #0071e3;">128GB UFS2.x</span></strong></td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;" colspan="3">NA (Need to purchase external SD card separately)</td>
 </tr>
-<tr style="height: 23px;">
-<td style="height: 23px; text-align: center; vertical-align: middle;">Size</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">75mm x 100mm</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">85mm x 56mm</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">85mm x 56mm</td>
-<td style="height: 23px; text-align: center; vertical-align: middle;">75mm x 100mm</td>
+<tr style="height: 1.4375rem;">
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">Size</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">75mm x 100mm</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">85mm x 56mm</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">85mm x 56mm</td>
+<td style="height: 1.4375rem; text-align: center; vertical-align: middle;">75mm x 100mm</td>
 </tr>
 </tbody>
 </table>
@@ -170,7 +170,7 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
 </tr>
 <tr>
 <td valign="top">Platform</td>
-<td valign="top">Qualcomm<sup>®</sup> QCS6490</td>
+<td valign="top">Qualcomm Dragonwing™ QCS6490</td>
 </tr>
 <tr>
 <td colspan="1" rowspan="1" valign="top">Memory</td>
