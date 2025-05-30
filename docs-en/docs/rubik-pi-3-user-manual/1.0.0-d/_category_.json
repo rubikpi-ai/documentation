@@ -1,0 +1,15 @@
+{
+  "label": "Debian System V1.0.0",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Update date: 2025.05.28 , Version: 1.0.0 | Based on Debian 13",
+    "slug": "/1.0.0-d"
+  },
+  
+  "customProps": {
+    "description": "Debian System V1.0.0"
+  }
+}
