@@ -40,19 +40,60 @@ table P{
   margin: 0px;
 }
 
-.markdown h1:first-child {
-  --ifm-h1-font-size: 2rem;
+/* .markdown h1:first-child {
+  --ifm-h1-font-size: 1.5rem;
   margin-bottom: calc(var(--ifm-h1-vertical-rhythm-bottom)* var(--ifm-leading));
 }
 .markdown > h2 {
-  --ifm-h2-font-size: 1.8rem;
+  --ifm-h2-font-size: 1.3rem;
   margin-bottom: calc(var(--ifm-heading-vertical-rhythm-bottom)* var(--ifm-leading));
   margin-top: calc(var(--ifm-h2-vertical-rhythm-top)* var(--ifm-leading));
-}
+} */
 pre code {
   background-color: #E3E3E3;
 }
 .theme-doc-markdown a{
   color: #2A2AEA !important;
   text-decoration: underline !important;
+}
+
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.17em;
+}
+h4{
+  font-size: 1em;
+}
+h5{
+  font-size: 0.83em;
+}
+h6{
+  font-size: 0.67em;
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1.3em;
+  }
+  h3{
+    font-size: 1.2em;
+  }
+  h4{
+    font-size: 1em;
+  }
+  h5{
+    font-size: 0.83em;
+  }
+  h6{
+    font-size: 0.67em;
+  }
+  
 }
