@@ -1,0 +1,15 @@
+{
+  "label": "Linux System V1.0.0",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Update date: 2024.12.04 , Version: 1.0.0 | Based on Qualcomm Linux 1.1",
+    "slug": "/1.0.0"
+  },
+  
+  "customProps": {
+    "description": "Qualcomm Linux V1.0.0"
+  }
+}

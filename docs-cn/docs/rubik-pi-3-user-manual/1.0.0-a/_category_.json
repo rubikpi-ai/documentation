@@ -1,0 +1,15 @@
+{
+  "label": "Android System V1.0.0",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "更新日期：2025年05月23日，版本：1.0.0 | 基于 Android 13",
+    "slug": "/1.0.0-a"
+  },
+  
+  "customProps": {
+    "description": "Android System V1.0.0"
+  }
+}

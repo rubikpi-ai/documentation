@@ -1,0 +1,15 @@
+{
+  "label": "Android System V1.0.0",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Update date: 2025.05.23 , Version: 1.0.0 | Based on Android 13",
+    "slug": "/1.0.0-a"
+  },
+  
+  "customProps": {
+    "description": "Android System V1.0.0"
+  }
+}

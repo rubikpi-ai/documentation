@@ -1,0 +1,15 @@
+{
+  "label": "Linux System V1.0.0",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "更新日期：2024年12月04日，版本：1.0.0 | 基于 Qualcomm Linux 1.1",
+    "slug": "/1.0.0"
+  },
+  
+  "customProps": {
+    "description": "RUBIK Pi 3 用户手册 V1.0.0"
+  }
+}
