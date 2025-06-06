@@ -102,6 +102,7 @@ const config = {
             label: 'RUBIK Pi 3 文档及资源',            
           },
           {href: 'https://www.thundercomm.com/zh/product/rubik-pi/', label: '产品详情', position: 'left'},
+          {href: 'https://cn.rubikpi.ai', label: '魔方派论坛', position: 'left'},
           {
             href: 'https://github.com/rubikpi-ai',
             label: 'GitHub',

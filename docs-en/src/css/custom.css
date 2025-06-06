@@ -40,7 +40,7 @@ table P{
   margin: 0px;
 }
 .markdown h1:first-child {
-  --ifm-h1-font-size: 2rem;
+  --ifm-h1-font-size: 1rem;
   margin-bottom: calc(var(--ifm-h1-vertical-rhythm-bottom)* var(--ifm-leading));
 }
 .markdown > h2 {
@@ -56,3 +56,43 @@ pre code {
   text-decoration: underline !important;
 }
 
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.17em;
+}
+h4{
+  font-size: 1em;
+}
+h5{
+  font-size: 0.83em;
+}
+h6{
+  font-size: 0.67em;
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1.3em;
+  }
+  h3{
+    font-size: 1.2em;
+  }
+  h4{
+    font-size: 1em;
+  }
+  h5{
+    font-size: 0.83em;
+  }
+  h6{
+    font-size: 0.67em;
+  }
+  
+}

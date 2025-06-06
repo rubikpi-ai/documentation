@@ -91,6 +91,7 @@ const config = {
             label: 'RUBIK Pi 3 Documentation & Resources',            
           },
           {href: 'https://www.thundercomm.com/product/rubik-pi/', label: 'Product Detail', position: 'left'},
+          {href: 'https://community.rubikpi.ai/', label: 'Community', position: 'left'},
           {
             href: 'https://github.com/rubikpi-ai',
             label: 'GitHub',
