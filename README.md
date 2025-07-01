@@ -66,7 +66,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
     <tr>
         <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" alt=""></td>
         <td><strong>Easy to Expand</strong><br><p>• C5430P/C6490P/C8550 SOM are P2P compatible<br>• Easy to build customized EVK</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt=""></td>
+        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt=""></td>  
         <td><strong>Open-source Community</strong><br><p>A vibrant and collaborative group of enthusiasts, developers, and educators</p></td>
     </tr>
     <tr>
