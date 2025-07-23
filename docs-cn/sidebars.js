@@ -22,12 +22,10 @@ const sidebars = {
   // But you can create a sidebar manually
 
   // tutorialSidebar: [
-  //   'intro',
-  //   'hello',
   //   {
-  //     type: 'category',
-  //     label: 'Tutorial',
-  //     items: ['tutorial-basics/create-a-document'],
+  //     type: 'doc',
+  //     id: 'rubik-pi-3-user-manual/1.0.0-a/get-started', // 文档 ID
+  //     label: 'Getting started', // 侧边栏标签
   //   },
   // ],
    
