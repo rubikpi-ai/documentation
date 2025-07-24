@@ -97,3 +97,10 @@ h6{
   }
   
 }
+
+#__docusaurus_skipToContent_fallback > div > div > main > div > div > div.col.docItemCol_VOVn > div > article > div.theme-doc-markdown.markdown > table:nth-child(11) > thead > tr{
+  display: none;
+}
+#__docusaurus_skipToContent_fallback > div > div > main > div > div > div.col.docItemCol_VOVn > div > article > div.theme-doc-markdown.markdown > p:nth-child(4) > img{
+  width: 100%;
+}
