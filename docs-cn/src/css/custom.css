@@ -104,3 +104,20 @@ h6{
 #__docusaurus_skipToContent_fallback > div > div > main > div > div > div.col.docItemCol_VOVn > div > article > div.theme-doc-markdown.markdown > p:nth-child(4) > img{
   width: 100%;
 }
+
+
+@media (max-width: 480px) {
+  .footer__copyright{
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .navbar__logo{
+    width: 200px !important;
+    height: auto !important;
+    margin-top: 8px;
+  }
+  #__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items > div:nth-child(1) > ul > div{
+    margin-left: 15px;    
+  }
+}

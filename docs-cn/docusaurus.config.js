@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'RUBIK Pi Documentation',
-  tagline: 'the first Pi built on Qualcomm AI platforms for developers.',
+  title: '魔方派文档中心',
+  tagline: '边缘人工智能的未来之选-魔方派',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -94,13 +94,14 @@ const config = {
         logo: {
           alt: 'RUBIK Pi',
           src: 'img/rubik-pi-logo.png',
+          srcDark: 'img/rubik-pi-logo-white.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'RUBIK Pi 3 文档及资源',            
+            label: '魔方派3',            
           },
           {href: 'https://www.thundercomm.com/zh/product/rubik-pi/', label: '产品详情', position: 'left'},
           {href: 'https://cn.rubikpi.ai', label: '魔方派论坛', position: 'left'},
