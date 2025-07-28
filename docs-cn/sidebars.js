@@ -48,7 +48,7 @@ const sidebars = {
             title: "Linux System",
             description:
               "更新日期：2025年06月06日，版本：1.1.2 | 基于 Qualcomm Linux 1.3",
-            slug: "/rubik-pi-3/en/docs/1.1.2",
+            slug: "1.1.2",
             keywords: ["guides"],
             image: "/img/docusaurus.png",
           },
@@ -79,7 +79,7 @@ const sidebars = {
             title: "Android System",
             description:
               "更新日期：2025年06月06日，版本：1.0.1 | 基于 Android 13",
-            slug: "/rubik-pi-3/en/docs/1.0.1-a",
+            slug: "1.0.1-a",
             keywords: ["guides"],
             image: "/img/docusaurus.png",
           },
@@ -102,7 +102,7 @@ const sidebars = {
             title: "Debian System",
             description:
               "更新日期：2025年06月06日，版本：1.0.1 | 基于 Debian 13",
-            slug: "/rubik-pi-3/en/docs/1.0.1-d",
+            slug: "1.0.1-d",
             keywords: ["guides"],
             image: "/img/docusaurus.png",
           },
@@ -126,6 +126,11 @@ const sidebars = {
       type: "doc",
       id: "image", // 文档 ID
       label: "系统镜像", // 侧边栏标签
+    },
+    {
+      type: "doc",
+      id: "revision-center", // 文档 ID
+      label: "版本中心", // 侧边栏标签
     },
   ],
 };
