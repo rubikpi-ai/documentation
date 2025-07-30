@@ -828,7 +828,7 @@ export default function Home() {
                 {/* User Manual Card */}
                 <div className="col col--2">
                   <Link
-                    to="http://localhost:3000/rubik-pi-3/en/docs/about-rubikpi"
+                    to="https://www.thundercomm.com/rubik-pi-3/cn/docs/about-rubikpi"
                     style={{ textDecoration: "none", color: "inherit" }}
                   >
                     <div
