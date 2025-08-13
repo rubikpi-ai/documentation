@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Notice for Use
 
 :::danger[Important Notice:]
