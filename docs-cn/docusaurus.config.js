@@ -57,7 +57,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js', 
-          exclude: ['**/1.0.0-u/**'], // 排除所有子目录中的 drafts 文件夹 
+          // exclude: ['**/1.0.0-u/**'], // 排除所有子目录中的 drafts 文件夹 
               
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -169,6 +169,12 @@ const config = {
         ],
 
     ],  
+    themes: ["@docusaurus/theme-mermaid"],
+        // In order for Mermaid code blocks in Markdown to work,
+        // you also need to enable the Remark plugin with this option
+        markdown: {
+          mermaid: true,
+        },
       
      
 };
