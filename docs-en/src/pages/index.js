@@ -3,6 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -1107,6 +1108,148 @@ export default function Home() {
                     </div>
                   </Link>
                 </div>
+
+                {/* AI Hub Card */}
+                <div className="col col--2">
+                  <Link
+                    href="https://aihub.qualcomm.com/models?chipsets=qualcomm-qcs6490-proxy"
+                    target="_blank"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    <div
+                      className="card resource-card"
+                      style={{
+                        height: "180px",
+                        padding: "1.5rem 1rem",
+                        textAlign: "center",
+                        border: "none",
+                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                        backgroundColor: "white",
+                        borderRadius: "16px",
+                        cursor: "pointer",
+                        transition: "all 0.3s ease",
+                        position: "relative",
+                        overflow: "hidden",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform =
+                          "translateY(-10px) scale(1.02)";
+                        e.currentTarget.style.boxShadow =
+                          "0 20px 40px rgba(0,0,0,0.2)";
+                        e.currentTarget.style.background =
+                          "linear-gradient(135deg, #42e695 0%, #3bb2b8 100%)";
+                        e.currentTarget.style.color = "white";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform =
+                          "translateY(0) scale(1)";
+                        e.currentTarget.style.boxShadow =
+                          "0 4px 12px rgba(0,0,0,0.1)";
+                        e.currentTarget.style.background = "white";
+                        e.currentTarget.style.color = "inherit";
+                      }}
+                    >
+                      <img
+                        src={useBaseUrl('/img/ai-hub.svg')}
+                        alt="AI Hub"
+                        style={{
+                          width: "60%",
+                          height: "auto",
+                          objectFit: "contain",
+                          marginBottom: "1rem",
+                          transition: "all 0.3s ease",
+                        }}
+                      />
+                      <Heading
+                        as="h3"
+                        style={{
+                          marginBottom: "0.5rem",
+                          fontSize: "1rem",
+                          fontWeight: "600",
+                          transition: "all 0.3s ease",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        AI Hub
+                      </Heading>
+                    </div>
+                  </Link>
+                </div>
+
+                {/* Edge Impulse Card */}
+                <div className="col col--2">
+                  <Link
+                    href="https://docs.edgeimpulse.com/docs/edge-ai-hardware/cpu-+-ai-accelerators/thundercomm-rubikpi3"
+                    target="_blank"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    <div
+                      className="card resource-card"
+                      style={{
+                        height: "180px",
+                        padding: "1.5rem 1rem",
+                        textAlign: "center",
+                        border: "none",
+                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                        backgroundColor: "white",
+                        borderRadius: "16px",
+                        cursor: "pointer",
+                        transition: "all 0.3s ease",
+                        position: "relative",
+                        overflow: "hidden",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform =
+                          "translateY(-10px) scale(1.02)";
+                        e.currentTarget.style.boxShadow =
+                          "0 20px 40px rgba(0,0,0,0.2)";
+                        e.currentTarget.style.background =
+                          "linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%)";
+                        e.currentTarget.style.color = "white";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform =
+                          "translateY(0) scale(1)";
+                        e.currentTarget.style.boxShadow =
+                          "0 4px 12px rgba(0,0,0,0.1)";
+                        e.currentTarget.style.background = "white";
+                        e.currentTarget.style.color = "inherit";
+                      }}
+                    >
+                      <img
+                        src={useBaseUrl('/img/edge-impulse.svg')}
+                        alt="Edge Impulse"
+                        style={{
+                          width: "60%",
+                          height: "auto",
+                          objectFit: "contain",
+                          marginBottom: "1rem",
+                          transition: "all 0.3s ease",
+                        }}
+                      />
+                      <Heading
+                        as="h3"
+                        style={{
+                          marginBottom: "0.5rem",
+                          fontSize: "1rem",
+                          fontWeight: "600",
+                          transition: "all 0.3s ease",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        Edge Impulse
+                      </Heading>
+                    </div>
+                  </Link>
+                </div>
               </div>
 
               <style>{`
@@ -1131,6 +1274,17 @@ export default function Home() {
                   50% { box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
                   100% { box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
                 }
+
+                /* Keep all 7 cards in one row on desktop */
+                @media (min-width: 1025px) {
+                  .resources-section .row { flex-wrap: nowrap !important; }
+                  .resources-section .row > .col { flex: 0 0 14.2857% !important; max-width: 14.2857% !important; }
+                }
+                  .col--2{
+                  padding: 0 5px !important;}
+                  .col--2 h3{
+                  font-size:14px !important;
+                  }
               `}</style>
             </div>
           </section>

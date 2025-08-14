@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Hub Icon</title>
+  <desc id="desc">Cloud with gear and connected nodes representing an AI hub</desc>
+  <!-- Accent dots -->
+  <circle cx="34" cy="56" r="5" fill="#FF6B6B"/>
+  <circle cx="168" cy="60" r="5" fill="#4DABF7"/>
+  <circle cx="46" cy="140" r="5" fill="#6EE7B7"/>
+  <circle cx="160" cy="132" r="5" fill="#FFD166"/>
+
+  <!-- Connection lines -->
+  <path d="M34 56 L70 72 M168 60 L130 70 M46 140 L78 126 M160 132 L126 120" stroke="#323741" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+
+  <!-- Cloud -->
+  <path d="M72 122c-15 0-27-12-27-27 0-12 8-22 19-25 4-16 19-28 36-28 18 0 33 13 36 30 11 1 20 10 20 22 0 12-10 22-22 22H72z"
+        stroke="#323741" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="rgba(100, 224, 255, 0.08)"/>
+
+  <!-- Gear inside cloud -->
+  <g transform="translate(100,100)">
+    <circle r="12" fill="#FFFFFF" />
+    <circle r="12" stroke="#323741" stroke-width="4" fill="none"/>
+    <circle r="4" fill="#FF6BB5"/>
+    <path d="M0 -20 L0 -12 M0 12 L0 20 M-20 0 L-12 0 M12 0 L20 0 M-14 -14 L-9 -9 M9 9 L14 14 M14 -14 L9 -9 M-14 14 L-9 9"
+          stroke="#323741" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Small nodes -->
+  <g fill="#FFFFFF" stroke="#323741" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="62" y="64" width="16" height="16" rx="4"/>
+    <rect x="120" y="64" width="16" height="16" rx="4"/>
+    <rect x="76" y="132" width="16" height="16" rx="4"/>
+    <rect x="126" y="120" width="16" height="16" rx="4"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g stroke="#323741" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M30 100 h10"/>
+    <path d="M165 95 h10"/>
+    <path d="M100 30 v10"/>
+    <path d="M148 46 l6 6"/>
+    <path d="M44 44 l6 -6"/>
+  </g>
+</svg>
