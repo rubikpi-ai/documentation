@@ -1154,7 +1154,7 @@ export default function Home() {
                       }}
                     >
                       <img
-                        src={useBaseUrl('/img/ai-hub.svg')}
+                        src={useBaseUrl('/img/ai-hub.png')}
                         alt="AI Hub"
                         style={{
                           width: "60%",
@@ -1225,7 +1225,7 @@ export default function Home() {
                       }}
                     >
                       <img
-                        src={useBaseUrl('/img/edge-impulse.svg')}
+                        src={useBaseUrl('/img/edge-impulse.png')}
                         alt="Edge Impulse"
                         style={{
                           width: "60%",
