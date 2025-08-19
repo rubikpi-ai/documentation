@@ -363,7 +363,7 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Rubik's Cube Elements */}
+            {/* RUBIK's Cube Elements */}
             {/* 3D Cube in top right */}
             <div
               style={{
@@ -472,7 +472,7 @@ export default function Home() {
                   `}</style>
                 </defs>
                 <g style={{ animation: "cubeRotate 8s ease-in-out infinite" }}>
-                  {/* 3x3 grid representing Rubik's cube face */}
+                  {/* 3x3 grid representing RUBIK's cube face */}
                   {[...Array(9)].map((_, i) => {
                     const row = Math.floor(i / 3);
                     const col = i % 3;
@@ -502,7 +502,7 @@ export default function Home() {
               </svg>
             </div>
 
-            {/* Rubik's cube solving animation pattern */}
+            {/* RUBIK's cube solving animation pattern */}
             <div
               style={{
                 position: "absolute",

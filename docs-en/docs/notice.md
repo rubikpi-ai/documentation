@@ -11,8 +11,8 @@ sidebar_position: 2
 
 :::danger[Warning:]
 
-- Any external power supply used with the Rubik Pi must comply with all applicable local laws and regulations.
-- A**12 V DC power supply rated at ≥ 3 A** is recommended. The power supply should feature overcurrent, overvoltage, and surge protection.
+- Any external power supply used with the RUBIK Pi must comply with all applicable local laws and regulations.
+- A **12 V DC power supply rated at ≥ 3 A** is recommended. The power supply should feature overcurrent, overvoltage, and surge protection.
 
 :::
 
@@ -26,7 +26,7 @@ sidebar_position: 2
 2. **Power Supply & Shutdown**
 
 - Complete all peripheral connections before powering on. Do not plug or unplug the DC power jack while the board is energized.
-- Shutdown procedure: Execute shutdown -h now, wait for all LEDs to turn off, then disconnect power.
+- Shutdown procedure: Execute `shutdown -h now`, wait for all LEDs to turn off, then disconnect power.
 - Avoid frequent power cycling or the use of unregulated DIY power supplies to prevent potential hardware damage.
 
 3. **Electrostatic Discharge (ESD) Protection**
@@ -48,5 +48,5 @@ sidebar_position: 2
 
 6. **Regulatory Compliance & Modifications**
 
-- When used with external accessories or enclosures, the Rubik Pi must comply with all relevant local regulations (e.g., EMC, electrical safety, RF).
+- When used with external accessories or enclosures, the RUBIK Pi must comply with all relevant local regulations (e.g., EMC, electrical safety, RF).
 - Unauthorized modification of the PCB or the addition of uncertified wireless modules is strictly prohibited and may void warranty and compromise safety.
