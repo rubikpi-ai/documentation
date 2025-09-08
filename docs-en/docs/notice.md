@@ -12,7 +12,7 @@ sidebar_position: 2
 :::danger[Warning:]
 
 - Any external power supply used with the RUBIK Pi must comply with all applicable local laws and regulations.
-- A **12 V DC power supply rated at ≥ 3 A** is recommended. The power supply should feature overcurrent, overvoltage, and surge protection.
+- A **12 V DC power supply rated at ≥ 3 A** is required. The power supply should feature overcurrent, overvoltage, and surge protection.
 
 :::
 
