@@ -34,7 +34,9 @@ import ToolIcon from '@site/static/img/tools.svg';
   <TabItem value="debian" label={<><DebianIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px',  verticalAlign: 'middle' }} /> Debian</>}>
     | 序号 | 镜像名称                                                                                                                                                                                   | 版本  |      发布日期       |
 | :--: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---: | :-----------------: |
-|  1   | [魔方派 3 Debian 13 镜像](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250331/FlatBuild_RUBIKPi-3_xx.xx_Debian13.R.debug.ES.r000001.zip)                   |  1.0  | 2025 年 03 月 31 日 |
+| 1       |  [魔方派 3 Debian 13 镜像](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250912/FlatBuild_RUBIKPi-3_xx.xx_Debian13.R.Desktop.FC.r001002.zip)                      | 1.1 |  2025 年 09 月 12 日 | 
+|  2   | [魔方派 3 Debian 13 镜像](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250331/FlatBuild_RUBIKPi-3_xx.xx_Debian13.R.debug.ES.r000001.zip)                   |  1.0  | 2025 年 03 月 31 日 |
+
   </TabItem>
 
   <TabItem value="tool" label={<><ToolIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px',  verticalAlign: 'middle' }} /> Tool</>}>

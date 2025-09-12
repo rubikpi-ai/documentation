@@ -32,7 +32,8 @@ import ToolIcon from '@site/static/img/tools.svg';
   <TabItem value="debian" label={<><DebianIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px',  verticalAlign: 'middle' }} /> Debian</>}>
     | No. | Image Name                                                                                                                   | Version |     Date     |
 | :-: | :-------------------------------------------------------------------------------------------------------------------------- | :-----: | :----------: |
-| 1       | [RUBIK Pi 3 Debian 13 Image](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250331/FlatBuild_RUBIKPi-3_xx.xx_Debian13.R.debug.ES.r000001.zip)  | 1.0        |  Mar. 31, 2025 |
+| 1       | [RUBIK Pi 3 Debian 13 Image](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250912/FlatBuild_RUBIKPi-3_xx.xx_Debian13.R.Desktop.FC.r001002.zip)      | 1.1         |  Sep. 12, 2025 |
+| 2       | [RUBIK Pi 3 Debian 13 Image](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250331/FlatBuild_RUBIKPi-3_xx.xx_Debian13.R.debug.ES.r000001.zip)  | 1.0        |  Mar. 31, 2025 |
   </TabItem>
   <TabItem value="tool" label={<><ToolIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px',  verticalAlign: 'middle' }} /> Tool</>}>
     | No. | Tool Name                                                                                                                   | Version |     Date     |
