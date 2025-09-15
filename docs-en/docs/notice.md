@@ -11,6 +11,7 @@ sidebar_position: 2
 
 :::danger[Warning:]
 
+- Do not use a desktop or laptop computer to power your RUBIK Pi 3. This may cause damage to both the computer and the RUBIK Pi 3.
 - Any external power supply used with the RUBIK Pi must comply with all applicable local laws and regulations.
 - A **12 V DC power supply rated at ≥ 3 A** is required. The power supply should feature overcurrent, overvoltage, and surge protection.
 
