@@ -103,7 +103,7 @@ const sidebars = {
             "rubik-pi-3-user-manual/1.1.2/yocto-project-user-guide",
             "rubik-pi-3-user-manual/1.1.2/user-guide-to-rubikpi-config",
             "rubik-pi-3-user-manual/1.1.2/gitHub-operation-guide",
-            "rubik-pi-3-user-manual/1.1.2/revision-history",
+            // "rubik-pi-3-user-manual/1.1.2/revision-history",
           ],
         },
          {
@@ -125,7 +125,7 @@ const sidebars = {
             "rubik-pi-3-user-manual/1.0.1-a/get-started",
             "rubik-pi-3-user-manual/1.0.1-a/peripherals-and-interfaces",
             "rubik-pi-3-user-manual/1.0.1-a/qualcomm-ai-hub",
-            "rubik-pi-3-user-manual/1.0.1-a/revision-history",
+            // "rubik-pi-3-user-manual/1.0.1-a/revision-history",
             
           ],
         },
@@ -150,7 +150,7 @@ const sidebars = {
             "rubik-pi-3-user-manual/1.0.1-d/ai-processor-and-sdk-testing-methods",
             "rubik-pi-3-user-manual/1.0.1-d/user-guide-to-rubikpi-config",
             "rubik-pi-3-user-manual/1.0.1-d/github-operation-guide",
-            "rubik-pi-3-user-manual/1.0.1-d/revision-history",
+            // "rubik-pi-3-user-manual/1.0.1-d/revision-history",
           ],
         },
       ],
