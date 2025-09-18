@@ -1,38 +1,41 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 开始使用魔方派 3
+# Get started with RUBIK Pi 3
 
-本快速入门指南可帮助您设置魔方派 3，用于在基于 Ubuntu24.04 的环境中探索和试用端到端的多媒体和 AI 应用程序。此外，本指南还提供了关于如何与运行 Linux、Windows(®) 和 macOS(®) 的主机建立基本通信的说明。
+This quick start guide helps you set up your RUBIK Pi 3 to explore and use end-to-end multimedia and AI applications in an Ubuntu 24.04-based environment. Additionally, this guide provides instructions on how to establish communication with hosts running Linux, Windows(®), or macOS(®).
 
-魔方派 3 基于高通 QCS6490 芯片，采用  Qualcomm® Kryo™ 670 CPU 和融合 AI 加速器架构的 Qualcomm® Hexagon™ 处理器，具备 12 TOPS 的卓越 AI 性能，适用于各种机器学习和人工智能应用场景。
+RUBIK Pi 3 is developed based on the Qualcomm QCS6490 processor, which features the Qualcomm® Kryo™ 670 CPU and the Qualcomm® Hexagon™ Processor with fused AI-accelerator architecture. The processor provides exceptional AI performance of 12 TOPS and offers the capability for various machine learning and AI application scenarios.
 
-魔方派 3 具有丰富的接口和功能设计，支持 USB、Camera、DP、HDMI、ETH、3.5mm 耳机、Wi-Fi、BT、M.2 连接器、FAN、RTC、40 pin 排针连接器等，满足多样化的开发需求，方便开发者快速开发和调试。
+RUBIK Pi 3 is designed with a wide range of interfaces and functions, such as USB, camera, DisplayPort, HDMI, Ethernet, 3.5mm headphone jack, Wi-Fi, Bluetooth, M.2 connector, fan, RTC, and 40-pin LS connector. These features cater to diverse development needs while facilitating rapid development and efficient debugging.
 
-魔方派 3 同样也支持多种系统，如 Qualcomm Linux、Debian 13、Canonical Ubuntu for Qualcomm Platforms、Android 13 等，灵活满足开发者特定应用要求。
+RUBIK Pi 3 is compatible with various systems, such as Qualcomm Linux, Debian 13, Android 13, and Canonical Ubuntu for Qualcomm Platforms, providing developers with the flexibility to meet their specific application needs.
 
 ![](../images/image.jpg)
 
-## 包装内容
+### Packaging
 
 ![](../images/image-1.jpg)
 
-* 魔方派 3
+* RUBIK Pi 3
 
-* 魔方派贴纸
+* RUBIK Pi sticker
 
-* 快速开始卡片
+* Quick Start Guide
 
-## 熟悉板卡
+### Introduction to the board
+
 ![](../images/data-3.svg)
 
 ![](../images/image-2.jpg)
 
-## 常规工作流
+### Typical workflow
+
 ![](../images/20250728-143657.jpg)
+
 
 | Task                | Operation                                                                 |
 |---------------------|--------------------------------------------------------------------------|
-| 更新软件     | <p>1. 下载镜像。</p><p>2. 使设备进入紧急下载（EDL）模式。</p><p>3. 配置通用闪存存储 (UFS)，并刷写配置数据表。（CDT）</p><p>4. 使用 Qualcomm Download (QDL) 工具进行刷写。</p> |
-| 设置设备   | <p>1. 设置调试串口。</p><p>2. 验证 Ubuntu 24.04 版本。</p><p>3. 连接到网络，连接到 SSH 和 HDMI 显示器。</p> |
-| 运行示例应用程序 | 运行多媒体和 AI 示例应用程序。                                |
+| [Update Software](./1.update-software.md)     | <p>1. Download the image.</p><p>2. Put the device into Emergency Download (EDL) mode.</p><p>3. Configure Universal Flash Storage (UFS) and flash the Configuration Data Table (CDT).</p><p>4. Flash using the Qualcomm Download (QDL) tool.</p> |
+| [Set Up the Device](./2.set-up-your-device.md)   | <p>1. Set up the debug UART.</p><p>2. Verify the Ubuntu 24.04 version.</p><p>3. Connect to the network, connect to SSH, and connect an HDMI display.</p> |
+| [Run Demo Applications](./3.further-study.md) | Run multimedia and AI demo applications.                                |
