@@ -15,6 +15,16 @@ import ToolIcon from '@site/static/img/tools.svg';
 # Revision Center
 
 <Tabs>
+
+<TabItem value="ubuntu" label={<><UbuntuIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} /> Ubuntu System</>}>
+
+| Version  | Description      | Author       | Reviewer       | Date          |
+|----------|------------------|--------------|----------------|---------------|
+| [V1.0.0](/docs/rubik-pi-3-user-manual/1.0.0-a/get-started)   | Initial release. | <p>Zhao Hongyang</p><p>Li Ya'nan</p><p>Li Meng</p> | <p>Zhao Hongyang</p><p>Chen Yatong</p>    | Sep 18, 2025  |
+
+
+  </TabItem>
+
   <TabItem value="linux" label={<><LinuxIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Linux System</>}>
 
 | **Version** | **Description**  | **Author**    | **Reviewer**  | **Date**      |

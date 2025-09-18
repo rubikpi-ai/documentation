@@ -15,6 +15,15 @@ import ToolIcon from '@site/static/img/tools.svg';
 # 版本中心
 
 <Tabs>
+
+ <TabItem value="ubuntu" label={<><UbuntuIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} /> Ubuntu System</>}>
+
+| 版本     | 版本更新说明 | 负责人      | 校审     | 发布日期       |
+| ------ | ------ | -------- | ------ | ---------- |
+| [V1.0.0](/docs/rubik-pi-3-user-manual/1.0.0-a/get-started) | 初稿 | <p>赵虹阳</p><p>李亚楠</p><p>李萌</p> | <p>赵虹阳</p><p>陈雅彤</p> | 2025.09.18 |
+
+  </TabItem>
+
   <TabItem value="linux" label={<><LinuxIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Linux System</>}>
 
   | 版本     | 版本更新说明明                                                                                                                                                                                              | 负责人  | 校审          | 发布日期          |
