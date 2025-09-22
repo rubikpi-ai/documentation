@@ -1,9 +1,5 @@
 # 🚀关于魔方派3（RUBIK Pi 3）
 
-## **🔖快速入口**
-
-[官网](https://www.rubikpi.ai/) | [购买](https://www.thundercomm.com/zh/product/rubik-pi/) | [魔方派论坛](https://cn.rubikpi.ai) | [产品优势](#魔方派3的优势) |  [产品规格书](#魔方派3产品规格书) | [FAQ](https://rubikpi.ai/faq/) | [联系我们](#联系我们)
-
 ![](https://t-web.oss-cn-beijing.aliyuncs.com/public/rubik-pi-3.gif)
 
 [魔方派3（RUBIK Pi 3）](https://www.thundercomm.com/zh/product/rubik-pi/)，是采用[高通跃龙 QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) 平台的轻量型开发板， 是首款基于高通 AI 平台打造的、支持开源 Qualcomm Linux 等多操作系统的面向开发者的“派”产品。
@@ -20,7 +16,7 @@
 ## 😍魔方派3的优势
 | | | | |
 | :----: | :---- | :----: | :---- | 
-| ![](https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png)  | **Qualcomm® Linux®** <br /> 首个基于高通跃龙 QCS6490 平台的开源 Linux| ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png) | **兼容性** <br /> 接口兼容大部分开源生态开发板的官方配件 |
+| ![](/img/ubuntu-os.png)  | **Ubuntu OS（LTS）** <br />基于高通跃龙 QCS6490 提供官方级 Ubuntu LTS 体验与完整 APT 生态；<br />支持容器化与主流 AI/视觉框架，开箱即用、稳定交付。| ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png) | **兼容性** <br /> 接口兼容大部分开源生态开发板的官方配件 |
 | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png) | **设计紧凑**<br />100mm x 75mm 的轻便设计，易于原型机开发和产品量产 | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/ai-2.png) | **AI 性能**<br />12 TOPS 端侧 AI 性能 |
 | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png) | **易于扩展** <br />• C5430P/C6490P/C8550 SOM 引脚兼容<br />• 便于扩展不同性能的 EVK | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png) | **开源社区**<br />开发者进行交流、协作、互动的平台 |
 | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png) | **多操作系统支持**<br />Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 13 | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png) | **完善的文档系统**<br />包括文档，使用指导，教程，数据手册等；便于开发者快速使用 |

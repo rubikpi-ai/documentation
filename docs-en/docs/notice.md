@@ -9,6 +9,7 @@ sidebar_position: 2
 
 :::
 
+
 :::danger[Warning:]
 
 - Do not use a desktop or laptop computer to power your RUBIK Pi 3. This may cause damage to both the computer and the RUBIK Pi 3.

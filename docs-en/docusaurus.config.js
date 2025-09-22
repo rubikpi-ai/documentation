@@ -53,7 +53,7 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          exclude: ['**/1.0.0-u/**'], // 排除所有子目录中的 drafts 文件夹
+          exclude: ['**/drafts/**'],
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -82,22 +82,18 @@ const config = {
           alt: "RUBIK Pi",
           src: "img/rubik-pi-logo.png",
           srcDark: "img/rubik-pi-logo-white.png",
+          href:"https://www.rubikpi.ai/",
         },
-        items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "RUBIK Pi 3",
-          },
-          {
-            href: "https://www.thundercomm.com/product/rubik-pi/",
-            label: "Product Detail",
-            position: "left",
-          },
+        items: [          
+          
           {
             href: "https://community.rubikpi.ai/",
             label: "Community",
+            position: "left",
+          },
+          {
+            href: "https://rubikpi.ai/faq/",
+            label: "FAQ",
             position: "left",
           },
           {

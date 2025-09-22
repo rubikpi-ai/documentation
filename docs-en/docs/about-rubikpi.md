@@ -4,9 +4,9 @@ description: ''
 ---
 # 🚀About RUBIK Pi 3
 
-## **🔖Shortcuts**
+<!-- ## **🔖Shortcuts**
 
-[Website](https://www.rubikpi.ai/) | [Purchase](https://www.thundercomm.com/zh/product/rubik-pi/) | [RUBIK Pi Community](https://community.rubikpi.ai) | [RUBIK Pi 3 Advantage](#rubik-pi-3-advantage) |  [RUBIK Pi 3 Specifications](#rubik-pi-3-specifications) | [FAQ](https://rubikpi.ai/faq/) | [Contact Us](#contact-us)
+[Website](https://www.rubikpi.ai/) | [Purchase](https://www.thundercomm.com/zh/product/rubik-pi/) | [RUBIK Pi Community](https://community.rubikpi.ai) | [RUBIK Pi 3 Advantage](#rubik-pi-3-advantage) |  [RUBIK Pi 3 Specifications](#rubik-pi-3-specifications) | [FAQ](https://rubikpi.ai/faq/) | [Contact Us](#contact-us) -->
 
 ![](https://t-web.oss-cn-beijing.aliyuncs.com/public/rubik-pi-3.gif)
 
@@ -25,7 +25,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 
 |                                                                                     |                                                                                                                                                                    |                                                                               |                                                                                        |
 | :---------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------: | :------------------------------------------------------------------------------------- |
-|      ![](https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png)      | **Qualcomm® Linux®** <br />First open-source Linux based on Qualcomm Dragonwing™ QCS6490 platform for developers | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png) | **Compatibility** <br />Compatible with peripherals of most open-source ecosystem development boards |
+|      ![](/img/ubuntu-os.png)      | **Ubuntu OS (LTS)** <br />Official-grade Ubuntu LTS on Qualcomm Dragonwing™ QCS6490 with full APT ecosystem;<br />Container-ready and compatible with major AI/vision stacks for out-of-box, reliable delivery. | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png) | **Compatibility** <br />Compatible with peripherals of most open-source ecosystem development boards |
 |       ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png)       | **Compact Design**<br />With a portable size of 100mm x 75mm, enabling easy direct application in products |      ![](https://www.thundercomm.com/wp-content/uploads/2024/09/ai-2.png)      | **AI Capability**<br />12 TOPS On-device AI capability  |
 |       ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png)       | **Easy to Expand** <br />• C5430P/C6490P/C8550 SOM are P2P compatible<br />• Easy to build customized EVK |   ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png)   | **Open-source Community**<br />A vibrant and collaborative group of enthusiasts, developers, and educators |
 | ![](https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png) | **Multiple OS support**<br />Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 13  |    ![](https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png)    | **Comprehensive Documentation**<br />Accessible documentation, including official guides, tutorials, datasheets, and FAQs |

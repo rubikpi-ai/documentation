@@ -57,7 +57,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js', 
-          exclude: ['**/1.0.0-u/**'], // 排除所有子目录中的 drafts 文件夹 
+          // exclude: ['**/1.0.0-u/**'], // 排除所有子目录中的 drafts 文件夹 
               
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -97,14 +97,16 @@ const config = {
           srcDark: 'img/rubik-pi-logo-white.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '魔方派3',            
-          },
-          {href: 'https://www.thundercomm.com/zh/product/rubik-pi/', label: '产品详情', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: '魔方派3',            
+          // },
+          // {href: 'https://www.thundercomm.com/zh/product/rubik-pi/', label: '产品详情', position: 'left'},
           {href: 'https://cn.rubikpi.ai', label: '魔方派论坛', position: 'left'},
+          {href: 'https://www.thundercomm.com/zh/product/rubik-pi/#faq', label: 'FAQ', position: 'left'},
+
           {
             href: 'https://github.com/rubikpi-ai',
             label: 'GitHub',

@@ -30,6 +30,15 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
+      {/* 内联样式：隐藏首页导航栏按钮 */}
+      <style>{`
+        #__docusaurus > nav > div.navbar__inner > div.theme-layout-navbar-left.navbar__items > a:nth-child(3){display:none;}
+        #__docusaurus > nav > div.navbar__inner > div.theme-layout-navbar-left.navbar__items > a:nth-child(4){display:none;}
+        #__docusaurus > nav > div.navbar__inner > div.theme-layout-navbar-left.navbar__items > a:nth-child(5){display:none;}
+        #__docusaurus > nav > div.navbar__inner > div.theme-layout-navbar-right.navbar__items.navbar__items--right{display:none;}
+        #__docusaurus > nav{display:none;}
+        #__docusaurus > footer{position: absolute;bottom: 0;width: 100%;background: rgba(0, 0, 0, 0.2);}
+      `}</style>
       {/* <HomepageHeader /> */}
       <main>
         <div className="custom-homepage">
@@ -37,16 +46,19 @@ export default function Home() {
           <section
             className="hero hero--primary"
             style={{
-              padding: "4rem 0",
+              padding: "4rem 0 2rem",
               textAlign: "center",
               background:
                 "linear-gradient(135deg, #0f1419 0%, #1e3c72 50%, #2a5298 100%)",
-              color: "white",
+              color: "none",
               position: "relative",
               overflow: "hidden",
-              height: "600px",
+              // height removed, use full viewport height instead
+              minHeight: "100vh",
               display: "flex",
-              alignItems: "center",
+              flexDirection: "column",
+              justifyContent: "flex-start",
+              alignItems: "stretch",
             }}
           >
             {/* Animated Background */}
@@ -432,7 +444,7 @@ export default function Home() {
                     "rgba(68, 68, 255, 0.7)", // Blue
                     "rgba(255, 255, 68, 0.7)", // Yellow
                     "rgba(255, 165, 0, 0.7)", // Orange
-                    "rgba(255, 255, 255, 0.7)", // White
+                    "rgba(255, 255, 255, 0.7)", // none
                   ][i % 6],
                   border: "1px solid rgba(255,255,255,0.4)",
                   transform: `rotate(${Math.random() * 360}deg)`,
@@ -575,11 +587,19 @@ export default function Home() {
             >
               <div
                 style={{
-                  maxWidth: "800px",
-                  margin: "0 auto",
-                  padding: "0 1rem",
+                  maxWidth: "100%",
+                  margin: "0 auto 0rem",
+                  padding: "0",
                 }}
               >
+                {/* 在这里添加logo，并跳转到https://rubikpi.ai */}
+                <img
+                  src={useBaseUrl("img/rubik-pi-logo-white.png")}
+                  alt="RUBIK Logo"
+                  style={{ cursor: "pointer", width: "300px", marginBottom: "2rem" }} 
+                  onClick={() => window.open("https://rubikpi.ai", "_blank")}
+                />
+
                 <Heading
                   as="h1"
                   className="hero-title"
@@ -624,64 +644,703 @@ export default function Home() {
                   }}
                 >
                   <Link
-                    className="button button--secondary button--lg"
+                    className="button button--secondary button--lg glass-button"
                     to="https://www.thundercomm.com/rubik-pi-3/en/docs/about-rubikpi"
-                    style={{ fontWeight: "bold" }}
+                    style={{ fontWeight: "600", letterSpacing: '0.5px' }}
                   >
                     🚀 Get Started
                   </Link>
                 </div>
               </div>
-            </div>
+
+              {/* Resources Section moved inside hero */}
+              <div
+                className="resources-section"
+                // style={{
+                //   background: "rgba(255,255,255,0.08)",
+                //   backdropFilter: "blur(4px)",
+                //   borderRadius: "24px",
+                //   padding: "2rem 1rem 1.5rem",
+                //   boxShadow: "0 8px 32px rgba(0,0,0,0.2)",
+                //   border: "1px solid rgba(255,255,255,0.15)",
+                // }}
+              >
+                <div className="row" style={{ justifyContent: "center" }}>
+                  {/* Community Card */}
+                  {/* <div className="col col--2">
+                    <Link
+                      to="https://community.rubikpi.ai/"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <div
+                        className="card resource-card"
+                        style={{
+                          height: "180px",
+                          padding: "1.5rem 1rem",
+                          textAlign: "center",
+                          border: "none",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                          backgroundColor: "none",
+                          borderRadius: "16px",
+                          cursor: "pointer",
+                          transition: "all 0.3s ease",
+                          position: "relative",
+                          overflow: "hidden",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.transform =
+                            "translateY(-10px) scale(1.02)";
+                          e.currentTarget.style.boxShadow =
+                            "0 20px 40px rgba(0,0,0,0.2)";
+                          e.currentTarget.style.background =
+                            "linear-gradient(135deg, #667eea 0%, #764ba2 100%)";
+                          e.currentTarget.style.color = "none";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.transform = "translateY(0) scale(1)";
+                          e.currentTarget.style.boxShadow =
+                            "0 4px 12px rgba(0,0,0,0.1)";
+                          e.currentTarget.style.background = "none";
+                          e.currentTarget.style.color = "inherit";
+                        }}
+                      >
+                        <img
+                          src="https://www.thundercomm.com/wp-content/uploads/2024/09/community-2.png"
+                          alt="Community"
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            objectFit: "contain",
+                            marginBottom: "1rem",
+                            transition: "all 0.3s ease",
+                          }}
+                        />
+                        <Heading
+                          as="h3"
+                          style={{
+                            marginBottom: "0.5rem",
+                            fontSize: "1rem",
+                            fontWeight: "600",
+                            transition: "all 0.3s ease",
+                            noneSpace: "nowrap",
+                          }}
+                        >
+                          Community
+                        </Heading>
+                      </div>
+                    </Link>
+                  </div> */}
+
+                  {/* User Manual Card */}
+                  <div className="col col--2">
+                    <Link
+                      to="https://www.thundercomm.com/rubik-pi-3/en/docs/about-rubikpi"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <div
+                        className="card resource-card"
+                        style={{
+                          height: "180px",
+                          padding: "1.5rem 1rem",
+                          textAlign: "center",
+                          border: "none",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                          background: 'var(--glass-bg)',
+                          backdropFilter: 'blur(14px) saturate(160%)',
+                          WebkitBackdropFilter: 'blur(14px) saturate(160%)',
+                          border: '1px solid rgba(255,255,255,0.18)',
+                          borderRadius: "16px",
+                          cursor: "pointer",
+                          transition: "all 0.3s ease",
+                          position: "relative",
+                          overflow: "hidden",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.transform =
+                            "translateY(-10px) scale(1.02)";
+                          e.currentTarget.style.boxShadow =
+                            "0 20px 40px rgba(0,0,0,0.2)";
+                          e.currentTarget.style.background =
+                            "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)";
+                          e.currentTarget.style.color = "none";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.transform = "translateY(0) scale(1)";
+                          e.currentTarget.style.boxShadow =
+                            "0 4px 12px rgba(0,0,0,0.1)";
+                          e.currentTarget.style.background = 'var(--glass-bg)';
+                          e.currentTarget.style.color = "inherit";
+                        }}
+                      >
+                        <img
+                          src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png"
+                          alt="User Manual"
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            objectFit: "contain",
+                            marginBottom: "1rem",
+                            transition: "all 0.3s ease",
+                          }}
+                        />
+                        <Heading
+                          as="h3"
+                          style={{
+                            marginBottom: "0.5rem",
+                            fontSize: "1rem",
+                            fontWeight: "600",
+                            transition: "all 0.3s ease",
+                            noneSpace: "nowrap",
+                          }}
+                        >
+                          User Manual
+                        </Heading>
+                      </div>
+                    </Link>
+                  </div>
+
+                  {/* Hardware Resources Card */}
+                  <div className="col col--2">
+                    <Link
+                      to="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <div
+                        className="card resource-card"
+                        style={{
+                          height: "180px",
+                          padding: "1.5rem 1rem",
+                          textAlign: "center",
+                          border: "none",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                          background: 'var(--glass-bg)',
+                          backdropFilter: 'blur(14px) saturate(160%)',
+                          WebkitBackdropFilter: 'blur(14px) saturate(160%)',
+                          border: '1px solid rgba(255,255,255,0.18)',
+                          borderRadius: "16px",
+                          cursor: "pointer",
+                          transition: "all 0.3s ease",
+                          position: "relative",
+                          overflow: "hidden",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.transform =
+                            "translateY(-10px) scale(1.02)";
+                          e.currentTarget.style.boxShadow =
+                            "0 20px 40px rgba(0,0,0,0.2)";
+                          e.currentTarget.style.background =
+                            "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)";
+                          e.currentTarget.style.color = "none";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.transform = "translateY(0) scale(1)";
+                          e.currentTarget.style.boxShadow =
+                            "0 4px 12px rgba(0,0,0,0.1)";
+                          e.currentTarget.style.background = 'var(--glass-bg)';
+                          e.currentTarget.style.color = "inherit";
+                        }}
+                      >
+                        <img
+                          src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png"
+                          alt="Hardware Resources"
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            objectFit: "contain",
+                            marginBottom: "1rem",
+                            transition: "all 0.3s ease",
+                          }}
+                        />
+                        <Heading
+                          as="h3"
+                          style={{
+                            marginBottom: "0.5rem",
+                            fontSize: "1rem",
+                            fontWeight: "600",
+                            transition: "all 0.3s ease",
+                            noneSpace: "nowrap",
+                          }}
+                        >
+                          Hardware Resources
+                        </Heading>
+                      </div>
+                    </Link>
+                  </div>
+
+                  {/* System Image Card */}
+                  <div className="col col--2">
+                    <Link
+                      to="https://www.thundercomm.com/rubik-pi-3/en/docs/peripheral-compatibility-list"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <div
+                        className="card resource-card"
+                        style={{
+                          height: "180px",
+                          padding: "1.5rem 1rem",
+                          textAlign: "center",
+                          border: "none",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                          background: 'var(--glass-bg)',
+                          backdropFilter: 'blur(14px) saturate(160%)',
+                          WebkitBackdropFilter: 'blur(14px) saturate(160%)',
+                          border: '1px solid rgba(255,255,255,0.18)',
+                          borderRadius: "16px",
+                          cursor: "pointer",
+                          transition: "all 0.3s ease",
+                          position: "relative",
+                          overflow: "hidden",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.transform =
+                            "translateY(-10px) scale(1.02)";
+                          e.currentTarget.style.boxShadow =
+                            "0 20px 40px rgba(0,0,0,0.2)";
+                          e.currentTarget.style.background =
+                            "linear-gradient(135deg, #fa709a 0%, #fee140 100%)";
+                          e.currentTarget.style.color = "none";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.transform = "translateY(0) scale(1)";
+                          e.currentTarget.style.boxShadow =
+                            "0 4px 12px rgba(0,0,0,0.1)";
+                          e.currentTarget.style.background = 'var(--glass-bg)';
+                          e.currentTarget.style.color = "inherit";
+                        }}
+                      >
+                        <img
+                          src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png"
+                          alt="System Image"
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            objectFit: "contain",
+                            marginBottom: "1rem",
+                            transition: "all 0.3s ease",
+                          }}
+                        />
+                        <Heading
+                          as="h3"
+                          style={{
+                            marginBottom: "0.5rem",
+                            fontSize: "1rem",
+                            fontWeight: "600",
+                            transition: "all 0.3s ease",
+                            noneSpace: "nowrap",
+                          }}
+                        >
+                          Peripheral Compatibility List
+                        </Heading>
+                      </div>
+                    </Link>
+                  </div>
+
+                  {/* Github Card */}
+                  <div className="col col--2">
+                    <Link
+                      href="https://github.com/rubikpi-ai"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <div
+                        className="card resource-card"
+                        style={{
+                          height: "180px",
+                          padding: "1.5rem 1rem",
+                          textAlign: "center",
+                          border: "none",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                          background: 'var(--glass-bg)',
+                          backdropFilter: 'blur(14px) saturate(160%)',
+                          WebkitBackdropFilter: 'blur(14px) saturate(160%)',
+                          border: '1px solid rgba(255,255,255,0.18)',
+                          borderRadius: "16px",
+                          cursor: "pointer",
+                          transition: "all 0.3s ease",
+                          position: "relative",
+                          overflow: "hidden",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.transform =
+                            "translateY(-10px) scale(1.02)";
+                          e.currentTarget.style.boxShadow =
+                            "0 20px 40px rgba(0,0,0,0.2)";
+                          e.currentTarget.style.background =
+                            "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)";
+                          e.currentTarget.style.color = "none";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.transform = "translateY(0) scale(1)";
+                          e.currentTarget.style.boxShadow =
+                            "0 4px 12px rgba(0,0,0,0.1)";
+                          e.currentTarget.style.background = 'var(--glass-bg)';
+                          e.currentTarget.style.color = "inherit";
+                        }}
+                      >
+                        <img
+                          src="https://www.thundercomm.com/wp-content/uploads/2024/09/github-1.png"
+                          alt="Github"
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            objectFit: "contain",
+                            marginBottom: "1rem",
+                            transition: "all 0.3s ease",
+                          }}
+                        />
+                        <Heading
+                          as="h3"
+                          style={{
+                            marginBottom: "0.5rem",
+                            fontSize: "1rem",
+                            fontWeight: "600",
+                            transition: "all 0.3s ease",
+                            noneSpace: "nowrap",
+                          }}
+                        >
+                          Github
+                        </Heading>
+                      </div>
+                    </Link>
+                  </div>
+
+                  {/* AI Hub Card */}
+                  <div className="col col--2">
+                    <Link
+                      href="https://aihub.qualcomm.com/models?chipsets=qualcomm-qcs6490-proxy"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <div
+                        className="card resource-card"
+                        style={{
+                          height: "180px",
+                          padding: "1.5rem 1rem",
+                          textAlign: "center",
+                          border: "none",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                          background: 'var(--glass-bg)',
+                          backdropFilter: 'blur(14px) saturate(160%)',
+                          WebkitBackdropFilter: 'blur(14px) saturate(160%)',
+                          border: '1px solid rgba(255,255,255,0.18)',
+                          borderRadius: "16px",
+                          cursor: "pointer",
+                          transition: "all 0.3s ease",
+                          position: "relative",
+                          overflow: "hidden",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.transform =
+                            "translateY(-10px) scale(1.02)";
+                          e.currentTarget.style.boxShadow =
+                            "0 20px 40px rgba(0,0,0,0.2)";
+                          e.currentTarget.style.background =
+                            "linear-gradient(135deg, #42e695 0%, #3bb2b8 100%)";
+                          e.currentTarget.style.color = "none";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.transform = "translateY(0) scale(1)";
+                          e.currentTarget.style.boxShadow =
+                            "0 4px 12px rgba(0,0,0,0.1)";
+                          e.currentTarget.style.background = 'var(--glass-bg)';
+                          e.currentTarget.style.color = "inherit";
+                        }}
+                      >
+                        <img
+                          src={useBaseUrl('/img/ai-hub.png')}
+                          alt="AI Hub"
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            objectFit: "contain",
+                            marginBottom: "1rem",
+                            transition: "all 0.3s ease",
+                          }}
+                        />
+                        <Heading
+                          as="h3"
+                          style={{
+                            marginBottom: "0.5rem",
+                            fontSize: "1rem",
+                            fontWeight: "600",
+                            transition: "all 0.3s ease",
+                            noneSpace: "nowrap",
+                          }}
+                        >
+                          AI Hub
+                        </Heading>
+                      </div>
+                    </Link>
+                  </div>
+
+                  {/* Edge Impulse Card */}
+                  <div className="col col--2">
+                    <Link
+                      href="https://docs.edgeimpulse.com/docs/edge-ai-hardware/cpu-+-ai-accelerators/thundercomm-rubikpi3"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <div
+                        className="card resource-card"
+                        style={{
+                          height: "180px",
+                          padding: "1.5rem 1rem",
+                          textAlign: "center",
+                          border: "none",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                          background: 'var(--glass-bg)',
+                          backdropFilter: 'blur(14px) saturate(160%)',
+                          WebkitBackdropFilter: 'blur(14px) saturate(160%)',
+                          border: '1px solid rgba(255,255,255,0.18)',
+                          borderRadius: "16px",
+                          cursor: "pointer",
+                          transition: "all 0.3s ease",
+                          position: "relative",
+                          overflow: "hidden",
+                          display: "flex",
+                          flexDirection: "column",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.transform =
+                            "translateY(-10px) scale(1.02)";
+                          e.currentTarget.style.boxShadow =
+                            "0 20px 40px rgba(0,0,0,0.2)";
+                          e.currentTarget.style.background =
+                            "linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%)";
+                          e.currentTarget.style.color = "none";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.transform = "translateY(0) scale(1)";
+                          e.currentTarget.style.boxShadow =
+                            "0 4px 12px rgba(0,0,0,0.1)";
+                          e.currentTarget.style.background = 'var(--glass-bg)';
+                          e.currentTarget.style.color = "inherit";
+                        }}
+                      >
+                        <img
+                          src={useBaseUrl('/img/edge-impulse.png')}
+                          alt="Edge Impulse"
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            objectFit: "contain",
+                            marginBottom: "1rem",
+                            transition: "all 0.3s ease",
+                          }}
+                        />
+                        <Heading
+                          as="h3"
+                          style={{
+                            marginBottom: "0.5rem",
+                            fontSize: "1rem",
+                            fontWeight: "600",
+                            transition: "all 0.3s ease",
+                            noneSpace: "nowrap",
+                          }}
+                        >
+                          Edge Impulse
+                        </Heading>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+
+                <style>{`
+                  /* Card effects */
+                  .resources-section .resource-card::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+                    transition: left 0.5s ease;
+                  }
+                  .resources-section .resource-card:hover::before { left: 100%; }
+                  .resources-section .resource-card:hover { animation: cardPulse 0.6s ease-in-out; }
+                  @keyframes cardPulse {
+                    0% { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+                    50% { box-shadow: 0 20px 40px rgba(0,0,0,0.35); }
+                    100% { box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
+                  }
+
+                  /* Glassmorphism base */
+                  :root { --glass-bg: linear-gradient(135deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.04) 60%); }
+                  .resource-card {
+                    background: var(--glass-bg) !important;
+                    backdrop-filter: blur(14px) saturate(160%) !important;
+                    -webkit-backdrop-filter: blur(14px) saturate(160%) !important;
+                    border: 1px solid rgba(255,255,255,0.18) !important;
+                    box-shadow: 0 4px 20px -2px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.05) inset !important;
+                    position: relative;
+                    overflow: hidden;
+                  }
+                  .resource-card::after {
+                    content: '';
+                    position: absolute;
+                    inset: 0;
+                    background:
+                      radial-gradient(at 30% 20%, rgba(255,255,255,0.35), transparent 60%),
+                      radial-gradient(at 70% 80%, rgba(255,255,255,0.25), transparent 65%),
+                      linear-gradient(125deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+                    mix-blend-mode: overlay;
+                    opacity: 0.85;
+                    filter: blur(8px);
+                    animation: liquidShift 8s ease-in-out infinite;
+                    pointer-events: none;
+                    z-index:0;
+                  }
+                  .resource-card > * { position: relative; z-index:2; }
+                  @keyframes liquidShift { 0% { transform: translate3d(0,0,0) scale(1); } 50% { transform: translate3d(4%, -4%, 0) scale(1.03); } 100% { transform: translate3d(0,0,0) scale(1); } }
+
+                  /* ================= Glass Button (Get Started) ================= */
+                  .glass-button {
+                    --glass-btn-bg: linear-gradient(135deg, rgba(255,255,255,0.22) 0%, rgba(255,255,255,0.08) 60%);
+                    position: relative;
+                    background: var(--glass-btn-bg) !important;
+                    backdrop-filter: blur(18px) saturate(180%) !important;
+                    -webkit-backdrop-filter: blur(18px) saturate(180%) !important;
+                    border: 1px solid rgba(255,255,255,0.28) !important;
+                    color: #fff !important;
+                    box-shadow: 0 6px 24px -6px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.1) inset;
+                    overflow: hidden;
+                    transition: all .5s cubic-bezier(.4,.2,.2,1);
+                    text-shadow: 0 2px 6px rgba(0,0,0,0.35);
+                  }
+                  .glass-button::before {
+                    content: '';
+                    position: absolute;
+                    top: -160%;
+                    left: -60%;
+                    width: 220%;
+                    height: 320%;
+                    background:
+                      radial-gradient(circle at 30% 30%, rgba(255,255,255,0.65), rgba(255,255,255,0) 55%),
+                      radial-gradient(circle at 70% 75%, rgba(255,255,255,0.35), rgba(255,255,255,0) 65%);
+                    mix-blend-mode: overlay;
+                    opacity: .42;
+                    transform: rotate(18deg) translate3d(0,0,0);
+                    transition: transform 1.1s ease, opacity 1.1s ease;
+                    pointer-events: none;
+                  }
+                  .glass-button::after {
+                    content: '';
+                    position: absolute;
+                    inset: 0;
+                    background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.55) 45%, rgba(255,255,255,0) 80%);
+                    transform: translateX(-120%) skewX(-20deg);
+                    animation: glassShine 5.5s ease-in-out infinite;
+                    mix-blend-mode: screen;
+                    opacity: .55;
+                    pointer-events: none;
+                  }
+                  @keyframes glassShine {
+                    0%, 12% { transform: translateX(-120%) skewX(-20deg); }
+                    30% { transform: translateX(110%) skewX(-20deg); }
+                    45%,100% { transform: translateX(110%) skewX(-20deg); }
+                  }
+                  .glass-button:hover {
+                    transform: translateY(-4px) scale(1.035);
+                    box-shadow: 0 14px 42px -10px rgba(0,0,0,0.65), 0 0 0 1px rgba(255,255,255,0.16) inset;
+                    border-color: rgba(255,255,255,0.4) !important;
+                  }
+                  .glass-button:hover::before { transform: rotate(23deg) translate3d(4%,6%,0); opacity: .58; }
+                  .glass-button:active { transform: translateY(0) scale(.97); transition-duration: .25s; }
+                  .glass-button:focus-visible {
+                    outline: none;
+                    box-shadow: 0 0 0 3px rgba(255,255,255,0.55), 0 0 0 6px rgba(64,224,255,0.45), 0 8px 28px -6px rgba(0,0,0,0.6);
+                  }
+                  @media (max-width: 768px) {
+                    .glass-button { padding: 0.85rem 1.6rem !important; font-size: 0.9rem !important; }
+                  }
+
+                  /* Keep all 7 cards in one row on desktop */
+                  @media (min-width: 1025px) {
+                    .resources-section .row { flex-wrap: nowrap !important; }
+                    .resources-section .row > .col { flex: 0 0 14.2857% !important; max-width: 14.2857% !important; }
+                  }
+                  .resources-section .col--2 { padding: 0 5px !important; }
+                  .resources-section .col--2 h3 { font-size:14px !important; }
+
+                  /* Adjust spacing when inside hero */
+                  @media (max-width: 1024px) {
+                    .resources-section { padding: 1.5rem 0.75rem 1rem !important; }
+                  }
+                    .resources-section { padding: 5rem 0.75rem 1rem !important; }
+                    .hero-description{max-width:900px;margin:0 auto;}
+                  @media (max-width: 768px) {
+                  .row{padding:0 15px;}
+                  .resource-card img {
+                width: 70px !important;
+                height: 70px !important;
+              }
+                .resource-card {
+                height: 120px !important;
+                padding: 0.5rem !important;
+                margin: 0 auto !important;
+                max-width: 280px !important;
+              }
+                #__docusaurus > footer{
+                padding:0px;
+                }
+                .hero-subtitle{
+                margin-bottom:15px !important;}
+                  }
+                `}</style>
+            </div> {/* end resources-section */}
+            </div> {/* added missing container closing div */}
           </section>
 
           {/* Responsive Styles */}
           <style>{`
-            /* Hero Section Responsive Design */
+            /* Hero Section Responsive Design (fullscreen) */
             @media (max-width: 1024px) {
               .hero.hero--primary {
-                height: 500px !important;
+                min-height: 100vh !important;
                 padding: 3rem 0 !important;
               }
-              .hero-title {
-                font-size: 2rem !important;
-              }
-                .col--2{
-                --ifm-col-width: 20% !important;
-                }
-              .hero-subtitle {
-                font-size: 1.3rem !important;
-              }
-              .hero-description {
-                font-size: 1rem !important;
-                padding: 0 1rem !important;
-              }
-                .col{
-                padding: 0 10px !important;
-                }
+              .hero-title { font-size: 2rem !important; }
+              .col--2 { --ifm-col-width: 15% !important; }
+              .hero-subtitle { font-size: 1.3rem !important; }
+              .hero-description { fontSize: 1rem !important; padding: 0 1rem !important; }
+              .col { padding: 0 10px !important; }
             }
-            
             @media (max-width: 768px) {
               .hero.hero--primary {
-                height: 450px !important;
-                padding: 2rem 0 !important;
+                min-height: 100vh !important;
+                padding: 2rem 0 2.5rem !important;
               }
-              .hero-title {
-                font-size: 2rem !important;
-                padding: 0 1rem !important;
-              }
-              .hero-subtitle {
-                font-size: 1.1rem !important;
-              }
-              .hero-description {
-                font-size: 0.9rem !important;
-                padding: 0 1.5rem !important;
-                margin-bottom: 2rem !important;
-              }
-              .button--lg {
-                font-size: 0.9rem !important;
-                padding: 0.75rem 1.5rem !important;
-              }
+              .hero-title { font-size: 2rem !important; padding: 0 1rem !important; }
+              .hero-subtitle { font-size: 1.1rem !important; }
+              .hero-description { font-size: 0.9rem !important; padding: 0 1.5rem !important; margin-bottom: 2rem !important; }
+              .button--lg { font-size: 0.9rem !important; padding: 0.75rem 1.5rem !important; }
               
               /* Cards Responsive */
               .col--2 {
@@ -694,31 +1353,20 @@ export default function Home() {
                 padding: 1rem 0.5rem !important;
               }
               .resource-card img {
-                width: 50px !important;
-                height: 50px !important;
+                width: 100px !important;
+                height: 100px !important;
               }
               .resource-card h3 {
                 font-size: 0.9rem !important;
               }
+              #__docusaurus_skipToContent_fallback > main > div > section > div.container > div:nth-child(1) > img{width:200px !important;height:auto;margin-top:30px;}
             }
             
             @media (max-width: 480px) {
-              .hero.hero--primary {
-                // height: 350px !important;
-                padding: 1.5rem 0 !important;
-              }
-              .hero-title {
-                font-size: 1.2rem !important;
-                line-height: 1.3 !important;
-              }
-              .hero-subtitle {
-                font-size: 1rem !important;
-              }
-              .hero-description {
-                font-size: 0.8rem !important;
-                padding: 0 1rem !important;
-                margin-bottom: 1.5rem !important;
-              }
+              .hero.hero--primary { min-height: 100vh !important; padding: 1.5rem 0 2.5rem !important; }
+              .hero-title { font-size: 1.2rem !important; line-height: 1.3 !important; }
+              .hero-subtitle { font-size: 1rem !important; }
+              .hero-description { font-size: 0.8rem !important; padding: 0 1rem !important; margin-bottom: 1.5rem !important; }
               
               /* Mobile Cards - Full Width */
               .container row{
@@ -731,8 +1379,8 @@ export default function Home() {
                 padding: 0 10px !important;
               }
               .resource-card {
-                height: 140px !important;
-                padding: 1rem !important;
+                height: 120px !important;
+                padding: 0.5rem !important;
                 margin: 0 auto !important;
                 max-width: 280px !important;
               }
@@ -750,547 +1398,11 @@ export default function Home() {
               }
             }
           `}</style>
-
-          {/* Resources Section */}
-          <section
-            className="resources-section"
-            style={{ padding: "4rem 0", backgroundColor: "#f8f9fa" }}
-          >
-            <div className="container">
-              <div className="row" style={{ justifyContent: "center" }}>
-                {/* Community Card */}
-                <div className="col col--2">
-                  <Link
-                    to="https://community.rubikpi.ai/"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <div
-                      className="card resource-card"
-                      style={{
-                        height: "180px",
-                        padding: "1.5rem 1rem",
-                        textAlign: "center",
-                        border: "none",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                        backgroundColor: "white",
-                        borderRadius: "16px",
-                        cursor: "pointer",
-                        transition: "all 0.3s ease",
-                        position: "relative",
-                        overflow: "hidden",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(-10px) scale(1.02)";
-                        e.currentTarget.style.boxShadow =
-                          "0 20px 40px rgba(0,0,0,0.2)";
-                        e.currentTarget.style.background =
-                          "linear-gradient(135deg, #667eea 0%, #764ba2 100%)";
-                        e.currentTarget.style.color = "white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(0) scale(1)";
-                        e.currentTarget.style.boxShadow =
-                          "0 4px 12px rgba(0,0,0,0.1)";
-                        e.currentTarget.style.background = "white";
-                        e.currentTarget.style.color = "inherit";
-                      }}
-                    >
-                      <img
-                        src="https://www.thundercomm.com/wp-content/uploads/2024/09/community-2.png"
-                        alt="Community"
-                        style={{
-                          width: "60%",
-                          height: "auto",
-                          objectFit: "contain",
-                          marginBottom: "1rem",
-                          transition: "all 0.3s ease",
-                        }}
-                      />
-                      <Heading
-                        as="h3"
-                        style={{
-                          marginBottom: "0.5rem",
-                          fontSize: "1rem",
-                          fontWeight: "600",
-                          transition: "all 0.3s ease",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        Community
-                      </Heading>
-                    </div>
-                  </Link>
-                </div>
-
-                {/* User Manual Card */}
-                <div className="col col--2">
-                  <Link
-                    to="https://www.thundercomm.com/rubik-pi-3/en/docs/about-rubikpi"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <div
-                      className="card resource-card"
-                      style={{
-                        height: "180px",
-                        padding: "1.5rem 1rem",
-                        textAlign: "center",
-                        border: "none",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                        backgroundColor: "white",
-                        borderRadius: "16px",
-                        cursor: "pointer",
-                        transition: "all 0.3s ease",
-                        position: "relative",
-                        overflow: "hidden",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(-10px) scale(1.02)";
-                        e.currentTarget.style.boxShadow =
-                          "0 20px 40px rgba(0,0,0,0.2)";
-                        e.currentTarget.style.background =
-                          "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)";
-                        e.currentTarget.style.color = "white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(0) scale(1)";
-                        e.currentTarget.style.boxShadow =
-                          "0 4px 12px rgba(0,0,0,0.1)";
-                        e.currentTarget.style.background = "white";
-                        e.currentTarget.style.color = "inherit";
-                      }}
-                    >
-                      <img
-                        src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-user-manual-icon-1.png"
-                        alt="User Manual"
-                        style={{
-                          width: "60%",
-                          height: "auto",
-                          objectFit: "contain",
-                          marginBottom: "1rem",
-                          transition: "all 0.3s ease",
-                        }}
-                      />
-                      <Heading
-                        as="h3"
-                        style={{
-                          marginBottom: "0.5rem",
-                          fontSize: "1rem",
-                          fontWeight: "600",
-                          transition: "all 0.3s ease",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        User Manual
-                      </Heading>
-                    </div>
-                  </Link>
-                </div>
-
-                {/* Hardware Resources Card */}
-                <div className="col col--2">
-                  <Link
-                    to="https://www.thundercomm.com/rubik-pi-3/en/docs/hardware-resources"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <div
-                      className="card resource-card"
-                      style={{
-                        height: "180px",
-                        padding: "1.5rem 1rem",
-                        textAlign: "center",
-                        border: "none",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                        backgroundColor: "white",
-                        borderRadius: "16px",
-                        cursor: "pointer",
-                        transition: "all 0.3s ease",
-                        position: "relative",
-                        overflow: "hidden",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(-10px) scale(1.02)";
-                        e.currentTarget.style.boxShadow =
-                          "0 20px 40px rgba(0,0,0,0.2)";
-                        e.currentTarget.style.background =
-                          "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)";
-                        e.currentTarget.style.color = "white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(0) scale(1)";
-                        e.currentTarget.style.boxShadow =
-                          "0 4px 12px rgba(0,0,0,0.1)";
-                        e.currentTarget.style.background = "white";
-                        e.currentTarget.style.color = "inherit";
-                      }}
-                    >
-                      <img
-                        src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-datasheet-icon-1.png"
-                        alt="Hardware Resources"
-                        style={{
-                          width: "60%",
-                          height: "auto",
-                          objectFit: "contain",
-                          marginBottom: "1rem",
-                          transition: "all 0.3s ease",
-                        }}
-                      />
-                      <Heading
-                        as="h3"
-                        style={{
-                          marginBottom: "0.5rem",
-                          fontSize: "1rem",
-                          fontWeight: "600",
-                          transition: "all 0.3s ease",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        Hardware Resources
-                      </Heading>
-                    </div>
-                  </Link>
-                </div>
-
-                {/* System Image Card */}
-                <div className="col col--2">
-                  <Link
-                    to="https://www.thundercomm.com/rubik-pi-3/en/docs/image"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <div
-                      className="card resource-card"
-                      style={{
-                        height: "180px",
-                        padding: "1.5rem 1rem",
-                        textAlign: "center",
-                        border: "none",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                        backgroundColor: "white",
-                        borderRadius: "16px",
-                        cursor: "pointer",
-                        transition: "all 0.3s ease",
-                        position: "relative",
-                        overflow: "hidden",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(-10px) scale(1.02)";
-                        e.currentTarget.style.boxShadow =
-                          "0 20px 40px rgba(0,0,0,0.2)";
-                        e.currentTarget.style.background =
-                          "linear-gradient(135deg, #fa709a 0%, #fee140 100%)";
-                        e.currentTarget.style.color = "white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(0) scale(1)";
-                        e.currentTarget.style.boxShadow =
-                          "0 4px 12px rgba(0,0,0,0.1)";
-                        e.currentTarget.style.background = "white";
-                        e.currentTarget.style.color = "inherit";
-                      }}
-                    >
-                      <img
-                        src="https://www.thundercomm.com/wp-content/uploads/2024/09/rubik-pi-3-image-iconpng-1.png"
-                        alt="System Image"
-                        style={{
-                          width: "60%",
-                          height: "auto",
-                          objectFit: "contain",
-                          marginBottom: "1rem",
-                          transition: "all 0.3s ease",
-                        }}
-                      />
-                      <Heading
-                        as="h3"
-                        style={{
-                          marginBottom: "0.5rem",
-                          fontSize: "1rem",
-                          fontWeight: "600",
-                          transition: "all 0.3s ease",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        System Image
-                      </Heading>
-                    </div>
-                  </Link>
-                </div>
-
-                {/* Github Card */}
-                <div className="col col--2">
-                  <Link
-                    href="https://github.com/rubikpi-ai"
-                    target="_blank"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <div
-                      className="card resource-card"
-                      style={{
-                        height: "180px",
-                        padding: "1.5rem 1rem",
-                        textAlign: "center",
-                        border: "none",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                        backgroundColor: "white",
-                        borderRadius: "16px",
-                        cursor: "pointer",
-                        transition: "all 0.3s ease",
-                        position: "relative",
-                        overflow: "hidden",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(-10px) scale(1.02)";
-                        e.currentTarget.style.boxShadow =
-                          "0 20px 40px rgba(0,0,0,0.2)";
-                        e.currentTarget.style.background =
-                          "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)";
-                        e.currentTarget.style.color = "white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(0) scale(1)";
-                        e.currentTarget.style.boxShadow =
-                          "0 4px 12px rgba(0,0,0,0.1)";
-                        e.currentTarget.style.background = "white";
-                        e.currentTarget.style.color = "inherit";
-                      }}
-                    >
-                      <img
-                        src="https://www.thundercomm.com/wp-content/uploads/2024/09/github-1.png"
-                        alt="Github"
-                        style={{
-                          width: "60%",
-                          height: "auto",
-                          objectFit: "contain",
-                          marginBottom: "1rem",
-                          transition: "all 0.3s ease",
-                        }}
-                      />
-                      <Heading
-                        as="h3"
-                        style={{
-                          marginBottom: "0.5rem",
-                          fontSize: "1rem",
-                          fontWeight: "600",
-                          transition: "all 0.3s ease",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        Github
-                      </Heading>
-                    </div>
-                  </Link>
-                </div>
-
-                {/* AI Hub Card */}
-                <div className="col col--2">
-                  <Link
-                    href="https://aihub.qualcomm.com/models?chipsets=qualcomm-qcs6490-proxy"
-                    target="_blank"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <div
-                      className="card resource-card"
-                      style={{
-                        height: "180px",
-                        padding: "1.5rem 1rem",
-                        textAlign: "center",
-                        border: "none",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                        backgroundColor: "white",
-                        borderRadius: "16px",
-                        cursor: "pointer",
-                        transition: "all 0.3s ease",
-                        position: "relative",
-                        overflow: "hidden",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(-10px) scale(1.02)";
-                        e.currentTarget.style.boxShadow =
-                          "0 20px 40px rgba(0,0,0,0.2)";
-                        e.currentTarget.style.background =
-                          "linear-gradient(135deg, #42e695 0%, #3bb2b8 100%)";
-                        e.currentTarget.style.color = "white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(0) scale(1)";
-                        e.currentTarget.style.boxShadow =
-                          "0 4px 12px rgba(0,0,0,0.1)";
-                        e.currentTarget.style.background = "white";
-                        e.currentTarget.style.color = "inherit";
-                      }}
-                    >
-                      <img
-                        src={useBaseUrl('/img/ai-hub.png')}
-                        alt="AI Hub"
-                        style={{
-                          width: "60%",
-                          height: "auto",
-                          objectFit: "contain",
-                          marginBottom: "1rem",
-                          transition: "all 0.3s ease",
-                        }}
-                      />
-                      <Heading
-                        as="h3"
-                        style={{
-                          marginBottom: "0.5rem",
-                          fontSize: "1rem",
-                          fontWeight: "600",
-                          transition: "all 0.3s ease",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        AI Hub
-                      </Heading>
-                    </div>
-                  </Link>
-                </div>
-
-                {/* Edge Impulse Card */}
-                <div className="col col--2">
-                  <Link
-                    href="https://docs.edgeimpulse.com/docs/edge-ai-hardware/cpu-+-ai-accelerators/thundercomm-rubikpi3"
-                    target="_blank"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <div
-                      className="card resource-card"
-                      style={{
-                        height: "180px",
-                        padding: "1.5rem 1rem",
-                        textAlign: "center",
-                        border: "none",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                        backgroundColor: "white",
-                        borderRadius: "16px",
-                        cursor: "pointer",
-                        transition: "all 0.3s ease",
-                        position: "relative",
-                        overflow: "hidden",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(-10px) scale(1.02)";
-                        e.currentTarget.style.boxShadow =
-                          "0 20px 40px rgba(0,0,0,0.2)";
-                        e.currentTarget.style.background =
-                          "linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%)";
-                        e.currentTarget.style.color = "white";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.transform =
-                          "translateY(0) scale(1)";
-                        e.currentTarget.style.boxShadow =
-                          "0 4px 12px rgba(0,0,0,0.1)";
-                        e.currentTarget.style.background = "white";
-                        e.currentTarget.style.color = "inherit";
-                      }}
-                    >
-                      <img
-                        src={useBaseUrl('/img/edge-impulse.png')}
-                        alt="Edge Impulse"
-                        style={{
-                          width: "60%",
-                          height: "auto",
-                          objectFit: "contain",
-                          marginBottom: "1rem",
-                          transition: "all 0.3s ease",
-                        }}
-                      />
-                      <Heading
-                        as="h3"
-                        style={{
-                          marginBottom: "0.5rem",
-                          fontSize: "1rem",
-                          fontWeight: "600",
-                          transition: "all 0.3s ease",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        Edge Impulse
-                      </Heading>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-
-              <style>{`
-                .resource-card::before {
-                  content: '';
-                  position: absolute;
-                  top: 0;
-                  left: -100%;
-                  width: 100%;
-                  height: 100%;
-                  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-                  transition: left 0.5s ease;
-                }
-                .resource-card:hover::before {
-                  left: 100%;
-                }
-                .resource-card:hover {
-                  animation: cardPulse 0.6s ease-in-out;
-                }
-                @keyframes cardPulse {
-                  0% { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-                  50% { box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
-                  100% { box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
-                }
-
-                /* Keep all 7 cards in one row on desktop */
-                @media (min-width: 1025px) {
-                  .resources-section .row { flex-wrap: nowrap !important; }
-                  .resources-section .row > .col { flex: 0 0 14.2857% !important; max-width: 14.2857% !important; }
-                }
-                  .col--2{
-                  padding: 0 5px !important;}
-                  .col--2 h3{
-                  font-size:14px !important;
-                  }
-              `}</style>
-            </div>
-          </section>
         </div>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );
 }
+
+
