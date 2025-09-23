@@ -57,7 +57,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js', 
-          // exclude: ['**/1.0.0-u/**'], // 排除所有子目录中的 drafts 文件夹 
               
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.

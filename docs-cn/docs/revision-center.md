@@ -10,6 +10,7 @@ import LinuxIcon from '@site/static/img/linux.svg';
 import AndroidIcon from '@site/static/img/android.svg';
 import DebianIcon from '@site/static/img/debian.svg';
 import ToolIcon from '@site/static/img/tools.svg';
+import UbuntuIcon from '@site/static/img/ubuntu.svg';
 
 
 # 版本中心
