@@ -78,9 +78,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     
+    
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+       docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       // 百度统计
       scripts: [
         {

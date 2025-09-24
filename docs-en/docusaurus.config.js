@@ -54,6 +54,7 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           exclude: ['**/drafts/**'],
+          
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -76,6 +77,15 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      // Sidebar behavior configuration
+      // hideable: 在桌面端右上角显示一个折叠按钮，让用户可以临时隐藏侧边栏
+      // autoCollapseCategories: 展开一个分类时自动折叠同级其它分类
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         // title: 'Documentation',
         logo: {
@@ -89,12 +99,17 @@ const config = {
           {
             href: "https://community.rubikpi.ai/",
             label: "Community",
-            position: "left",
+            position: "right",
           },
           {
             href: "https://rubikpi.ai/faq/",
             label: "FAQ",
-            position: "left",
+            position: "right",
+          },
+          {
+            href: "https://notebooklm.google.com/notebook/4262a68b-30e4-4774-bc60-112890047275",
+            label: "NotebookLLM",
+            position: "right",
           },
           {
             href: "https://github.com/rubikpi-ai",

@@ -7,6 +7,7 @@ import Highlight from '@site/src/components/Highlight';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+import UbuntuIcon from '@site/static/img/ubuntu.svg';
 import LinuxIcon from '@site/static/img/linux.svg';
 import AndroidIcon from '@site/static/img/android.svg';
 import DebianIcon from '@site/static/img/debian.svg';
@@ -15,6 +16,11 @@ import ToolIcon from '@site/static/img/tools.svg';
 # System Image
 
 <Tabs>
+ <TabItem value="ubuntu" label={<><UbuntuIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Ubuntu</>}>
+    | No. | Image Name                                                                                                                   | Version |     Date     |
+| :-: | :-------------------------------------------------------------------------------------------------------------------------- | :-----: | :----------: |
+| 1       | [RUBIK Pi 3 Ubuntu System Image ](https://ubuntu.com/download/qualcomm-iot)      | -         |  Coming soon  |
+  </TabItem>
   <TabItem value="linux" label={<><LinuxIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Linux</>}>
     | No. | Image Name                                                                                                                   | Version |     Date     |
 | :-: | :-------------------------------------------------------------------------------------------------------------------------- | :-----: | :----------: |
