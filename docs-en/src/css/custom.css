@@ -110,9 +110,7 @@ h6{
   height: auto;
 }
 
-#__docusaurus_skipToContent_fallback > div > div > main > div > div > div.col.docItemCol_VOVn > div > article > div.theme-doc-markdown.markdown > table:nth-child(12) > thead > tr{
-  display: none;
-}
+
 
 
 @media (max-width: 480px) {
