@@ -160,13 +160,21 @@ const config = {
     // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-
       {
-        language: ["en", "zh"],
+      language: ["en", "zh"],
+      // 搜索屏蔽旧版
+      ignoreFiles: [
+        /^.*\/1\.0\.0\/.*$/,     
+        /^.*\/1\.0\.0-a\/.*$/,    
+        /^.*\/1\.0\.0-d\/.*$/,    
+        /^.*\/1\.1\.0\/.*$/, 
+        /^.*\/1\.1\.1\/.*$/,    
+
+      ], // 使用正则表达式
       },
     ],
-  ],
-  themes: ["@docusaurus/theme-mermaid"],
+    ],
+    themes: ["@docusaurus/theme-mermaid"],
         // In order for Mermaid code blocks in Markdown to work,
         // you also need to enable the Remark plugin with this option
         markdown: {
