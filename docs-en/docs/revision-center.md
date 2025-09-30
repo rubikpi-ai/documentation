@@ -21,7 +21,7 @@ import UbuntuIcon from '@site/static/img/ubuntu.svg';
 
 | Version  | Description      | Author       | Reviewer       | Date          |
 |----------|------------------|--------------|----------------|---------------|
-| [V1.0.0](/docs/rubik-pi-3-user-manual/1.0.0-u/quick-start)   | Initial release. | <p>Zhao Hongyang</p><p>Li Ya'nan</p><p>Li Meng</p> | <p>Zhao Hongyang</p><p>Chen Yatong</p>    | Sep 18, 2025  |
+| [V1.0.0](/docs/rubik-pi-3-user-manual/1.0.0-u/Document Home/quick-start)   | Initial release. | <p>Zhao Hongyang</p><p>Li Ya'nan</p><p>Li Meng</p> | <p>Zhao Hongyang</p><p>Chen Yatong</p>    | Sep 18, 2025  |
 
 
   </TabItem>
