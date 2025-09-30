@@ -192,7 +192,7 @@ The device is running in Station mode for Wi-Fi. When the device boots up, it in
     ip addr
      ```
 
-     ![](.././images/image-8.png)
+     ![](.././images/image-8.jpg)
 
 4. To ensure the connection is active, perform a ping operation to a website such as that of RUBIK Pi:
 
