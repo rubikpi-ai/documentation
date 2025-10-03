@@ -19,7 +19,7 @@ import ToolIcon from '@site/static/img/tools.svg';
  <TabItem value="ubuntu" label={<><UbuntuIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Ubuntu</>}>
     | No. | Image Name                                                                                                                   | Version |     Date     |
 | :-: | :-------------------------------------------------------------------------------------------------------------------------- | :-----: | :----------: |
-| 1       | [RUBIK Pi 3 Ubuntu System Image ](https://ubuntu.com/download/qualcomm-iot)      | -         |  Coming soon  |
+| 1       | [RUBIK Pi 3 Ubuntu System Image ](https://ubuntu.com/download/qualcomm-iot)      | -         |  Oct. 01, 2025  |
   </TabItem>
   <TabItem value="linux" label={<><LinuxIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Linux</>}>
     | No. | Image Name                                                                                                                   | Version |     Date     |
