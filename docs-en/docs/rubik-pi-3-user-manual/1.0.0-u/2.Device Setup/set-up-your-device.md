@@ -84,7 +84,7 @@ Example: `sudo screen /dev/ttyACM0 115200`
 </TabItem>
 <TabItem value="winhost" label="Windows host">
 
-1. Download [PuTTY](https://www.putty.org/) for your Windows host. Make sure you select the correct version (32-bit or 64-bit).  
+1. Download [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) for your Windows host. Make sure you select the correct version (32-bit or 64-bit).  
 2. Run the installation wizard and follow the prompts.  
 3. After installation, open the PuTTY application from the list of installed programs in the **Start** menu, or search for it in the search bar on the taskbar.  
 4. In the PuTTY Configuration dialog box, perform the following actions:  
@@ -95,7 +95,7 @@ Example: `sudo screen /dev/ttyACM0 115200`
    :::note
    If the UART port is not detected, download the driver and update it using Windows Device Manager:  
    * On x86 systems: [USB to UART serial driver](https://ftdichip.com/wp-content/uploads/2023/09/CDM-v2.12.36.4-WHQL-Certified.zip).  
-   * On Arm(®) systems: Visit https://oemdrivers.com/usb-ft232r-usb-uart-arm64. Under **Drivers**, click **FTDI CDM VCP Drivers**.
+   * On Arm(®) systems: Visit https://ftdichip.com/drivers/vcp-drivers/.
    :::
 
    1. Set the baud rate to 115200.  
