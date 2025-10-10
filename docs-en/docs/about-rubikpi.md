@@ -113,6 +113,4 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 
 [AI-related questions >](https://forum.edgeimpulse.com/)
 
-Support: [support@rubikpi.ai](mailto:support@rubikpi.ai)
-
-Report Bugs: [https://github.com/rubikpi-ai/documentation/issues/new](https://github.com/rubikpi-ai/documentation/issues/new)
+[RUBIK Pi 3-related questions](https://community.rubikpi.ai/)
