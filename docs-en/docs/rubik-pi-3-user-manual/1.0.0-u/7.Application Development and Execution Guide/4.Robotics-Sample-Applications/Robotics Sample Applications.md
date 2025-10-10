@@ -14,7 +14,7 @@ The Qualcomm® Intelligent Robotics (QIR) SDK for Ubuntu provides essential comp
 **Prerequisites**   
 * **Ubuntu OS** should be flashed  
 * **Terminal access** with appropriate permissions    
-* Run **install_ppa_pkgs.sh** script to install necessary packages 
+* If you haven’t previously installed the PPA packages, please run the following steps to install them.   
 	```shell
 	git clone -b ubuntu_setup --single-branch https://github.com/rubikpi-ai/rubikpi-script.git 
 	cd rubikpi-script  
