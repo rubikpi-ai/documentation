@@ -43,10 +43,10 @@ const config = {
       async: true,
     },
     // 添加反馈组件脚本
-    {
-      src: "/rubik-pi-3/cn/js/feedback.js",
-      async: true,
-    },
+    // {
+    //   src: "/rubik-pi-3/cn/js/feedback.js",
+    //   async: true,
+    // },
   ],
 
   presets: [

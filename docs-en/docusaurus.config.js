@@ -40,10 +40,10 @@ const config = {
       src: "https://hm.baidu.com/hm.js?cd51725dd2087a36c61e7b2d17d7817b",
       async: true,
     },
-    {
-      src: "/rubik-pi-3/en/js/feedback.js",
-      async: true,
-    },
+    // {
+    //   src: "/rubik-pi-3/en/js/feedback.js",
+    //   async: true,
+    // },
   ],
 
   presets: [
