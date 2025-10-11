@@ -289,9 +289,7 @@ Canonical Ubuntu for Qualcomm platforms*</td>
 > -- The Trial Edition may have software and hardware instability, with some features potentially being incomplete and bugs possibly occurring. The Official Edition is now available for purchase, with an estimated shipping time in March 2025.
 
 ---
-
 ### 📫Contact Us
 
-Support: [support@rubikpi.ai](mailto:support@rubikpi.ai)
+[RUBIK Pi 3-related questions](https://community.rubikpi.ai/) 
 
-Report Bugs: [https://github.com/rubikpi-ai/documentation/issues/new](https://github.com/rubikpi-ai/documentation/issues/new)

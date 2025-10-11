@@ -150,3 +150,9 @@ h6{
 
 /* Dark theme color consistency (inherits currentColor) */
 [data-theme='dark'] .alert.alert--danger .alert__icon::before { opacity: 0.95; }
+
+#__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(1) > div > a{font-weight: 600;}
+
+#__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(2) > div > a{font-weight:600;}
+
+#__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(3) > div > a{font-weight: 600;}

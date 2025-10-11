@@ -1,6 +1,7 @@
 {
   "label": "Ubuntu System V1.0.0",
   "position": 2,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "Update date: 2025.08.12 , Version: 1.0.0"

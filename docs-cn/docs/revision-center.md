@@ -21,7 +21,7 @@ import UbuntuIcon from '@site/static/img/ubuntu.svg';
 
 | 版本     | 版本更新说明 | 负责人      | 校审     | 发布日期       |
 | ------ | ------ | -------- | ------ | ---------- |
-| [V1.0.0](/docs/rubik-pi-3-user-manual/1.0.0-a/get-started) | 初稿 | <p>赵虹阳</p><p>李亚楠</p><p>李萌</p> | <p>赵虹阳</p><p>陈雅彤</p> | 2025.09.18 |
+| [V1.0.0](/docs/rubik-pi-3-user-manual/1.0.0-a/get-started) | 初稿 | <p>赵虹阳</p><p>李亚楠</p><p>李萌</p> | <p>赵虹阳</p><p>陈雅彤</p> | 2025.09.26 |
 
   </TabItem>
 

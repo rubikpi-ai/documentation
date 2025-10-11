@@ -100,7 +100,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 		<tr><td style={{verticalAlign:'top', padding:'6px 10px'}}>Power supply</td><td style={{verticalAlign:'top', padding:'6px 10px'}}>Power Delivery over Type-C, 12V 3A</td></tr>
 		<tr><td style={{verticalAlign:'top', padding:'6px 10px'}}>Operating environment</td><td style={{verticalAlign:'top', padding:'6px 10px'}}>Operating temperature: 0-50℃</td></tr>
 		<tr><td style={{verticalAlign:'top', padding:'6px 10px'}}>Dimensions</td><td style={{verticalAlign:'top', padding:'6px 10px'}}>100mm x 75mm x 25mm</td></tr>
-		<tr><td style={{verticalAlign:'top', padding:'6px 10px'}}>OS support</td><td style={{verticalAlign:'top', padding:'6px 10px'}}>Android 13<br />Qualcomm® Linux®<br />Debian 13<br />Canonical Ubuntu for Qualcomm platforms</td></tr>
+		<tr><td style={{verticalAlign:'top', padding:'6px 10px'}}>OS support</td><td style={{verticalAlign:'top', padding:'6px 10px'}}>Canonical Ubuntu for Qualcomm platforms<br />Android 13<br />Qualcomm® Linux®<br />Debian 13</td></tr>
 	</tbody>
 </table>
 
@@ -109,6 +109,8 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 
 ## 📫Contact Us
 
-Support: [support@rubikpi.ai](mailto:support@rubikpi.ai)
+[Ubuntu-related questions >](https://discourse.ubuntu.com/)
 
-Report Bugs: [https://github.com/rubikpi-ai/documentation/issues/new](https://github.com/rubikpi-ai/documentation/issues/new)
+[AI-related questions >](https://forum.edgeimpulse.com/)
+
+[RUBIK Pi 3-related questions](https://community.rubikpi.ai/)
