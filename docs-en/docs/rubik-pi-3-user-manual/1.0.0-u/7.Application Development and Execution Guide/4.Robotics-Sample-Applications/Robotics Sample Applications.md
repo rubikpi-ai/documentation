@@ -27,7 +27,7 @@ This guide walks you through using QIR sample applications on development kits r
 ## Setup Instructions:
 1.	Fetch ROS2 and QIR SDK using scripts.
 2.	Install the QIR SDK.
-3.	Add ROS source to your device following the ROS2 documentation.
+3.	Add ROS source to your device following the [ROS2 documentation](https://github.com/ros2/ros2_documentation/blob/jazzy/source/Installation/_Apt-Repositories.rst).
 4.	Add Qualcomm public PPA archives to your Ubuntu software sources: 
 
 ```shell
