@@ -108,12 +108,17 @@ const config = {
           {
             href: "https://cn.rubikpi.ai",
             label: "魔方派论坛",
-            position: "left",
+            position: "right",
           },
           {
             href: "https://www.thundercomm.com/zh/product/rubik-pi/#faq",
             label: "FAQ",
-            position: "left",
+            position: "right",
+          },
+          {
+            href: "https://notebooklm.google.com/notebook/4262a68b-30e4-4774-bc60-112890047275",
+            label: "NotebookLLM",
+            position: "right",
           },
 
           {
