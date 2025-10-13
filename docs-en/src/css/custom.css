@@ -37,14 +37,14 @@ table {
   display:table;
 }
 table P{
-  margin: 0px;
+  margin: 0rem;
 }
 .markdown h1:first-child {
-  --ifm-h1-font-size: 1rem;
+  --ifm-h1-font-size: 16px;
   margin-bottom: calc(var(--ifm-h1-vertical-rhythm-bottom)* var(--ifm-leading));
 }
 .markdown > h2 {
-  --ifm-h2-font-size: 1.8rem;
+  --ifm-h2-font-size: 28.8px;
   margin-bottom: calc(var(--ifm-heading-vertical-rhythm-bottom)* var(--ifm-leading));
   margin-top: calc(var(--ifm-h2-vertical-rhythm-top)* var(--ifm-leading));
 }
@@ -75,7 +75,7 @@ h6{
   font-size: 0.67em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   h1{
     font-size: 1.5em;
   }
@@ -113,19 +113,19 @@ h6{
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .footer__copyright{
-    font-size: 0.8rem;
+    font-size: 12.8px;
     text-align: center;
-    padding: 1rem 0;
+    padding: 16px 0;
   }
   .navbar__logo{
-    width: 230px !important;
+    width: 14.375rem !important;
     height: auto !important;
-    margin-top: 8px;
+    margin-top: .5rem;
   }
   #__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items > div:nth-child(1) > ul > div{
-    margin-left: 15px;    
+    margin-left: .9375rem;    
   }
 }
 
@@ -135,8 +135,8 @@ h6{
 .alert.alert--danger .alert__icon {
   position: relative;
   /* ensure same sizing as original */
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 20px;
+  height: 20px;
 }
 .alert.alert--danger .alert__icon::before {
   content: '';
@@ -156,3 +156,18 @@ h6{
 #__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(2) > div > a{font-weight:600;}
 
 #__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(3) > div > a{font-weight: 600;}
+
+:root {
+  --ifm-color-primary: #3864A4;
+}
+.menu__link--active{
+  font-weight: 600;
+}
+.menu__link--active:not(.menu__link--sublist) {    
+    border-left: 3px solid #44AD89;
+    border-radius: 0;
+}
+.menu__link:hover{  
+  border-bottom:#3864A4 solid 2px;
+  border-radius: 0;
+}

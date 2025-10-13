@@ -47,7 +47,7 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 	</colgroup>
 	<tbody>
 		<tr>
-			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ubuntu-os.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/521929964d21cb98d76a392e644db268.png" style={{maxWidth: '100%'}} /></td>
 			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Ubuntu OS (LTS)</strong> <br />Official-grade Ubuntu LTS on Qualcomm Dragonwing™ QCS6490 with full APT ecosystem;<br />Container-ready and compatible with major AI/vision stacks for out-of-box, reliable delivery.</td>
 			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
 			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Compatibility</strong> <br />Compatible with peripherals of most open-source ecosystem development boards</td>

@@ -121,3 +121,18 @@ h6{
     margin-left: 15px;    
   }
 }
+
+:root {
+  --ifm-color-primary: #3864A4;
+}
+.menu__link--active{
+  font-weight: 600;
+}
+.menu__link--active:not(.menu__link--sublist) {    
+    border-left: 3px solid #44AD89;
+    border-radius: 0;
+}
+.menu__link:hover{  
+  border-bottom:#3864A4 solid 2px;
+  border-radius: 0;
+}
