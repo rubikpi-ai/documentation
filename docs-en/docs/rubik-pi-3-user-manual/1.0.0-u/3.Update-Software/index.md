@@ -25,7 +25,7 @@ Based on the OS version, follow one of the path below to upgrade or flash your s
 |Path          | When to choose           | Links|
 |--------------|-------------------|------|
 |Upgrade Preinstalled Ubuntu to Latest Canonical Build (**Without Reflashing**)|If your Rubik Pi already runs Ubuntu, use this path to upgrade with the latest tools and fixes—no full reinstall needed.|[**🔗Upgrade Canonical Ubuntu to Latest Build**](../3.Update-Software/3.1.upgrade-ubuntu.md)|
-|Flash Canonical Ubuntu 24.04 Over Android/QLI/Ubuntu (**For Fresh Ubuntu Setup**)|Use this path to fully switch from Android or Qualcomm Linux (QLI) to Canonical Ubuntu 24.04 for development.|[**🔗 Flash images using Qualcomm Launcher**](../3.Update-Software/3.2.Flash-using-Qualcomm-Launcher.md)|
+|Flash Canonical Ubuntu 24.04 Over Android/QLI/Ubuntu (**For Fresh Ubuntu Setup**)|Use this path to fully switch from Android or Qualcomm Linux (QLI) to Canonical Ubuntu 24.04 for development.|<a href='/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.0.0-u/Update-Software/3.2.Flash-using-Qualcomm-Launcher' target='_blank'>**🔗 Flash images using Qualcomm Launcher**</a>|
 
 
 :::note
