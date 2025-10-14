@@ -15,7 +15,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-family-base: 'Noto Sans', system-ui, -apple-system !important;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
 
 
 }
@@ -49,10 +49,10 @@ table P{
   margin-top: calc(var(--ifm-h2-vertical-rhythm-top)* var(--ifm-leading));
 }
 pre code {
-  background-color: #E3E3E3;
+  /* background-color: #E3E3E3; */
 }
 .theme-doc-markdown a{
-  color: #2A2AEA !important;
+  /* color: #2A2AEA !important; */
   text-decoration: underline !important;
 }
 

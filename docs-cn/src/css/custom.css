@@ -50,10 +50,10 @@ table P{
   margin-top: calc(var(--ifm-h2-vertical-rhythm-top)* var(--ifm-leading));
 } */
 pre code {
-  background-color: #E3E3E3;
+  /* background-color: #E3E3E3; */
 }
 .theme-doc-markdown a{
-  color: #2A2AEA !important;
+  /* color: #2A2AEA !important; */
   text-decoration: underline !important;
 }
 

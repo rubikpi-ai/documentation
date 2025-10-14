@@ -44,6 +44,10 @@ const config = {
     //   src: "/rubik-pi-3/en/js/feedback.js",
     //   async: true,
     // },
+    {
+      src: "/rubik-pi-3/en/js/hotjar.js",
+      async: true,
+    },
   ],
 
   presets: [
@@ -58,8 +62,7 @@ const config = {
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          // 'https://github.com/rubikpi-ai/documentation/',
+          // editUrl: 'https://github.com/rubikpi-ai/documentation/',
           // bugUrl: 'https://github.com/rubikpi-ai/documentation/issues',
         },
 
@@ -83,7 +86,7 @@ const config = {
       docs: {
         sidebar: {
           hideable: true,
-          autoCollapseCategories: true,
+          autoCollapseCategories: false,
         },
       },
       navbar: {
@@ -173,6 +176,7 @@ const config = {
       ], // 使用正则表达式
       },
     ],
+    require.resolve('./plugins/head-tags'),
     ],
     themes: ["@docusaurus/theme-mermaid"],
         // In order for Mermaid code blocks in Markdown to work,
