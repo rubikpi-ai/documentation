@@ -1,6 +1,8 @@
 ---
 sidebar_position: 5
 description: ""
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/image.md
+
 ---
 
 import Highlight from '@site/src/components/Highlight';

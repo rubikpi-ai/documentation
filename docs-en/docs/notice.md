@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/notice.md
+
 ---
 # Notice for Use
 

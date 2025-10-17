@@ -1,5 +1,7 @@
 ---
 sidebar_position: 3
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/peripheral-compatibility-list.md
+
 ---
 # Peripheral Compatibility List
 
