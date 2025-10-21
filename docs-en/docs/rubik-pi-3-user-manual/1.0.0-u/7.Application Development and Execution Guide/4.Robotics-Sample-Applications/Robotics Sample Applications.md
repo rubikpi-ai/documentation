@@ -31,7 +31,7 @@ This guide walks you through using QIR sample applications on development kits r
 4.	Add Qualcomm public PPA archives to your Ubuntu software sources: 
 
 ```shell
-sudo add-apt-repository ppa:ubuntu-qcom-iot/qcom-ppa
+sudo add-apt-repository ppa:ubuntu-qcom-iot/qcom-ppa   # qcom-ppa is usually already enabled in your system. Describe here just in case.
 sudo add-apt-repository ppa:ubuntu-qcom-iot/qirp
 ```
 
