@@ -38,7 +38,7 @@
   </colgroup>
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/521929964d21cb98d76a392e644db268.png" alt="Ubuntu" /></td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ubuntu-tag.png" alt="Ubuntu" /></td>
       <td><strong>Ubuntu OS（LTS）</strong><br />基于高通跃龙 QCS6490 提供官方级 Ubuntu LTS 体验与完整 APT 生态；<br />支持容器化与主流 AI/视觉框架，开箱即用、稳定交付。</td>
       <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt="兼容性" /></td>
       <td><strong>兼容性</strong><br />接口兼容大部分开源生态开发板的官方配件</td>

@@ -50,31 +50,39 @@ RUBIK Pi 3 具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x
 ### 😍魔方派3的优势
 
 <div align="center">
-<table  style="border-collapse: collapse; border: none;width:100%;">
+<table>
+  <colgroup>
+    <col style={{ width: "12%" }} />
+    <col style={{ width: "38%" }} />
+    <col style={{ width: "12%" }} />
+    <col style={{ width: "38%" }} />
+  </colgroup>
+  <tbody>
     <tr>
-        <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
-        <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>首个基于高通跃龙 QCS6490 平台的开源 Linux</p></td>
-        <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt=""></td>
-        <td width="35%"><strong>兼容性</strong><br><p>接口兼容大部分开源生态开发板的官方配件</p></td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ubuntu-tag.png" alt="Ubuntu" /></td>
+      <td><strong>Ubuntu OS（LTS）</strong><br />基于高通跃龙 QCS6490 提供官方级 Ubuntu LTS 体验与完整 APT 生态；<br />支持容器化与主流 AI/视觉框架，开箱即用、稳定交付。</td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt="兼容性" /></td>
+      <td><strong>兼容性</strong><br />接口兼容大部分开源生态开发板的官方配件</td>
     </tr>
     <tr>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png" alt=""></td>
-        <td><strong>设计紧凑</strong><br><p>100mm x 75mm 的轻便设计，易于原型机开发和产品量产</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ai-2.png" alt=""></td>
-        <td><strong>AI 性能</strong><br><p>12 TOPS 端侧 AI 性能</p></td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png" alt="设计紧凑" /></td>
+      <td><strong>设计紧凑</strong><br />100mm x 75mm 的轻便设计，易于原型机开发和产品量产</td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ai-2.png" alt="AI 性能" /></td>
+      <td><strong>AI 性能</strong><br />12 TOPS 端侧 AI 性能</td>
     </tr>
     <tr>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" alt=""></td>
-        <td><strong>易于扩展</strong><br><p>• C5430P/C6490P/C8550 SOM 引脚兼容<br>• 便于扩展不同性能的 EVK</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt=""></td>
-        <td><strong>开源社区</strong><br><p>开发者进行交流、协作、互动的平台</p></td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" alt="易于扩展" /></td>
+      <td><strong>易于扩展</strong><br />• C5430P/C6490P/C8550 SOM 引脚兼容<br />• 便于扩展不同性能的 EVK</td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt="开源社区" /></td>
+      <td><strong>开源社区</strong><br />开发者进行交流、协作、互动的平台</td>
     </tr>
     <tr>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png" alt=""></td>
-        <td><strong>多操作系统支持</strong><br><p>Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 12</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt=""></td>
-        <td><strong>完善的文档系统</strong><br><p>包括文档，使用指导，教程，数据手册等；便于开发者快速使用</p></td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png" alt="多操作系统支持" /></td>
+      <td><strong>多操作系统支持</strong><br />Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 13</td>
+      <td style={{ textAlign: "center" }}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt="完善的文档系统" /></td>
+      <td><strong>完善的文档系统</strong><br />包括文档，使用指导，教程，数据手册等；便于开发者快速使用</td>
     </tr>
+  </tbody>
 </table>
 </div>
 

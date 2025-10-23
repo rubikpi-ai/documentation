@@ -50,31 +50,39 @@ RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A
 ### 😍RUBIK Pi 3 Advantage
 
 <div align="center">
-<table  style="border-collapse: collapse; border: none;width:100%;">
-    <tr>
-        <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/qualcomm-2.png" alt=""></td>
-        <td width="35%"><strong>Qualcomm® Linux®</strong><br><p>First open-source Linux based on Qualcomm Dragonwing™ QCS6490 platform for developers</p></td>
-        <td width="15%"><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" alt=""></td>
-        <td width="35%"><strong>Compatibility</strong><br><p>Compatible with peripherals of most open-source ecosystem development boards</p></td>
-    </tr>
-    <tr>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png" alt=""></td>
-        <td><strong>Compact Design</strong><br><p>With a portable size of 100mm x 75mm, enabling easy direct application in products</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ai-2.png" alt=""></td>
-        <td><strong>AI Capability</strong><br><p>12 TOPS On-device AI capability</p></td>
-    </tr>
-    <tr>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" alt=""></td>
-        <td><strong>Easy to Expand</strong><br><p>• C5430P/C6490P/C8550 SOM are P2P compatible<br>• Easy to build customized EVK</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" alt=""></td>  
-        <td><strong>Open-source Community</strong><br><p>A vibrant and collaborative group of enthusiasts, developers, and educators</p></td>
-    </tr>
-    <tr>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png" alt=""></td>
-        <td><strong>Multiple OS support</strong><br><p>Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 12</p></td>
-        <td><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" alt=""></td>
-        <td><strong>Comprehensive Documentation</strong><br><p>Accessible documentations, including official guides, tutorials, datasheets, and FAQs</p></td>
-    </tr>
+<table style={{tableLayout: 'fixed', width: '100%', margin: '16px 0'}}>
+	<colgroup>
+		<col style={{width: '100px'}} />
+		<col style={{width: 'calc(50% - 100px)'}} />
+		<col style={{width: '100px'}} />
+		<col style={{width: 'calc(50% - 100px)'}} />
+	</colgroup>
+	<tbody>
+		<tr>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ubuntu-tag.png" style={{maxWidth: '100%'}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Ubuntu OS (LTS)</strong> <br />Official-grade Ubuntu LTS on Qualcomm Dragonwing™ QCS6490 with full APT ecosystem;<br />Container-ready and compatible with major AI/vision stacks for out-of-box, reliable delivery.</td>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compatibility-2.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Compatibility</strong> <br />Compatible with peripherals of most open-source ecosystem development boards</td>
+		</tr>
+		<tr>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Compact-2.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Compact Design</strong><br />With a portable size of 100mm x 75mm, enabling easy direct application in products</td>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/ai-2.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>AI Capability</strong><br />12 TOPS On-device AI capability</td>
+		</tr>
+		<tr>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Expand-2.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Easy to Expand</strong> <br />• C5430P/C6490P/C8550 SOM are P2P compatible<br />• Easy to build customized EVK</td>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Community-1.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Open-source Community</strong><br />A vibrant and collaborative group of enthusiasts, developers, and educators</td>
+		</tr>
+		<tr>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/Multiple-OS-support-1.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Multiple OS support</strong><br />Qualcomm open-source Linux, Android, Ubuntu on Qualcomm IoT Platform, Debian 13</td>
+			<td style={{textAlign:'center', padding: 8}}><img src="https://www.thundercomm.com/wp-content/uploads/2024/09/folder-1.png" style={{maxWidth: '100%', borderRadius: 6}} /></td>
+			<td style={{padding: 8, verticalAlign: 'top'}}><strong>Comprehensive Documentation</strong><br />Accessible documentation, including official guides, tutorials, datasheets, and FAQs</td>
+		</tr>
+	</tbody>
 </table>
 </div>
 
