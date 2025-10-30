@@ -175,6 +175,16 @@ const sidebars = {
     },
     {
       type: "doc",
+      id: "cybersecurity-certification", // 文档 ID
+      label: "Cybersecurity Certification", // 侧边栏标签
+    },
+    {
+      type: "doc",
+      id: "development-regulatory-notice", // 文档 ID
+      label: "Development Regulatory Notice", // 侧边栏标签
+    },
+    {
+      type: "doc",
       id: "revision-center", // 文档 ID
       label: "Revision Center", // 侧边栏标签
     },

@@ -4,7 +4,7 @@
 
 [魔方派3（RUBIK Pi 3）](https://www.thundercomm.com/zh/product/rubik-pi/)，是采用[高通跃龙 QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) 平台的轻量型开发板， 是首款基于高通 AI 平台打造的、支持开源 Qualcomm Linux 等多操作系统的面向开发者的“派”产品。
 
-魔方派3可支持 Android / Linux / LU 多操作系统， Thundercomm 提供的多个 SDK 为开发者带来更完善的体验。 高通跃龙 QCS6490 具备 12 TOPS 的卓越 AI 性能， 配合[Qualcomm AI Hub](https://aihub.qualcomm.com/), 让开发者可亲自感受 AI 进化带来的冲击。
+魔方派3 是一款高性能、经济灵活的边缘AI平台，搭载高通跃龙 QCS6490 处理器，可提供 12 TOPS 的高效能端侧 AI 算力。该平台专为开发者设计，原生运行 Ubuntu 系统，深度集成 VS Code 开发环境，并通过 Edge Impulse 和 AI Hub 库（含丰富的自定义应用）支持模型定制。其兼容标准开源生态开发板HAT扩展模块的特性，使之成为升级或构建物联网解决方案的理想选择。
 
 魔方派3具有丰富的接口和功能设计， 支持 USB Type-A (1x 2.0, 2x 3.0) 、USB 3.1 Gen 1 Type-C with DP (4K@60) 、Camera、HDMI OUT (4K@30) 、1000M 网口、 40pin 排针连接器、 3.5mm 耳机孔、Wi-Fi 5、BT 5.2、M.2 M-key 连接器、Micro USB 和 RTC 等，满足多样化的开发需求；同时接口还兼容大部分开源生态开发板的外设配件，降低开发者使用难度和使用成本。
 

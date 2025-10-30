@@ -30,7 +30,7 @@ This repository is the online documentation repository for the RUBIK Pi 3. All d
 
 [RUBIK Pi 3](https://www.thundercomm.com/product/rubik-pi/), a lightweight development board based on [Qualcomm Dragonwing™ QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) platform, is the first Pi built on Qualcomm AI platforms for developers.
 
-RUBIK Pi 3 supports multiple operating systems such as Android, Linux, and LU, with SDKs from Thundercomm to provide developers with a better experience. With excellent AI performance at 12 TOPS, Qualcomm Dragonwing™ QCS6490 can be paired with [Qualcomm AI Hub](https://aihub.qualcomm.com/) to allow developers to personally experience the impact of AI evolution.
+RUBIK Pi 3 is a powerful, affordable, and flexible Edge AI platform, powered by the Qualcomm Dragonwing QCS6490, delivering 12 TOPS of efficient on-device AI performance. Designed for developers, it runs native Ubuntu, integrates with VS Code, and supports model customization via Edge Impulse and AI Hub libraries, including a wide range of Custom Apps. RUBIK Pi 3 is compatible with standard Pi HATs and modules makes it ideal for upgrading or building IoT solutions.
 
 RUBIK Pi 3 boasts a rich array of interfaces and functions, including USB Type-A (1x 2.0, 2x 3.0), USB 3.1 Gen 1 Type-C with DP (4K@60), camera, HDMI OUT (4K@30), 1000M Ethernet port, 40-pin header connector, 3.5mm headphone jack, Wi-Fi 5, BT 5.2, M.2 M-key connector, Micro USB, and RTC, to meet diverse development needs. It also has designed interfaces and is compatible with a variety of embedded development board peripherals, which helps reduce implementation difficulty and cost for developers.
 
