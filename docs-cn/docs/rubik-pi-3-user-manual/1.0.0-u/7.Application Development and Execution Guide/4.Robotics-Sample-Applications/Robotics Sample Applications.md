@@ -1,3 +1,6 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/rubik-pi-3-user-manual/1.0.0-u/7.Application Development and Execution Guide/4.Robotics-Sample-Applications/Robotics Sample Applications.md
+---
 # 机器人示例应用程序
 
 基于 Ubuntu 的 Qualcomm® 智能机器人 (QIR) SDK，为您在 Qualcomm 平台上开发机器人应用提供了所需的核心组件。

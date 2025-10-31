@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/qim/Run-AI-ML/Object-detection.md
 ---
 
 # Object detection

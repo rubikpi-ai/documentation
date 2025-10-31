@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/qim/Run-AI-ML/Download-model-and-label-files.md
 ---
 # Download model and label files
 

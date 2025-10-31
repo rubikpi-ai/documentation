@@ -1,3 +1,6 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/rubik-pi-3-user-manual/1.0.0-u/7.Application Development and Execution Guide/index.md
+---
 # 探索示例应用程序
 
 本小节介绍一种模块化、实践性的AI开发方法，该方法采用高通®支持的工具、运行时环境及框架。  

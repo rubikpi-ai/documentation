@@ -1,3 +1,6 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/rubik-pi-3-user-manual/1.0.0-u/3.Update-Software/index.md
+---
 # 更新软件
 
 完成设置并且设备成功启动后，在设备shell中运行以下命令来验证操作系统版本：

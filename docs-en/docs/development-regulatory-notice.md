@@ -1,3 +1,7 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/development-regulatory-notice.md
+---
+
 # Development Regulatory Notice
 
 This development device contains RF/digital hardware and software intended for engineering development, engineering evaluation, or demonstration purposes only and is intended for use in a controlled environment. This device is not being placed on the market, leased or sold for use in a residential environment, or for use by the general public as an end user device.

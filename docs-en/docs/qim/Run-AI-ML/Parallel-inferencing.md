@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/qim/Run-AI-ML/Parallel-inferencing.md
 ---
 
 # Parallel inferencing

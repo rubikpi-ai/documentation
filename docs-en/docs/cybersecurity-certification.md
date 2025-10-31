@@ -1,3 +1,7 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/cybersecurity-certification.md
+---
+
 # Open Network Ports on RUBIK Pi Linux System
 
 | Port Number | Protocol | Listening Address | Service/Process | Description |

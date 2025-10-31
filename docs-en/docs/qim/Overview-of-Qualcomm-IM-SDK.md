@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/qim/Overview-of-Qualcomm-IM-SDK.md
 ---
 # Overview of Qualcomm IM SDK
 

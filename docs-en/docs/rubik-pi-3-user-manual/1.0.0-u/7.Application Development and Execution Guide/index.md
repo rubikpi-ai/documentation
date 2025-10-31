@@ -1,3 +1,7 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/rubik-pi-3-user-manual/1.0.0-u/7.Application Development and Execution Guide/index.md
+---
+
 # Explore Sample Applications 
 
 This section outlines a modular, hands-on approach to AI development using Qualcomm®-supported tools, runtimes, and frameworks.  

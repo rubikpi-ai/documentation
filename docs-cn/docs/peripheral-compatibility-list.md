@@ -1,3 +1,6 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/peripheral-compatibility-list.md
+---
 # 外设兼容列表
 
 经验证，以下配件可在 RUBIK Pi 3 上正常使用：

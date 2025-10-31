@@ -1,3 +1,7 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/rubik-pi-3-user-manual/1.0.0-u/7.Application Development and Execution Guide/4.Robotics-Sample-Applications/Robotics Sample Applications.md
+---
+
 
 
 The Qualcomm® Intelligent Robotics (QIR) SDK for Ubuntu provides essential components for developing robotic features on Qualcomm platforms using the Ubuntu operating system.

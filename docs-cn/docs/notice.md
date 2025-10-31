@@ -1,3 +1,6 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/notice.md
+---
 # 魔方派使用须知
 
 :::danger[重要提示：]

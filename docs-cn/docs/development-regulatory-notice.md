@@ -1,3 +1,6 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/development-regulatory-notice.md
+---
 # 开发监管公告
 
 此开发设备包含的 RF/数字硬件和软件仅用于工程开发、工程评估或演示目的，只能用于受控环境。此设备不允许投放到市场，租赁或出售后在住宅环境中使用，或作为最终用户终端供大众使用。

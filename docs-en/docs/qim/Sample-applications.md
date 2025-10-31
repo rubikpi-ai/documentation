@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/qim/Sample-applications.md
 ---
 # Sample applications
 

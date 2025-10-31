@@ -1,3 +1,6 @@
+---
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/cybersecurity-certification.md
+---
 # RUBIK Pi Linux System 开放网络端口
 
 | 端口号 | 协议 | 监听地址 | 服务/进程 | 功能描述 |

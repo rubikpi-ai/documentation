@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/about-rubikpi.md
+---
 # 🚀关于魔方派3（RUBIK Pi 3）
 
 <img src="https://t-web.oss-cn-beijing.aliyuncs.com/public/rubik-pi-3.gif" style={{width: "100%", borderRadius: "8px"}} />
