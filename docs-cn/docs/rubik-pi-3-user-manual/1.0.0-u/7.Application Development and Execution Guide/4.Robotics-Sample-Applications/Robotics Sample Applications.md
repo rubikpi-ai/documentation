@@ -76,4 +76,4 @@ AMR简单运动管道中使用的ROS节点如下：
 
 ## 参考文档
 
-有关运行示例应用程序的详细说明，请参阅 [Qualcomm Intelligent Robotics SDK for Ubuntu](https://docs.qualcomm.com/bundle/publicresource/topics/80-90441-2/robotics-platform-samples_3_1.html?state=preview)。
+有关运行示例应用程序的详细说明，请参阅 [Qualcomm Intelligent Robotics SDK for Ubuntu](https://docs.qualcomm.com/bundle/publicresource/topics/80-90441-2/introduction_1.html)。

@@ -71,7 +71,7 @@ The figure shows the pipeline of QRB AMR Simple Motion
 
 
 ## Reference Documentation    
-For details instructions to run the sample applications, Please refer for [Qualcomm Intelligent Robotics SDK for Ubuntu](https://docs.qualcomm.com/bundle/publicresource/topics/80-90441-2/robotics-platform-samples_3_1.html?state=preview)
+For details instructions to run the sample applications, please refer for [Qualcomm Intelligent Robotics SDK for Ubuntu](https://docs.qualcomm.com/bundle/publicresource/topics/80-90441-2/introduction_1.html).
 
 
 
