@@ -97,11 +97,10 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
     <tr><td>Power supply</td><td>Power Delivery over Type-C, 12V 3A</td></tr>
     <tr><td>Operating environment</td><td>Operating temperature: 0-50℃</td></tr>
     <tr><td>Dimensions</td><td>100mm x 75mm x 25mm</td></tr>
-    <tr><td>OS support</td><td>Android 13 <br />Qualcomm® Linux®<br />Debian 13<br />Canonical Ubuntu for Qualcomm platforms*</td></tr>
+    <tr><td>OS support</td><td>Canonical Ubuntu for Qualcomm platforms<br />Android 13 <br />Qualcomm® Linux®<br />Debian 13</td></tr>
   </tbody>
 </table>
 
-*:Planning
 
 ---
 
@@ -111,4 +110,4 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
 
 [AI 相关问题 >](https://forum.edgeimpulse.com/)
 
-[魔方派3相关问题](https://cn.rubikpi.ai/)
+[魔方派3相关问题 >](https://cn.rubikpi.ai/)

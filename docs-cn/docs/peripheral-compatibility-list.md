@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/peripheral-compatibility-list.md
 ---
 # 外设兼容列表
