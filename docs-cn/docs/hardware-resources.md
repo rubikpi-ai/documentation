@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 description: ''
 custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/hardware-resources.md
 ---

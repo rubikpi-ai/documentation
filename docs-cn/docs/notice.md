@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/notice.md
 ---
 # 魔方派使用须知

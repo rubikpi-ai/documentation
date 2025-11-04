@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 description: ""
 custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/image.md
 ---
@@ -7,6 +7,8 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
 import Highlight from '@site/src/components/Highlight';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+import UbuntuIcon from '@site/static/img/ubuntu.svg';
 import LinuxIcon from '@site/static/img/linux.svg';
 import AndroidIcon from '@site/static/img/android.svg';
 import DebianIcon from '@site/static/img/debian.svg';
@@ -16,6 +18,11 @@ import ToolIcon from '@site/static/img/tools.svg';
 # 系统镜像
 
 <Tabs>
+   <TabItem value="ubuntu" label={<><UbuntuIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Ubuntu</>}>
+    | 序号 | 镜像名称                                                                                                                   | 版本 |     发布日期     |
+| :-: | :-------------------------------------------------------------------------------------------------------------------------- | :-----: | :----------: |
+| 1       | [魔方派 3 Ubuntu 镜像](https://ubuntu.com/download/qualcomm-iot#rubikpi3)      | -         |  2025 年 10 月 01 日 |
+  </TabItem>
   <TabItem value="linux" label={<><LinuxIcon style={{ width: '30px', height: '30px', margin: '0px 10px 0px 0px', verticalAlign: 'middle' }} />Linux</>}>
 | 序号 | 镜像名称                                                                                                                                                                                   | 版本  |      发布日期       |
 | :--: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---: | :-----------------: |
