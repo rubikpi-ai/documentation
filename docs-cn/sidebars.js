@@ -169,6 +169,11 @@ const sidebars = {
     },
     {
       type: "doc",
+      id: "image", // 文档 ID
+      label: "系统镜像", // 侧边栏标签
+    },
+    {
+      type: "doc",
       id: "cybersecurity-certification", // 文档 ID
       label: "开放网络端口", // 侧边栏标签
     },
@@ -177,11 +182,7 @@ const sidebars = {
       id: "development-regulatory-notice", // 文档 ID
       label: "开发监管公告", // 侧边栏标签
     },
-    {
-      type: "doc",
-      id: "image", // 文档 ID
-      label: "系统镜像", // 侧边栏标签
-    },
+    
     {
       type: "doc",
       id: "revision-center", // 文档 ID
