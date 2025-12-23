@@ -13,6 +13,6 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/d
 |  1  | [RUBIK Pi 3 Datasheet](https://thundercomm.s3.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20251009/RUBIK+Pi+3+Datasheet+V1.2.3.pdf) |   V1.2.3   | Oct. 09, 2025 |
 |  2  | [RUBIK Pi 3 Datasheet](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250812/RUBIK%20Pi%203%20Datasheet%20V1.2.2.pdf) |   V1.2.2   | Aug. 12, 2025 |
 |  3  | [RUBIK Pi 3 3D Model](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/RUBIK-Pi-3-3D-Model.stp) |   V2.1   | Dec. 08, 2025 |
-|  4  | [Case 3D Design for RUBIK Pi 3](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/Case%203D%20Design%20for%20RUBIK%20Pi%203%20V1.0.zip) |   V1.0   | Oct. 18, 2024 |
-<!-- |  1  | [RUBIK Pi 3 (V01 Beta Version) Datasheet](https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/20250530/RUBIK%20Pi%203%20V01%20%28Beta%20Version%29%20Datasheet%20V1.1.1.pdf) |   V1.1.1   | May. 29, 2025 | -->
-<!-- |  2  | [RUBIK Pi 3 (V02 Official Version) Datasheet](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/20250326/RUBIK%20Pi%203%20V02%20Datasheet%20V1.2.pdf) |   V1.2.1   | May. 29, 2025 | -->
+|  4  | [Case_With_Mounting_Tabs_3DP for RUBIK Pi 3](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/20251219/Rubik_pi_Case2.zip) |   V1.0   | Dec. 19, 2025 |
+|  5  | [Case_Standard_Minimal_3DP for RUBIK Pi 3](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/20251219/20251210RUBIK_PI.zip) |   V1.0   | Dec. 19, 2025 |
+|  6  | [Case_Standard_CNC.step for RUBIK Pi 3](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/Case%203D%20Design%20for%20RUBIK%20Pi%203%20V1.0.zip) |   V1.0   | Oct. 18, 2024 |
