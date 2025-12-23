@@ -117,7 +117,7 @@ const config = {
           },
           {
             href: "https://notebooklm.google.com/notebook/4262a68b-30e4-4774-bc60-112890047275",
-            label: "NotebookLLM",
+            label: "NotebookLM",
             position: "right",
           },
 
