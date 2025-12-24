@@ -151,7 +151,7 @@ Model test
 
  Simply ensure that the model has been built in Edge Impulse Studio. Now, you can test, download the model, and run everything directly from the RUBIK Pi (Ubuntu 24.04). 
  
- On the Rubik, there are several things that need to be done. Install a recent version of Python 3 (>= 3.7). Ubuntu 24.04 should comes with with Python 3.12 installed. You can verify this by running this command: `python3 —version`.
+ On the Rubik, there are several things that need to be done. Install a recent version of Python 3 (>= 3.7). Ubuntu 24.04 should comes with with Python 3.12 installed. You can verify this by running this command: `python3 --version`.
  
  Ensure you have the latest Edge Impulse Linux CLI installed (in Step 1). Then install the Linux Python SDK, OpenCV, ffmpeg, Gstreamer, numpy and other dependencies: 
 ```
