@@ -3,11 +3,11 @@ sidebar_position: 1
 description: ''
 custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/about-rubikpi.md
 ---
-# 🚀关于魔方派3（RUBIK Pi 3）
+# 🚀关于魔方派3
 
 <img src="https://t-web.oss-cn-beijing.aliyuncs.com/public/rubik-pi-3.gif" style={{width: "100%", borderRadius: "8px"}} />
 
-[魔方派3（RUBIK Pi 3）](https://www.thundercomm.com/zh/product/rubik-pi/)，是采用[高通跃龙 QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) 平台的轻量型开发板， 是首款基于高通 AI 平台打造的、支持开源 Qualcomm Linux 等多操作系统的面向开发者的“派”产品。
+[魔方派3](https://www.thundercomm.com/zh/product/rubik-pi/)，是采用[高通跃龙 QCS6490](https://www.qualcomm.com/products/internet-of-things/industrial/building-enterprise/qcs6490) 平台的轻量型开发板， 是首款基于高通 AI 平台打造的、支持开源 Qualcomm Linux 等多操作系统的面向开发者的“派”产品。
 
 魔方派3 是一款高性能、经济灵活的边缘AI平台，搭载高通跃龙 QCS6490 处理器，可提供 12 TOPS 的高效能端侧 AI 算力。该平台专为开发者设计，原生运行 Ubuntu 系统，深度集成 VS Code 开发环境，并通过 Edge Impulse 和 AI Hub 库（含丰富的自定义应用）支持模型定制。其兼容标准开源生态开发板HAT扩展模块的特性，使之成为升级或构建物联网解决方案的理想选择。
 
@@ -83,7 +83,7 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
   <thead>
     <tr>
       <th>Category</th>
-      <th>RUBIK Pi 3 Feature</th>
+      <th>魔方派 3 Feature</th>
     </tr>
   </thead>
   <tbody>

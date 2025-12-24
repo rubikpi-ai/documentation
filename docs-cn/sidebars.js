@@ -33,7 +33,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "RUBIK Pi 3 用户手册",
+      label: "魔方派 3 用户手册",
       collapsed: false,
       // link: {type: 'doc', id: 'rubik-pi-3-user-manual/1.0.0-a/get-started'},
       items: [
@@ -190,7 +190,7 @@ const sidebars = {
     },
   ],
   /**
-   * Independent sidebars for specific historical versions of RUBIK Pi 3 user manual.
+   * Independent sidebars for specific historical versions of 魔方派 3 user manual.
    * Docs inside these directories can opt-in by adding `sidebar: manual100Sidebar` (etc.)
    * in their front matter if you want to render them isolated from the main tutorialSidebar.
    */

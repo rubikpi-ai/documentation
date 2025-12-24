@@ -12,8 +12,8 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
 
 :::danger[警告：]
 
-- 请勿使用台式机或笔记本电脑为 RUBIK Pi 3 供电。这样可能导致电脑和 RUBIK Pi 3 损坏。
-- RUBIK Pi 使用的任何外置电源必须符合所在国家/地区的相关法律法规与标准。
+- 请勿使用台式机或笔记本电脑为 魔方派 3 供电。这样可能导致电脑和 魔方派 3 损坏。
+- 魔方派 使用的任何外置电源必须符合所在国家/地区的相关法律法规与标准。
 - 使用<span style={{color:"red",}}>**额定电流 ≥ 3 A 的 12 V 直流电源**</span>。电源应具有过流、过压和浪涌保护功能。
 :::
 
@@ -48,5 +48,5 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
 
 6. **法规与改装**
 
-- RUBIK Pi 与任何外设或外壳组合使用时，均应符合当地 EMC、安规及射频法规。
+- 魔方派 与任何外设或外壳组合使用时，均应符合当地 EMC、安规及射频法规。
 - 禁止私自改动 PCB 或增设未经认证的无线模块，否则可能导致安全隐患及失去保修。

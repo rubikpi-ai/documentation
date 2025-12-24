@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Thundercomm", // Usually your GitHub org/user name.
-  projectName: "RUBIK Pi Documentation", // Usually your repo name.
+  projectName: "魔方派 Documentation", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -93,7 +93,7 @@ const config = {
       navbar: {
         // title: 'Documentation',
         logo: {
-          alt: "RUBIK Pi",
+          alt: "魔方派",
           src: "img/rubik-pi-logo.png",
           srcDark: "img/rubik-pi-logo-white.png",
         },

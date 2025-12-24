@@ -1,4 +1,10 @@
-# Audio Classification and GPIO Response - Rubik Pi 3
+---
+sidebar_position: 2
+description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/makers-hub/ai-machine-learning/Audio-Classification-and-GPIO-Response-Rubik-Pi-3.md
+"slug": "/audio-classification-and-gpio-response-rubik-pi-3/"
+---
+# Audio Classification and GPIO Response - RUBIK Pi 3
 
 Created By: Roni Bandini 
 
@@ -11,10 +17,10 @@ GitHub Repo: [https://github.com/ronibandini/Rubik-Pi-AudioClassification](https
 
  Crime patterns in the City of Buenos Aires change just like fashion trends. Right now, there seems to be an epidemic of car window smash-and-grabs where thieves steal items from inside parked cars. Since I have several cameras pointing toward the street, I’m often a privileged witness to these crimes, and victims sometimes ask me for the footage. However, the chances of recovering stolen goods drop significantly the longer it takes to report the incident.
  
- Inspired by this problem — and also with the goal of testing new features of the Rubik Pi 3 — the aim of this project is to deploy a sound classification model on a Rubik Pi 3. This model will be trained to recognize the distinct sound of glass breaking and, upon detection, trigger GPIO responses (such as an immediate light/siren activation or a notification alert).
-## ​What is the Rubik Pi 3?
+ Inspired by this problem — and also with the goal of testing new features of the RUBIK Pi 3 — the aim of this project is to deploy a sound classification model on a RUBIK Pi 3. This model will be trained to recognize the distinct sound of glass breaking and, upon detection, trigger GPIO responses (such as an immediate light/siren activation or a notification alert).
+## ​What is the RUBIK Pi 3?
 
- The Rubik Pi 3 is a powerful, lightweight development board built around the Qualcomm Dragonwing™ QCS6490 platform. It is notable for being the first Raspberry Pi-style board designed on a Qualcomm AI platform for developers, bringing high-performance edge AI capabilities to a developer-friendly form factor. Key Specifications:
+ The RUBIK Pi 3 is a powerful, lightweight development board built around the Qualcomm Dragonwing™ QCS6490 platform. It is notable for being the first Raspberry Pi-style board designed on a Qualcomm AI platform for developers, bringing high-performance edge AI capabilities to a developer-friendly form factor. Key Specifications:
  - Platform: Qualcomm Dragonwing™ QCS6490
  - Dimensions: 100 mm x 75 mm (a compact, desktop size)
  - AI Performance: Offers up to 12 TOPS (Tera Operations Per Second) of AI computing power via the integrated Hexagon NPU.
@@ -22,10 +28,10 @@ GitHub Repo: [https://github.com/ronibandini/Rubik-Pi-AudioClassification](https
  - RAM: 8 GB LPDDR4x
  - Storage: 128 GB UFS 2.2 (This is a more specific and faster storage standard than a typical eMMC or SD card slot found on many SBCs).
 
- The Rubik Pi 3 supports multiple operating systems, including Qualcomm Linux, Android, and Ubuntu/Debian, making it highly versatile for various AI, IoT, and industrial applications.
+ The RUBIK Pi 3 supports multiple operating systems, including Qualcomm Linux, Android, and Ubuntu/Debian, making it highly versatile for various AI, IoT, and industrial applications.
 ## ​Parts Required
 
- - [Thundercomm Rubik Pi 3](https://www.thundercomm.com/product/rubik-pi)
+ - [Thundercomm RUBIK Pi 3](https://www.thundercomm.com/product/rubik-pi)
  - Active Cooler
  - Power Supply: Power Delivery over Type-C, 12V 3A
  - USB Microphone (you can also use a standard mic connected to the 3.5mm jack)
@@ -34,14 +40,14 @@ GitHub Repo: [https://github.com/ronibandini/Rubik-Pi-AudioClassification](https
 
 ## ​Hardware Setup
 
- 1. Plug in the power supply, USB microphone, and Ethernet cable to the Rubik Pi.
+ 1. Plug in the power supply, USB microphone, and Ethernet cable to the RUBIK Pi.
  2. Connect the other end of the Ethernet cable to your router.
- 3. Press the power button and wait for the Rubik Pi to boot.
- 4. Log in to your router’s admin interface to see the IP assigned to the Rubik Pi, or attach a keyboard, mouse, and monitor.
- 5. SSH into the Rubik Pi, or login directly on the console:
+ 3. Press the power button and wait for the RUBIK Pi to boot.
+ 4. Log in to your router’s admin interface to see the IP assigned to the RUBIK Pi, or attach a keyboard, mouse, and monitor.
+ 5. SSH into the RUBIK Pi, or login directly on the console:
 
  user: `ubuntu` pass: `ubuntu`
->  Note: This tutorial assumes your Rubik Pi is running Canonical Ubuntu. For Qualcomm Linux, `root / rubikpi` may be valid credentials.
+>  Note: This tutorial assumes your RUBIK Pi is running Canonical Ubuntu. For Qualcomm Linux, `root / rubikpi` may be valid credentials.
 
 ## ​Sound Classification Project
 
@@ -52,7 +58,7 @@ GitHub Repo: [https://github.com/ronibandini/Rubik-Pi-AudioClassification](https
  ![](https://mintcdn.com/edgeimpulse/WqaPsdFJNoI52uqV/.assets/images/audio-classification-gpio-rubik-pi/02.jpg?fit=max&auto=format&n=WqaPsdFJNoI52uqV&q=85&s=3e6d130ab28ef4a3f1a665e08d65c9e3)
 ## ​Software Setup
 
- Run the following commands to install Edge Impulse on the Rubik Pi: 
+ Run the following commands to install Edge Impulse on the RUBIK Pi: 
 ```
 sudo apt update
 wget https://cdn.edgeimpulse.com/firmware/linux/setup-edge-impulse-qc-linux.sh
@@ -112,14 +118,14 @@ classifyRes 2ms. { street: 0.8629, glass: 0.1371 }
  ![](https://mintcdn.com/edgeimpulse/WqaPsdFJNoI52uqV/.assets/images/audio-classification-gpio-rubik-pi/04.jpg?fit=max&auto=format&n=WqaPsdFJNoI52uqV&q=85&s=5d2f6e594a53abdaa9b8a9afef0e7ed0)
 ## ​GPIO Setup
 
- Now connect the LED to GPIO 13 and GPIO 6 (GND). Note that the Rubik Pi will use subsystem number 571 for pin 13. See the complete table below for all of the pin mappings. 
+ Now connect the LED to GPIO 13 and GPIO 6 (GND). Note that the RUBIK Pi will use subsystem number 571 for pin 13. See the complete table below for all of the pin mappings. 
  
  ![](https://mintcdn.com/edgeimpulse/WqaPsdFJNoI52uqV/.assets/images/audio-classification-gpio-rubik-pi/05.jpg?fit=max&auto=format&n=WqaPsdFJNoI52uqV&q=85&s=628e59eae7084a4c044439dfeeb4cc65)
  
  ![](https://mintcdn.com/edgeimpulse/WqaPsdFJNoI52uqV/.assets/images/audio-classification-gpio-rubik-pi/08.jpg?fit=max&auto=format&n=WqaPsdFJNoI52uqV&q=85&s=7132bc5d69dab288aaa1f290b9ec8706)
 ### ​Python Parser
 
- Upload `glass.py` which can be found in [the GitHub Repository for this project](https://github.com/ronibandini/Rubik-Pi-AudioClassification) to the Rubik Pi via SFTP, or clone the repo directly on the Rubik Pi. 
+ Upload `glass.py` which can be found in [the GitHub Repository for this project](https://github.com/ronibandini/Rubik-Pi-AudioClassification) to the RUBIK Pi via SFTP, or clone the repo directly on the RUBIK Pi. 
  
  Then run `python3 glass.py`. 
  
@@ -130,7 +136,7 @@ classifyRes 2ms. { street: 0.8629, glass: 0.1371 }
  ![](https://mintcdn.com/edgeimpulse/WqaPsdFJNoI52uqV/.assets/images/audio-classification-gpio-rubik-pi/07.jpg?fit=max&auto=format&n=WqaPsdFJNoI52uqV&q=85&s=8a169bd59664ac28a0e7b0bc6fca6341)
 ## ​Enhancements
 
- You can also make the Rubik Pi call a webhook to send a WhatsApp or email when inference occurs. Here is a snippet of sample code for that functionality: 
+ You can also make the RUBIK Pi call a webhook to send a WhatsApp or email when inference occurs. Here is a snippet of sample code for that functionality: 
 ```
 def call_webhook(webhook_url, confidence):
     import requests
@@ -141,7 +147,7 @@ def call_webhook(webhook_url, confidence):
             "event": "window_break_detected",
             "confidence": confidence,
             "timestamp": datetime.now().isoformat(),
-            "device": "Rubik Pi 3"
+            "device": "RUBIK Pi 3"
         }
 
         response = requests.post(
@@ -163,7 +169,7 @@ def call_webhook(webhook_url, confidence):
 
 ## ​Final Notes
 
- Detecting glass breakage using audio used to be a challenging problem with the heuristic programming paradigm. Today, this is easily solved, provided the right tools are chosen. The Thundercomm Rubik Pi 3 integrates naturally with Edge Impulse, has more than enough resources for local Machine Learning inference, and offers all the flexibility needed to connect external devices via the GPIO header pins.
+ Detecting glass breakage using audio used to be a challenging problem with the heuristic programming paradigm. Today, this is easily solved, provided the right tools are chosen. The Thundercomm RUBIK Pi 3 integrates naturally with Edge Impulse, has more than enough resources for local Machine Learning inference, and offers all the flexibility needed to connect external devices via the GPIO header pins.
 ## ​Links
 
  [https://studio.edgeimpulse.com/studio/828677](https://studio.edgeimpulse.com/studio/828677) 

@@ -1,6 +1,12 @@
-# YOLO-Pro Smart Parking Meter - Rubik Pi 3
+---
+sidebar_position: 3
+description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/docs/makers-hub/ai-machine-learning/YOLO-Pro-Smart-Parking-Meter-Rubik-Pi-3.md
+"slug": "/yolo-pro-smart-parking-meter-rubik-pi-3/"
+---
+# YOLO-Pro Smart Parking Meter - RUBIK Pi 3
 
-Created By: Jallson Suryo 
+Created By: Jallson Suryo
 
 Public Project Link: [https://studio.edgeimpulse.com/public/624749/live](https://studio.edgeimpulse.com/public/624749/live) 
 
@@ -16,12 +22,12 @@ Parking Zone
 
 ## ​Solution
 
- To address this challenge and as part of a learning process in deploying vision-based Edge AI, we developed this project powered by Edge Impulse’s YOLO Pro object detection. The model is trained and optimized using Edge Impulse Studio, then deployed on a [Thundercomm Rubik Pi 3](https://rubikpi.ai) for real-time inference. Leveraging transfer learning and pre-trained weights from YOLO Pro, we significantly reduced the amount of data required for model training while maintaining high accuracy for our targeted use case. This system integrates seamlessly with Python-based tracking logic, enabling enforcement of zone-specific parking rules (e.g., no-parking zones, paid durations, violation thresholds) with visual feedback and temporal tracking. The result is a low-cost, energy-efficient, and scalable solution suitable for modern urban parking management — a Smart Parking Meter. ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/photo02.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=87797420798f8aad9ed803d43fab7457)
+ To address this challenge and as part of a learning process in deploying vision-based Edge AI, we developed this project powered by Edge Impulse’s YOLO Pro object detection. The model is trained and optimized using Edge Impulse Studio, then deployed on a [Thundercomm RUBIK Pi 3](https://rubikpi.ai) for real-time inference. Leveraging transfer learning and pre-trained weights from YOLO Pro, we significantly reduced the amount of data required for model training while maintaining high accuracy for our targeted use case. This system integrates seamlessly with Python-based tracking logic, enabling enforcement of zone-specific parking rules (e.g., no-parking zones, paid durations, violation thresholds) with visual feedback and temporal tracking. The result is a low-cost, energy-efficient, and scalable solution suitable for modern urban parking management — a Smart Parking Meter. ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/photo02.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=87797420798f8aad9ed803d43fab7457)
 Vision-based Parking System
 
 ### ​Hardware Components
 
- - [Rubik Pi 3](https://rubikpi.ai)
+ - [RUBIK Pi 3](https://rubikpi.ai)
  - USB-C Power Adaptor (eg. 27W Pi 5 Power adapter)
  - Raspberry Pi 5 Active Cooler (optional)
  - 3D print case (optional)
@@ -46,11 +52,11 @@ Hardware
 
 ## ​Steps
 
-### ​1. Preparing the Rubik Pi
+### ​1. Preparing the RUBIK Pi
 
- When we receive the Rubik Pi 3, we will find it pre-installed with either Qualcomm Linux (based on Yocto), or a minimal Ubuntu OS version. If yours comes with QC Linux, you need to switch to Ubuntu OS, because it lacks `apt` and `dpkg` package managers, has limited OpenCV, GStreamer support, and runs in a restricted environment. 
+ When we receive the RUBIK Pi 3, we will find it pre-installed with either Qualcomm Linux (based on Yocto), or a minimal Ubuntu OS version. If yours comes with QC Linux, you need to switch to Ubuntu OS, because it lacks `apt` and `dpkg` package managers, has limited OpenCV, GStreamer support, and runs in a restricted environment. 
  Prepare a USB-C and a micro-USB cable, then follow this link — [https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_Launcher](https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_Launcher) — to download Qualcomm Launcher. Next, follow the instructions here: 
- [https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.0.0-u/Update-Software/3.2.Flash-using-Qualcomm-Launcher](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.0.0-u/Update-Software/3.2.Flash-using-Qualcomm-Launcher) to perform the flashing and switch the Rubik Pi to Ubuntu OS. ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/QC01.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=7eee5e5cc4ddbb0c834b67420b2ea3a9)
+ [https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.0.0-u/Update-Software/3.2.Flash-using-Qualcomm-Launcher](https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.0.0-u/Update-Software/3.2.Flash-using-Qualcomm-Launcher) to perform the flashing and switch the RUBIK Pi to Ubuntu OS. ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/QC01.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=7eee5e5cc4ddbb0c834b67420b2ea3a9)
 Qualcomm Launcher
 
  ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/QC02.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=f2739bff994d1406f1d8d048ee5a902f)
@@ -73,7 +79,7 @@ sudo npm install edge-impulse-linux -g —unsafe-perm
 >  Note: For the Python SDK and other dependencies, follow the instruction as described in Step 5 below.
 
  **Desktop / display problems and troubleshooting** 
- By default, the Rubik Pi Ubuntu flashing process will only install the command-line (Server) version of Ubuntu. To add a Desktop, you can try the following solutions: 
+ By default, the RUBIK Pi Ubuntu flashing process will only install the command-line (Server) version of Ubuntu. To add a Desktop, you can try the following solutions: 
  
  **Option 1: Install LXDE / Light desktop** 
  
@@ -95,15 +101,15 @@ sudo reboot
 
 ### ​2. Collecting Data
 
- In the initial stage of building a model in Edge Impulse Studio, we need to prepare the data. You can collect your own data to better suit the purposes of your project; in this case we capture from smartphone/camera and save them in a folder. For those who are not familiar with Edge Impulse Studio, please follow these steps —> Open [studio.edgeimpulse.com](https://studio.edgeimpulse.com), login or create an account then create a new project. Choose Images project option, then Object detection. In Dashboard > Project Info, choose **Bounding Boxes** for labeling method and **Rubik Pi 3* for target device. Then in Data acquisition, click on Upload Data tab. Choose your saved folder then upload. 
+ In the initial stage of building a model in Edge Impulse Studio, we need to prepare the data. You can collect your own data to better suit the purposes of your project; in this case we capture from smartphone/camera and save them in a folder. For those who are not familiar with Edge Impulse Studio, please follow these steps —> Open [studio.edgeimpulse.com](https://studio.edgeimpulse.com), login or create an account then create a new project. Choose Images project option, then Object detection. In Dashboard > Project Info, choose **Bounding Boxes** for labeling method and **RUBIK Pi 3* for target device. Then in Data acquisition, click on Upload Data tab. Choose your saved folder then upload. 
  
- You also can connect a USB camera to the Rubik Pi and connect to Edge Impulse Studio to collect images. With the Edge Impulse Linux CLI setup on the Rubik Pi, run: `edge-impulse-linux --clean` 
+ You also can connect a USB camera to the RUBIK Pi and connect to Edge Impulse Studio to collect images. With the Edge Impulse Linux CLI setup on the RUBIK Pi, run: `edge-impulse-linux --clean` 
  
- This will start a wizard which asks you to login and choose your project, then connects your Rubik Pi with USB camera to your Studio project to collect photos. ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/photo04.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=7a4db0d2efe089b46da73da3f95e6fad)
+ This will start a wizard which asks you to login and choose your project, then connects your RUBIK Pi with USB camera to your Studio project to collect photos. ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/photo04.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=7a4db0d2efe089b46da73da3f95e6fad)
 Upload data
 
  ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/photo05.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=a6c6586dc7fd9e7210acaaf1dbdff178)
-Collect sample from Rubik Pi
+Collect sample from RUBIK Pi
 
  ![](https://mintcdn.com/edgeimpulse/zkPsEzVgmFnPIeTD/.assets/images/smart-parking-meter-rubik-pi/photo06.png?fit=max&auto=format&n=zkPsEzVgmFnPIeTD&q=85&s=8dc03854365ede48d0312733040e4fed)
 Sampling from connected device
@@ -141,9 +147,9 @@ Side by side comparison
  ![](https://mintcdn.com/edgeimpulse/X_EQ4hZ1JvdmBO7u/.assets/images/smart-parking-meter-rubik-pi/photo13.png?fit=max&auto=format&n=X_EQ4hZ1JvdmBO7u&q=85&s=7b52cfa7fba651f059a5d2455699fc74)
 Model test
 
-### ​5. Deploy Model on Rubik Pi
+### ​5. Deploy Model on RUBIK Pi
 
- Simply ensure that the model has been built in Edge Impulse Studio. Now, you can test, download the model, and run everything directly from the Rubik Pi (Ubuntu 24.04). 
+ Simply ensure that the model has been built in Edge Impulse Studio. Now, you can test, download the model, and run everything directly from the RUBIK Pi (Ubuntu 24.04). 
  
  On the Rubik, there are several things that need to be done. Install a recent version of Python 3 (>= 3.7). Ubuntu 24.04 should comes with with Python 3.12 installed. You can verify this by running this command: `python3 —version`.
  
@@ -159,19 +165,19 @@ pip3 install edge_impulse_linux
  
  Then install other dependencies: `pip install -r requirements.txt` 
  
- Next, build/download/run the model via the Edge Impulse runner. Open a terminal on the Rubik Pi or ssh from your PC/laptop then simply type `edge-impulse-linux-runner` (you can add `--clean` to allow you to select your project if you’ve tried a different project in the past). Log in to your account then choose your project. Then choose your specific Impulse (if any) and be sure to select **quantized model**. This process will download the `model.eim`, which is specifically built for aarch64 QNN (Qualcomm Hexagon) architecture. During this process, the console will display the path where the `model.eim` has been downloaded. For example, in the image below, it shows the file located at `/home/ubuntu/.ei-linux-runner/models/624749/v10-quantized…../model.eim` ![](https://mintcdn.com/edgeimpulse/X_EQ4hZ1JvdmBO7u/.assets/images/smart-parking-meter-rubik-pi/photo14.png?fit=max&auto=format&n=X_EQ4hZ1JvdmBO7u&q=85&s=412b3da41b1434ed3d65c6ba68793ca8)
+ Next, build/download/run the model via the Edge Impulse runner. Open a terminal on the RUBIK Pi or ssh from your PC/laptop then simply type `edge-impulse-linux-runner` (you can add `--clean` to allow you to select your project if you’ve tried a different project in the past). Log in to your account then choose your project. Then choose your specific Impulse (if any) and be sure to select **quantized model**. This process will download the `model.eim`, which is specifically built for aarch64 QNN (Qualcomm Hexagon) architecture. During this process, the console will display the path where the `model.eim` has been downloaded. For example, in the image below, it shows the file located at `/home/ubuntu/.ei-linux-runner/models/624749/v10-quantized…../model.eim` ![](https://mintcdn.com/edgeimpulse/X_EQ4hZ1JvdmBO7u/.assets/images/smart-parking-meter-rubik-pi/photo14.png?fit=max&auto=format&n=X_EQ4hZ1JvdmBO7u&q=85&s=412b3da41b1434ed3d65c6ba68793ca8)
 Edge Impulse Runner
 
  Once this file is downloaded, you can stop the inference process with Ctrl-C on the keyboard. 
  
  For convenience, you can use the following command to copy it to the home directory for easier access: `cp -v model.eim /home/ubuntu` 
  
- Now the model is ready to run in a high-level language such as Python. To ensure this model works, we can re-run the EI Runner with a camera attached to the Rubik Pi. You can see the camera feed and inference in a browser, at the local IP address of the Rubik on port 4912. Run this command once again: `edge-impulse-linux-runner`
+ Now the model is ready to run in a high-level language such as Python. To ensure this model works, we can re-run the EI Runner with a camera attached to the RUBIK Pi. You can see the camera feed and inference in a browser, at the local IP address of the Rubik on port 4912. Run this command once again: `edge-impulse-linux-runner`
  
   ![](https://mintcdn.com/edgeimpulse/X_EQ4hZ1JvdmBO7u/.assets/images/smart-parking-meter-rubik-pi/video01.gif?s=8926f67f37bfd458aa1310488aaa2a90)
 Live inferencing
 
- The inferencing time is around 1-3ms on the Rubik Pi 3, which is very fast for object detection speed (around 40ms on a Raspberry Pi 3 as a reference).
+ The inferencing time is around 1-3ms on the RUBIK Pi 3, which is very fast for object detection speed (around 40ms on a Raspberry Pi 3 as a reference).
 
 ### ​6. Build a Smart Parking Application (Python)
 
@@ -185,11 +191,11 @@ Live inferencing
 Code Screenshot
 
  ![](https://mintcdn.com/edgeimpulse/X_EQ4hZ1JvdmBO7u/.assets/images/smart-parking-meter-rubik-pi/photo16.png?fit=max&auto=format&n=X_EQ4hZ1JvdmBO7u&q=85&s=750e9abcbab43c5c597fa5f951230ace)
-Rubik Pi display
+RUBIK Pi display
 
  All code, images and videos can be accessed at: [https://github.com/Jallson/YOLO_based_Parking_Meter](https://github.com/Jallson/YOLO_based_Parking_Meter) 
  
- With a USB camera connected to the Rubik Pi, run the program (`parkingmeter.py`) with the following command: `python3 parkingmeter.py <path to modelfile>/model.eim` 
+ With a USB camera connected to the RUBIK Pi, run the program (`parkingmeter.py`) with the following command: `python3 parkingmeter.py <path to modelfile>/model.eim` 
  
  Check out our demo video:
  https://www.youtube.com/watch?v=x9OswYAFIKg

@@ -629,7 +629,7 @@ export default function Home() {
                     opacity: 0.8,
                   }}
                 >
-                 魔方派3（RUBIK Pi 3） 为边缘端提供高达12 TOPS的实时AI算力。其支持多操作系统（如Linux/Android/Windows），深度兼容Edge Impulse嵌入式机器学习框架，实现无缝边缘AI部署。产品兼具小巧体积与强劲性能，专为机器人开发、计算机视觉及物联网（IoT）创新项目量身打造，助力原型开发与量产落地一步到位。
+                 魔方派3为边缘端提供高达12 TOPS的实时AI算力。其支持多操作系统（如Linux/Android/Windows），深度兼容Edge Impulse嵌入式机器学习框架，实现无缝边缘AI部署。产品兼具小巧体积与强劲性能，专为机器人开发、计算机视觉及物联网（IoT）创新项目量身打造，助力原型开发与量产落地一步到位。
                 </p>
                 <div
                   style={{
