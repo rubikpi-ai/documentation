@@ -1,4 +1,9 @@
-
+---
+sidebar_position: 1
+description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/makers-hub/ai-machine-learning/Anomaly-Detection-with-the-Rubik-Pi-3-and-n8n.md
+"slug": "/anomaly-detection-with-the-rubik-pi-3-and-n8n/"
+---
 # 使用魔方派 3 与 n8n 进行异常检测
 
 作者：Roni Bandini

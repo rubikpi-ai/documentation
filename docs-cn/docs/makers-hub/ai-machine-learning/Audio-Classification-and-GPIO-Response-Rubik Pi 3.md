@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/makers-hub/ai-machine-learning/Audio-Classification-and-GPIO-Response-Rubik-Pi-3.md
+"slug": "/audio-classification-and-gpio-response-rubik-pi-3/"
+---
 # 音频分类与 GPIO 响应 - 魔方派 3
 
 作者：Roni Bandini

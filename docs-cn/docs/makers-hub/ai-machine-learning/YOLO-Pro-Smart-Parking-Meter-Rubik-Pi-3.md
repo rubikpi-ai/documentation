@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+description: ''
+custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/docs/makers-hub/ai-machine-learning/YOLO-Pro-Smart-Parking-Meter-Rubik-Pi-3.md
+"slug": "/yolo-pro-smart-parking-meter-rubik-pi-3/"
+---
 # YOLO-Pro 智能停车计时器 - 魔方派 3
 
 作者：Jallson Suryo

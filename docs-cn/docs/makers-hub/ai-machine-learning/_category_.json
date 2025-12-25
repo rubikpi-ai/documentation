@@ -1,0 +1,15 @@
+{
+  "label": "AI & 机器学习",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "最近更新日期：2025年12月23日",
+    "slug": "/ai-machine-learning/"
+  },
+  
+  "customProps": {
+    "description": "AI & 机器学习"
+  }
+}
