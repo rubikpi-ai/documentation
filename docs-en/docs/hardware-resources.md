@@ -16,3 +16,4 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-en/d
 |  4  | [Case_With_Mounting_Tabs_3DP for RUBIK Pi 3](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/20251219/Rubik_pi_Case2.zip) |   V1.0   | Dec. 19, 2025 |
 |  5  | [Case_Standard_Minimal_3DP for RUBIK Pi 3](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/20251219/20251210RUBIK_PI.zip) |   V1.0   | Dec. 19, 2025 |
 |  6  | [Case_Standard_CNC.step for RUBIK Pi 3](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/Case%203D%20Design%20for%20RUBIK%20Pi%203%20V1.0.zip) |   V1.0   | Oct. 18, 2024 |
+|  7  | [Hardware Schematic](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/RUBIKPI3-IOB-V02-RELEASE.pdf) |   V1.0   | Dec. 29, 2025 |

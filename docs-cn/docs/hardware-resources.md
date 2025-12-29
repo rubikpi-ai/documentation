@@ -15,3 +15,4 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
 |  4  | [魔方派3 外壳_带挂耳固定版](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/20251219/Rubik_pi_Case2.zip) |   V1.0   | 2025年12月19日 |
 |  5  | [魔方派3 外壳_简洁标准版](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/20251219/20251210RUBIK_PI.zip) |   V1.0   | 2025年12月19日 |
 |  6  | [魔方派3 外壳_标准版 (CNC工艺)](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/RUBIK%20Pi%203%20%E5%A4%96%E5%A3%B3%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%20V1.0.zip) |   V1.0   | 2024年10月18日 |
+|  7  | [硬件原理图](https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/rubik-pi-3/RUBIKPI3-IOB-V02-RELEASE.pdf) |   V1.0   | 2025年12月29日 |
