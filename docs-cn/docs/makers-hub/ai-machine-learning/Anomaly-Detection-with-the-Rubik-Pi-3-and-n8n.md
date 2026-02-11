@@ -86,8 +86,8 @@ visual anomalies 1ms. [
 2. 创建包含 x、y 和 value 字段的数据表
 3. 导入 n8n 模板：[https://github.com/ronibandini/rubikpi3-anomaly-detection/blob/main/EI%20with%20Rubik%20Pi%203%20upload.json](https://github.com/ronibandini/rubikpi3-anomaly-detection/blob/main/EI%20with%20Rubik%20Pi%203%20upload.json)
 4. 点击 `webhook` 节点获取生产 URL
-5. 在 魔方派 3 下载 [runner.py](https://github.com/ronibandini/rubikpi3-anomaly-detection/blob/main/runner.py)，并将文件中的 `webhook` 和 `threshold` 变量修改为你的值。
-6. 在 魔方派 3 上运行 `python3 runner.py`
+5. 在魔方派 3 下载 [runner.py](https://github.com/ronibandini/rubikpi3-anomaly-detection/blob/main/runner.py)，并将文件中的 `webhook` 和 `threshold` 变量修改为你的值。
+6. 在魔方派 3 上运行 `python3 runner.py`
 
 ![](https://mintcdn.com/edgeimpulse/gbh2rZSgVmZcPbB8/.assets/images/anomaly-detection-n8n-rubik-pi/03.jpg?fit=max&auto=format&n=gbh2rZSgVmZcPbB8&q=85&s=177d8fe51e3c9b7cf4552c8234136404)
 

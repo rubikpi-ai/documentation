@@ -109,7 +109,7 @@ sudo reboot
 在 Edge Impulse Studio 中构建模型的初始阶段需要准备数据。您可以收集自己的数据，以更好地满足项目需求。可用手机/相机采集图片保存到文件夹。Edge Impulse Studio 新手可按如下步骤：
 1. 打开 [studio.edgeimpulse.com](https://studio.edgeimpulse.com)，注册或登录，创建新项目。
 2. 选择图片项目，目标检测。
-3. 进入 Dashboard > Project Info， 选择 **Bounding Boxes** 标注方式，目标设备选 **RUBIK Pi 3**。
+3. 进入 Dashboard > Project Info， 选择 **Bounding Boxes** 标注方式，目标设备选 **魔方派 3**。
 4. 在数据采集页，点击 Upload Data，选择保存数据的文件夹并上传。
 
 也可将 USB 摄像头接魔方派，通过 Edge Impulse Studio 采集图片。魔方派安装好 Edge Impulse Linux CLI 后，运行：

@@ -149,7 +149,7 @@ def call_webhook(webhook_url, confidence):
             "event": "window_break_detected",
             "confidence": confidence,
             "timestamp": datetime.now().isoformat(),
-            "device": "Rubik Pi 3"
+            "device": "魔方派 3"
         }
 
         response = requests.post(

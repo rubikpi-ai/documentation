@@ -4,7 +4,7 @@ custom_edit_url: https://github.com/rubikpi-ai/documentation/blob/main/docs-cn/d
 ---
 # 外设兼容列表
 
-经验证，以下配件可在 魔方派 3 上正常使用：
+经验证，以下配件可在魔方派 3 上正常使用：
 
 :::warning
 请认准官方认证代理商购买配件。

@@ -177,6 +177,11 @@ const sidebars = {
               dirName: 'makers-hub', // 指定要自动生成的目录路径
             },]
         },
+        {
+      type: "doc",
+      id: "notebooklm", // 文档 ID
+      label: "NotebookLM", // 侧边栏标签
+    },
     {
       type: "doc",
       id: "peripheral-compatibility-list", // 文档 ID
