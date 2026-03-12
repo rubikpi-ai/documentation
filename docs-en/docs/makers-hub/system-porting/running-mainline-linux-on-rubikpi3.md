@@ -1,8 +1,5 @@
 ---
 sidebar_position: 4
-description: ''
-custom_edit_url: 
-"slug": 
 ---
 
 # Running Mainline Linux on RUBIK Pi 3

@@ -1,8 +1,5 @@
 ---
 sidebar_position: 4
-description: ''
-custom_edit_url: 
-"slug": 
 ---
 # RUBIK Pi 3 主线 Linux 运行方法
 
