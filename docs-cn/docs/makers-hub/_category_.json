@@ -1,0 +1,15 @@
+{
+  "label": "创客工坊",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "最近更新日期：2025年12月23日",
+    "slug": "/makers-hub"
+  },
+  
+  "customProps": {
+    "description": "创客工坊"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label": "QIM",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Last updated: 2025.06.06",
+    "slug": "/qim"
+  },
+  
+  "customProps": {
+    "description": "QIM User Manual"
+  }
+}

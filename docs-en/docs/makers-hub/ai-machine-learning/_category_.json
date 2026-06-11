@@ -1,0 +1,15 @@
+{
+  "label": "AI & Machine Learning",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Last updated: 2025.12.23",
+    "slug": "/ai-machine-learning/"
+  },
+  
+  "customProps": {
+    "description": "AI & Machine Learning"
+  }
+}

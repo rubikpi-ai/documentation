@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: docs-en
+created: 2025-05-23T18:37:56+08:00

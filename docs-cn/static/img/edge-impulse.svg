@@ -1,0 +1,52 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Edge Impulse Icon</title>
+  <desc id="desc">Phone with waveform and a small chip to represent edge ML</desc>
+
+  <!-- Accent dots -->
+  <circle cx="44" cy="48" r="5" fill="#4DABF7"/>
+  <circle cx="162" cy="70" r="5" fill="#FFD166"/>
+  <circle cx="160" cy="138" r="5" fill="#FF6B6B"/>
+  <circle cx="42" cy="150" r="5" fill="#6EE7B7"/>
+
+  <!-- Phone body -->
+  <rect x="54" y="34" width="92" height="132" rx="14" fill="rgba(77,171,247,0.06)" stroke="#323741" stroke-width="4"/>
+  <rect x="66" y="60" width="68" height="82" rx="8" fill="#FFFFFF" stroke="#323741" stroke-width="3"/>
+
+  <!-- Speaker / home -->
+  <rect x="92" y="44" width="16" height="4" rx="2" fill="#323741"/>
+  <circle cx="100" cy="158" r="6" fill="#FFFFFF" stroke="#323741" stroke-width="3"/>
+
+  <!-- Waveform -->
+  <path d="M72 110
+           C78 110, 80 90, 86 90
+           C92 90, 94 126, 100 126
+           C106 126, 108 80, 114 80
+           C120 80, 122 115, 128 115
+           C134 115, 136 100, 140 100"
+        stroke="#FF6BB5" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Axis grid (light) -->
+  <path d="M72 116 H134 M72 98 H134 M92 74 V142 M114 74 V142" stroke="#323741" stroke-width="2" opacity="0.15"/>
+
+  <!-- Tiny chip (edge device) -->
+  <g transform="translate(146,116)">
+    <rect x="-14" y="-12" width="28" height="24" rx="4" fill="#FFFFFF" stroke="#323741" stroke-width="3"/>
+    <!-- pins -->
+    <g stroke="#323741" stroke-width="3" stroke-linecap="round">
+      <path d="M-14 -6 h-6"/><path d="M-14 0 h-6"/><path d="M-14 6 h-6"/>
+      <path d="M14 -6 h6"/><path d="M14 0 h6"/><path d="M14 6 h6"/>
+    </g>
+    <rect x="-6" y="-4" width="12" height="8" rx="2" fill="#6EE7B7" stroke="#323741" stroke-width="2"/>
+  </g>
+
+  <!-- Connection line from phone to chip -->
+  <path d="M134 96 C146 100, 146 108, 146 116" stroke="#323741" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+  <!-- Sparkles -->
+  <g stroke="#323741" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M30 96 h10"/>
+    <path d="M100 26 v10"/>
+    <path d="M154 46 l6 -6"/>
+    <path d="M50 170 l6 -6"/>
+  </g>
+</svg>

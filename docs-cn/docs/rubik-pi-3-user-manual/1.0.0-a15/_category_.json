@@ -1,0 +1,14 @@
+{
+  "label": "Android System V1.0.0",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "更新日期：2026年06月02日，版本：1.0.0 | 基于 Android 15",
+    "slug": "/1.0.0-a15"
+  },
+  "customProps": {
+    "description": "Android System V1.0.0"
+  }
+}

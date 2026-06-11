@@ -1,0 +1,173 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+
+
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+/* zhangwei-2024-12-02 */
+table {
+  width: 100%;
+  display:table;
+}
+table P{
+  margin: 0rem;
+}
+.markdown h1:first-child {
+  --ifm-h1-font-size: 16px;
+  margin-bottom: calc(var(--ifm-h1-vertical-rhythm-bottom)* var(--ifm-leading));
+}
+.markdown > h2 {
+  --ifm-h2-font-size: 28.8px;
+  margin-bottom: calc(var(--ifm-heading-vertical-rhythm-bottom)* var(--ifm-leading));
+  margin-top: calc(var(--ifm-h2-vertical-rhythm-top)* var(--ifm-leading));
+}
+pre code {
+  /* background-color: #E3E3E3; */
+}
+.theme-doc-markdown a{
+  /* color: #2A2AEA !important; */
+  text-decoration: underline !important;
+}
+
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.17em;
+}
+h4{
+  font-size: 1em;
+}
+h5{
+  font-size: 0.83em;
+}
+h6{
+  font-size: 0.67em;
+}
+
+@media screen and (max-width: 48rem) {
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1.3em;
+  }
+  h3{
+    font-size: 1.2em;
+  }
+  h4{
+    font-size: 1em;
+  }
+  h5{
+    font-size: 0.83em;
+  }
+  h6{
+    font-size: 0.67em;
+  }
+  
+}
+
+
+#__docusaurus_skipToContent_fallback > div > div > main > div > div > div.col.docItemCol_VOVn > div > article > div.theme-doc-markdown.markdown > table:nth-child(12) > tbody > tr:nth-child(1) > td:nth-child(2){
+  width: 40%;
+}
+#__docusaurus_skipToContent_fallback > div > div > main > div > div > div.col.docItemCol_VOVn > div > article > div.theme-doc-markdown.markdown > table:nth-child(12) > tbody > tr:nth-child(1) > td:nth-child(4){
+  width: 40%;
+}
+
+#__docusaurus_skipToContent_fallback > div > div > main > div > div > div.col.docItemCol_VOVn > div > article > div.theme-doc-markdown.markdown > p:nth-child(4) > img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+@media (max-width: 30rem) {
+  .footer__copyright{
+    font-size: 12.8px;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .navbar__logo{
+    width: 14.375rem !important;
+    height: auto !important;
+    margin-top: .5rem;
+  }
+  #__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items > div:nth-child(1) > ul > div{
+    margin-left: .9375rem;    
+  }
+}
+
+/* ================= Admonition Icon Unification (danger uses warning icon) ================= */
+/* Fallback CSS in case theme swizzle component not loaded or during partial hydration */
+.alert.alert--danger .alert__icon svg { display: none; }
+.alert.alert--danger .alert__icon {
+  position: relative;
+  /* ensure same sizing as original */
+  width: 20px;
+  height: 20px;
+}
+.alert.alert--danger .alert__icon::before {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+
+/* Dark theme color consistency (inherits currentColor) */
+[data-theme='dark'] .alert.alert--danger .alert__icon::before { opacity: 0.95; }
+
+#__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(1) > div > a{font-weight: 600;}
+
+#__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(2) > div > a{font-weight:600;}
+
+#__docusaurus > nav > div.theme-layout-navbar-sidebar.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div:nth-child(2) > ul > li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item > ul > li:nth-child(1) > ul > li:nth-child(3) > div > a{font-weight: 600;}
+
+:root {
+  --ifm-color-primary: #3864A4;
+}
+.menu__link--active{
+  font-weight: 600;
+}
+.menu__link--active:not(.menu__link--sublist) {    
+    border-left: 3px solid #44AD89;
+    border-radius: 0;
+}
+.menu__link:hover{  
+  border-bottom:#3864A4 solid 2px;
+  border-radius: 0;
+}

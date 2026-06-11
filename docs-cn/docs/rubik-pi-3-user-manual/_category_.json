@@ -1,0 +1,15 @@
+{
+  "label": "魔方派 3 用户手册",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "最近更新日期：2025年06月06日",
+    "slug": "/rubik-pi-3-user-manual"
+  },
+  
+  "customProps": {
+    "description": "魔方派 3 用户手册"
+  }
+}

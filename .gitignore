@@ -1,0 +1,9 @@
+/docs-en/node_modules/
+/docs-cn/node_modules/
+node_modules/
+/build/
+/docs-cn/build/
+/docs-en/build/
+/.docusaurus/
+/docs-cn/.docusaurus/
+/docs-en/.docusaurus/

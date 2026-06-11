@@ -1,0 +1,15 @@
+{
+  "label": "Debian System V1.0.1",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "更新日期：2025年06月06日，版本：1.0.1 | 基于 Debian 13",
+    "slug": "/1.0.1-d"
+  },
+  
+  "customProps": {
+    "description": "Debian System V1.0.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label": "RUBIK Pi 3 User Manual",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Last updated: 2025.06.06",
+    "slug": "/rubik-pi-3-user-manual"
+  },
+  
+  "customProps": {
+    "description": "RUBIK Pi 3 User Manual"
+  }
+}
